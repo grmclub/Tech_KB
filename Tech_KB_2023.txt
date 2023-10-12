@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+--Tool authors
+https://www.linuxjournal.com/users/dave-taylor
+
+--script guru
+https://www.linuxjournal.com/content/pattern-matching-bash
+
+--Tech blogs
+https://blog.westerndigital.com/category/technology/
+https://www.linuxjournal.com/users/zack-brown
+
+
+--Build tools
+https://www.linuxjournal.com/content/understanding-pythons-asyncio
+https://www.linuxjournal.com/content/tcp-analysis-wireshark
+https://www.linuxjournal.com/content/sending-emailssend-them-linux-terminal
+https://www.linuxjournal.com/content/sqlite-extraction-oracle-tables-tools-methods-and-pitfalls
+https://www.linuxjournal.com/content/how-secure-your-website-openssl-and-ssl-certificates
+https://www.linuxjournal.com/content/understanding-public-key-infrastructure-and-x509-certificates
+https://www.linuxjournal.com/content/kubernetes-and-docker-exploring-synergy-containerization
+https://www.linuxjournal.com/content/how-use-linux-zip-command-compress-and-uncompress-files-quickly
+
+
+--Linux tools
+https://www.linuxjournal.com/content/how-use-sar-system-activity-reporter
+https://www.linuxjournal.com/content/best-tools-create-bootable-usb-iso-linux
+https://www.linuxjournal.com/content/core-knowledge-modern-linux-kernel-developer-should-have
+https://www.linuxjournal.com/content/linux-networking-simplified-guide-ip-addresses-and-routing
+https://www.linuxjournal.com/content/how-properly-manage-inter-process-communication-linux
+
+
+--explore
+https://www.linuxjournal.com/content/getting-started-rust-working-files-and-doing-file-io
+https://www.linuxjournal.com/content/jupyter-future-open-science
+
+--------------------------------------------------------------------------------------
+--Technology Internals
+
+--NVME Technology
+https://www.linuxjournal.com/content/data-flash-part-i-evolution-disk-storage-and-introduction-nvme
+https://www.linuxjournal.com/content/data-flash-part-iv-future-memory-technologies
+https://blog.westerndigital.com/nvme-important-data-driven-businesses/
+
+https://www.linuxjournal.com/content/simple-network-management-protocol-not-simple-you-would-suggest
+https://www.linuxjournal.com/content/hash-tables%E2%80%94theory-and-practice
+
+
+
+--------------------------------------------------------------------------------------
+--Hobby/DIY
+https://www.linuxjournal.com/content/building-dashcam-raspberry-pi-zero-w
+https://www.linuxjournal.com/content/how-decrease-video-sizes-using-ffmpeg-linux
+
+IBM also today announces the Data Asset eXchange (DAX), which is "an online hub for developers and data scientists to find carefully curated free and open datasets under open data licenses".The datasets on DAX will integrate with IBM Cloud and AI services as appropriate." 
+https://www.linuxjournal.com/content/digital-will-part-i-requirements
+
+https://www.linuxjournal.com/content/diy-build-custom-minimal-linux-distribution-source
+https://www.linuxjournal.com/content/build-custom-minimal-linux-distribution-source-part-ii
+
+https://www.linuxjournal.com/content/downsides-raspberry-pi-alternatives
+https://www.linuxjournal.com/content/manipulate-images-imagemagick
+https://www.linuxjournal.com/article/7275
+
+
+
+--------------------------------------------------------------------------------------
