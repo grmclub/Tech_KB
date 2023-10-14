@@ -39,6 +39,10 @@ https://www.linuxjournal.com/content/queueing-linux-network-stack
 
 The performance analysis of linux networking – Packet receiving
 https://www.sciencedirect.com/science/article/abs/pii/S0140366406004221
+
+https://medium.com/hackernoon/real-time-linux-communications-2faabf31cf5e
+https://tldp.org/LDP/khg/HyperNews/get/net/net-intro.html
+
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
