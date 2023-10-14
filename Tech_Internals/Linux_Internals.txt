@@ -1,0 +1,44 @@
+
+--------------------------------------------------------------------------------------
+Interactive Kernel internals
+https://makelinux.github.io/kernel/map/
+
+Network Internals
+https://github.com/leandromoreira/linux-network-performance-parameters
+
+– Brendan Gregg
+https://www.brendangregg.com/
+https://www.brendangregg.com/linuxperf.html
+https://www.brendangregg.com/systems-performance-2nd-edition-book.html
+https://www.brendangregg.com/USEmethod/use-linux.html
+https://www.brendangregg.com/usemethod.html
+
+Thinking methodically about performance 
+https://queue.acm.org/detail.cfm?id=2413037
+
+https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55?gi=8926704c006b
+https://www.brendangregg.com/blog/2022-04-15/netflix-farewell-1.html
+
+--------------------------------------------------------------------------------------
+–Gustavo Duartes
+How kernel manages memory
+https://manybutfinite.com/post/how-the-kernel-manages-your-memory/
+
+Netbsd Internals
+https://news.ycombinator.com/item?id=23755267
+
+Linux signals internals
+https://news.ycombinator.com/item?id=12060805
+
+
+--------------------------------------------------------------------------------------
+--linux networking
+
+https://github.com/leandromoreira/linux-network-performance-parameters
+https://www.linuxjournal.com/content/queueing-linux-network-stack
+
+The performance analysis of linux networking – Packet receiving
+https://www.sciencedirect.com/science/article/abs/pii/S0140366406004221
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------

@@ -1,0 +1,26 @@
+--Technology Internals
+
+-cpu
+-memory
+-disk
+-network cards
+-fpga
+
+-network protocols
+-network architecture
+--------------------------------------------------------------------------------------
+--NVME Technology
+https://www.linuxjournal.com/content/data-flash-part-i-evolution-disk-storage-and-introduction-nvme
+https://www.linuxjournal.com/content/data-flash-part-iv-future-memory-technologies
+https://blog.westerndigital.com/nvme-important-data-driven-businesses/
+
+https://www.linuxjournal.com/content/simple-network-management-protocol-not-simple-you-would-suggest
+https://www.linuxjournal.com/content/hash-tables%E2%80%94theory-and-practice
+
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
