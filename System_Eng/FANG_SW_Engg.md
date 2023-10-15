@@ -3,7 +3,7 @@
 ##FANG Architecture & references)<br/>
 
 ##AWS:<br/>
-((https://docs.aws.amazon.com/))<br/>
+https://docs.aws.amazon.com/ <br/>
 (https://aws.amazon.com/getting-started/)<br/>
 (https://wiki.centos.org/Cloud(2f)AWS(2f)AmazonCLI.html)<br/>
 
