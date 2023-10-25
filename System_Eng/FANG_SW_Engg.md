@@ -2,6 +2,9 @@
 
 ## FANG Architecture & references<br/>
 
+#### Misc<br/>
+https://github.com/ByteByteGoHq/system-design-101
+
 #### AWS:<br/>
 https://docs.aws.amazon.com/ <br/>
 https://aws.amazon.com/getting-started/<br/>
