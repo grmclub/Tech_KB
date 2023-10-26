@@ -4,6 +4,8 @@
 
 #### Misc<br/>
 https://github.com/ByteByteGoHq/system-design-101
+https://www.youtube.com/@ColinGalen/videos
+https://github.com/InterviewReady/system-design-resources
 
 #### AWS:<br/>
 https://docs.aws.amazon.com/ <br/>
@@ -56,11 +58,11 @@ https://interviewnoodle.com/netflix-system-architecture-bedfc1d4bce5<br/>
 Abstract: The Art of Design | Bjarke Ingels: Architecture | FULL EPISODE | Netflix<br/>
 https://www.youtube.com/watch?app=desktop&v=rKeFCd1j5BE&t=14s<br/>
 
-### Misc:<br/>
+### Container Related :<br/>
 https://kubernetes.io/docs/setup/<br/>
 https://docs.docker.com/engine/install/rhel/<br/>
 https://docs.influxdata.com/influxdb/v2/install/<br/>
-https://www.tcpdump.org/<br/>
+
 -------------------------------------------------------------<br/>
 
 ###SW_Engg<br/>
