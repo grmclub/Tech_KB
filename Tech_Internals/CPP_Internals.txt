@@ -1,0 +1,56 @@
+Events & News
+https://www.reddit.com/r/cpp/comments/17eo49y/c_videos_released_this_month_october_2023_updated/
+https://www.reddit.com/r/cpp/
+
+
+
+-------------------------------------------------------------
+--Books & References
+https://github.com/yuchdev/CppBooks
+https://github.com/AnthonyCalandra/modern-cpp-features/blob/master/CPP20.md
+https://en.cppreference.com/w/cpp/20
+
+https://opensource.com/article/21/11/c-stdcout-cheat-sheet
+
+
+Two books (both use C++17):
+
+    Dmitri Nesteruk “Design Patterns in Modern C++: Reusable Approaches for Object-Oriented Software Design”
+    Fedor Pikus “ Hands-On Design Patterns with С++: Solve common С++ problems with modern design patterns and build robust application”
+
+Another one great book is Marc Gregoire’s “Professional C++” (5th edition), which covers C++20, STL, and also some of classic GoF design patterns (see Chapter 33 “Applying design patterns”, page 1105).
+-------------------------------------------------------------
+#### DP Quick reference
+https://refactoring.guru/design-patterns/cpp
+https://refactoring.guru/design-patterns/observer/cpp/example#lang-features
+
+http://gameprogrammingpatterns.com/contents.html
+
+
+
+
+-------------------------------------------------------------
+--Timer Implementations
+https://copyprogramming.com/howto/extremely-simple-timer-class-in-c
+https://qnaplus.com/implement-periodic-timer-linux/
+https://qnaplus.com/std-async-execute-a-function-asynchronously/
+https://qnaplus.com/c-promise-and-future/
+https://qnaplus.com/asynchronous-operation-using-boostasio/
+https://qnaplus.com/singleton-class-in-c/
+
+https://www.geeksforgeeks.org/timer-c-using-system-calls/
+https://forums.raspberrypi.com/viewtopic.php?t=317427
+https://www.fluentcpp.com/2018/12/28/timer-cpp/
+https://opensource.com/article/21/10/linux-timers
+
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
