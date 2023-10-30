@@ -15,15 +15,19 @@ https://opensource.com/business/16/11/open-source-dashboard-tools-visualizing-da
 https://opensource.com/article/21/1/big-data
 https://opensource.com/article/19/12/data-science-resources
 https://opensource.com/article/19/2/learn-data-science-ai
+https://opensource.com/article/19/9/get-started-data-science-python
 
 
+https://opensource.com/users/brendang
+https://opensource.com/article/18/4/cpu-utilization-wrong
 
-
-
-
-
+https://opensource.com/article/22/9/python-interpreters-2022
 
 -------------------------------------------------------------
+https://opensource.com/article/22/10/asynchronous-programming-rust
+https://nl.linkedin.com/in/carl-cook-ph-d-6a9464194?challengeId=AQHqKA_2r1AxpgAAAYuA4AHJZvKg43wxS-X3vjtczSaYmgwA48JA9bT7QbQhEHtkPwCoS9Q0jW-G6Ht8VsvCUmW_8P4InoBtvA&submissionId=06f05bfc-39e7-9217-fdb0-05c0fea4583f&challengeSource=AgGDIGlVXLeIpwAAAYuA4BcHeoicIbyLugvt-8Ga5cHzCRU8cn1nwnQSKmBw1qk&challegeType=AgF2oxdt8V44wgAAAYuA4BcMoNceWbvh67kAMfe35G4TMTWgwkQojBo&memberId=AgFXZa1_egtrqAAAAYuA4BcP0TWzbOiUTqbTSPdoo7C8XNk&recognizeDevice=AgHSpcGv-voePwAAAYuA4BcSR0n5DhMY0K1vv0-I317eTiJlmWGe
+https://github.com/carlcook
+
 -------------------------------------------------------------
 -------------------------------------------------------------
 -------------------------------------------------------------
