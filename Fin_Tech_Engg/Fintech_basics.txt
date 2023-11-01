@@ -1,0 +1,59 @@
+
+-------------------------------------------------------------
+--HFT analytics
+
+-- RED: Rate, Errors, Duration
+-- USE: Utilization, Saturation, Errors
+
+-------------------------------------------------------------
+#### Flow Statistics
+
+1. Plot msg rate - outgoing/incoming/total
+   time - msg count
+   
+2. order arrival rate 
+   time - order count
+   
+3. latency rate // order ack, Spikes, Jitter, Distribution pct50, 90, 99, 99.9
+   time - latency
+   
+4. msg processing delay // internal processing ( Tnx_Time - Sending Time) 
+   time - latency
+   
+5. Latency/delay distribution /latency distribution
+   delay - count
+
+
+-------------------------------------------------------------
+#### Tnx Statistics
+
+- date, instance, market,new, amend, cxl, fill, order_value, fill_value, fill_ratio 
+
+-------------------------------------------------------------
+*Capacity planning
+
+#### System, Platform Generic scrape system-settings
+-host, hw_gen, cpu, mem, disk, network, os, gcc, java_version
+
+#### Max throughput settngs
+-network buffers
+-interrupt coalescing
+-hyperthreading
+
+#### versions, configuration
+-Xms 
+-release version
+
+#### daily scrape availaility & utilizaion
+-host, hw_gen, cpu, mem, disk, network
+
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
