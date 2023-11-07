@@ -34,3 +34,5 @@ https://github.com/migrateup/python-observer-pattern<br/>
 https://sourcemaking.com/design_patterns/observer/cpp/3<br/>
 
 
+#### Generic cheat sheets
+https://github.com/datawookie/cheatsheets<br/>
