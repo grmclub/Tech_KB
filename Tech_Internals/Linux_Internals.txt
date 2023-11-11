@@ -44,5 +44,15 @@ https://medium.com/hackernoon/real-time-linux-communications-2faabf31cf5e
 https://tldp.org/LDP/khg/HyperNews/get/net/net-intro.html
 
 --------------------------------------------------------------------------------------
+-- Linux Kernel
+https://0xax.gitbooks.io/linux-insides/content/
+https://fuzzinglabs.com/top-6-books-to-learn-linux-kernel-internals-in-2022/
+https://lwn.net/Kernel/Index/
+https://kernelnewbies.org/
+https://www.rocketboards.org/foswiki/view/Documentation/Training
+
+
+
+
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
