@@ -44,15 +44,31 @@ https://medium.com/hackernoon/real-time-linux-communications-2faabf31cf5e
 https://tldp.org/LDP/khg/HyperNews/get/net/net-intro.html
 
 --------------------------------------------------------------------------------------
--- Linux Kernel
+--Linux Kernel Docs
 https://0xax.gitbooks.io/linux-insides/content/
 https://fuzzinglabs.com/top-6-books-to-learn-linux-kernel-internals-in-2022/
 https://lwn.net/Kernel/Index/
 https://kernelnewbies.org/
 https://www.rocketboards.org/foswiki/view/Documentation/Training
 
+--Linux kernel subsystem architecture
+https://docs.huihoo.com/linux/kernel/a1/index.html
+http://www.srinivasbt.com/linux/index.html
+http://www.srinivasbt.com/linux/
+https://linux-kernel-labs.github.io/refs/heads/master/lectures/intro.html
+https://tldp.org/LDP/sag/html/kernel-parts.html
 
 
+--bootup sequence
+https://medium.com/@abbas.ict/linux-bootup-sequence-for-devops-enthusiasts-d0f9e928fd3a
+https://www.geeksforgeeks.org/how-linux-kernel-boots/
+https://www.geeksforgeeks.org/5-tips-to-make-a-career-as-a-linux-kernel-developer/
+https://www.geeksforgeeks.org/the-linux-kernel/
 
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
