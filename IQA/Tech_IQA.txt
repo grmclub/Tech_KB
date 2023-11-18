@@ -46,7 +46,65 @@ https://www.youtube.com/watch?v=aPQY__2H3tE
 
 =====================
 -------------------------------------------------------------
+127 interviews. Top 5 Algorithms they asked me.
+https://www.youtube.com/watch?v=EM8IgIIiOdY
 
+
+1. Top-k Largest Elements
+2. Sliding Window
+3. Backtracking
+4. Dynamic Programming
+5. DFS and BFS
+
+1. Top k largest elements: https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
+2. Sliding window: https://leetcode.com/problems/longest-substring-without-repeating-characters/solutions/1812/share-my-java-solution-using-hashset/
+3. Combination Sum Backtracking: https://replit.com/@replitshare2/CombinationSumBacktracking#main.py
+4. Combination Sum Dynamic Programming: https://replit.com/@replitshare2/CombinationSumDP#main.py
+5. DFS and BFS:    5.1 Graph Traversals - BFS & DFS -Breadth First Search and Depth First Search
+                   https://www.youtube.com/watch?v=pcKY4hjDrxk
+
+1) Python Crash Course by Eric Matthes.
+2) Eloquent Javascript by Marijn Haverbeke.
+3) The Pragmatic Programmer by David Thomas and Andrew Hunt
+4) Clean Code by Robert C. Martin 
+5) Designing Data-Intensive Applications by Martin Kleppmann
+
+
+===============
+https://www.youtube.com/@Power_Couple/videos 
+
+
+===============
+Top 7 Algorithms for Coding Interviews Explained SIMPLY
+https://www.youtube.com/watch?v=kp3fCihUXEg
+
+0:00 - Intro
+0:57 - Binary Search
+3:43 - Depth-First Search
+6:39 - Breadth-First Search
+9:13 - Insertion Sort  - o(n^2) - sorted or small lists
+10:57 - Merge Sort  -divide and conquer //o(nlogn) // Larger and unsorted list
+12:52 - Quick Sort  -o(nlog n) worst : O(n^2)
+15:57 - Greedy // Travelling salesman - when optimal solution is difficult to find
+
+Top 7 Data Structures for Interviews Explained SIMPLY
+https://www.youtube.com/watch?v=cQWr9DFE1ww&t=17s
+0:00 - Intro
+0:40 - Arrays
+2:44 - Linked Lists
+4:29 - HashMaps
+6:00 - Stacks
+7:06 - Queues
+8:10 - Trees
+10:28 - Graphs
+
+Software Engineering Interview Process at Each FAANG
+https://www.youtube.com/watch?v=WSRAsKwjJMI&t=1s
+-Leetcode - medium 
+-Behavioural - Communication, questions
+-coding / system design 
+
+- scalability is important
 -------------------------------------------------------------
 
 -------------------------------------------------------------
