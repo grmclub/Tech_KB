@@ -15,7 +15,36 @@ How I Got Good at Coding Interviews
 https://www.youtube.com/watch?v=SVvr3ZjtjI8
 
 -------------------------------------------------------------
+======================
+Solve subarray problems FASTER (using Sliding Windows)
+https://www.youtube.com/watch?v=GcW4mgmgSbw
 
+Frequency of the Most Frequent Element - Sliding Window - Leetcode 1838
+https://www.youtube.com/watch?v=vgBrQ0NM5vE
+
+Solve Subarray Problems Quickly With Sliding Window Technique | FREE DSA Course in JAVA | Lecture 79
+https://www.youtube.com/watch?v=jhW7VwP2Djw
+
+Sliding Window Maximum - Monotonic Queue - Leetcode 239
+https://www.youtube.com/watch?v=DfljaUwZsOk
+
+Linked Lists for Technical Interviews - Full Course
+https://www.youtube.com/watch?v=Hj_rA0dhr2I
+
+Sliding Window Technique - Algorithmic Mental Models
+https://www.youtube.com/watch?v=MK-NZ4hN7rs
+
+Sliding Window Technique + 4 Questions - Algorithms
+https://www.youtube.com/watch?v=jM2dhDPYMQM
+https://www.youtube.com/watch?v=p-ss2JNynmw
+
+Visual introduction Two Pointer Algorithm | Data Structure and Algorithm for Coding Interviews
+https://www.youtube.com/watch?v=On03HWe2tZM
+
+5 Simple Steps for Solving Dynamic Programming Problems
+https://www.youtube.com/watch?v=aPQY__2H3tE
+
+=====================
 -------------------------------------------------------------
 
 -------------------------------------------------------------
