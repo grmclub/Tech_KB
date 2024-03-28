@@ -4,7 +4,10 @@
 -memory
 -disk
 -network cards
+-network switch(aggregator, multiplexor),router  
 -fpga
+-asic
+
 
 -network protocols
 -network architecture
