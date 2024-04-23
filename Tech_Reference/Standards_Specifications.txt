@@ -1,0 +1,69 @@
+--------------------------------------------------------------------------------------
+##Operatng Systems
+
+##POSIX Specifications
+https://pubs.opengroup.org/onlinepubs/9699919799/
+
+POSIX standards define application programming interfaces (API) at both the system and user levels and command-line shells and utility interfaces for software compatibility and/or portability with various distributions of the Unix Operating System and other operating systems as well.
+
+Therefore, any software that conforms to POSIX standards should be compatible with other operating systems that adhere to the POSIX standards.
+For that reason, most of the tools we use on Linux and Unix-like operating systems behave almost the same. For example, if we use the ps command, it should behave the same under OpenBSD, Debian, and macOS.
+https://www.baeldung.com/linux/posix
+https://dl.acm.org/doi/pdf/10.1145/210308.210315
+
+##kernel.org
+https://www.kernel.org/doc/html/v4.10/process/coding-style.html
+https://www.kernel.org/doc/html/v4.9/media/uapi/v4l/standard.html
+
+##Linux Foundation
+https://www.linuxfoundation.org/projects/standards
+https://refspecs.linuxfoundation.org/lsb.shtml
+
+##RH
+https://access.redhat.com/articles/compliance_activities_and_gov_standards
+
+--------------------------------------------------------------------------------------
+##Language
+
+https://github.com/isocpp/CppCoreGuidelines
+https://isocpp.org/std/the-standard
+https://gcc.gnu.org/projects/cxx-status.html
+https://www.open-std.org/jtc1/sc22/wg21/docs/standards
+
+https://en.cppreference.com/w/cpp/links
+https://stackoverflow.com/questions/19697152/what-is-posix-any-other-interface-standards-which-can-replace-it
+
+## C & Unix standrds
+https://man7.org/linux/man-pages/man7/standards.7.html
+
+--------------------------------------------------------------------------------------
+##Protocols
+
+##TCP-IP
+http://www.sis.pitt.edu/mbsclass/standards/viar/TCP-IP.html
+https://www.ietf.org/rfc/rfc793.txt
+
+https://en.wikiversity.org/wiki/Network%2B/Standards/TCP/IP_Model/Introduction
+https://www.oreilly.com/library/view/tcpip-network-administration/0596002971/ch01.html
+
+--------------------------------------------------------------------------------------
+##Misc - companies & products
+
+##Google
+https://google.github.io/styleguide/cppguide.html
+https://google.github.io/styleguide/
+
+##Carnegie Melon Univ
+https://users.ece.cmu.edu/~eno/coding/CppCodingStandard.html
+
+##perforce
+https://www.perforce.com/resources/qac/high-integrity-cpp-coding-standard
+
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
