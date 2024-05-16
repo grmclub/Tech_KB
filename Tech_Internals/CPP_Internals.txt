@@ -26,9 +26,6 @@ https://refactoring.guru/design-patterns/observer/cpp/example#lang-features
 
 http://gameprogrammingpatterns.com/contents.html
 
-
-
-
 -------------------------------------------------------------
 --Timer Implementations
 https://copyprogramming.com/howto/extremely-simple-timer-class-in-c
