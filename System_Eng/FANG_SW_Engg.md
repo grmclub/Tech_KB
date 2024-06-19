@@ -75,5 +75,26 @@ https://opensource.guide/starting-a-project/<br/>
 https://blog.codacy.com/best-practices-to-manage-an-open-source-project/<br/>
 
 -------------------------------------------------------------<br/>
+##NASA System Engineering Notes<br/>
+
+--NASA System Engg handbook<br/>
+https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf<br/>
+https://www.nasa.gov/reference/systems-engineering-handbook/<br/>
+https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/<br/>
+
+
+--misc
+https://blog.obeosoft.com/applying-nasa-systems-engineering-handbook-with-capella<br/>
+
+<p>
+--Systems engineering provides a framework for managing software development and ensuring appropriate software integration with other aircraft systems. Engineers use simulation to simulate and assess the performance of aviation systems, allowing them to identify and fix problems early on
+
+--Systems Engineer responsibilities include:
+
+Installing, configuring, testing and maintaining operating systems, application software and system management tools. Ensuring the highest levels of systems and infrastructure availability.
+
+</p>
+--------------------------------------------------------------------------------------
+
 -------------------------------------------------------------<br/>
 -------------------------------------------------------------<br/>
