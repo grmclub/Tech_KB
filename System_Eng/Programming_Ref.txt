@@ -1,0 +1,51 @@
+-------------------------------------------------------------
+* Torvalds s/w engg
+
+What I think Linus meant, and what developers who have “good taste” do differently, is that they take the time to conceptualize what they are building before they start. They define the boundaries of the components they are working with, and how they interact with each other. They try to ensure everything fits well together, and that execution flows elegantly.
+
+
+To the best of my ability to discern, the crux of the “good taste” requirement is the elimination of edge cases, which tend to reveal themselves as conditional statements. The fewer conditions you test for, the better your code “tastes”.
+
+What I think Linus meant, and what developers who have “good taste” do differently, is that they take the time to conceptualize what they are building before they start. They define the boundaries of the components they are working with, and how they interact with each other. They try to ensure everything fits well together, and that execution flows elegantly.
+
+-------------------------------------------------------------
+The Dreyfus Model fundamentals are summarized here.
+
+1. Novice - Needs to be told exactly what to do. Very little context to base decisions off of.
+
+2. Advanced beginner - Has more context for decisions, but still needs rigid guidelines to follow.
+
+3. Competent - Begins to question the reasoning behind the tasks, and can see longer term consequences.
+
+4. Proficient - Still relies on rules, but able to seperate what is most important.
+
+5. Expert - Works mainly on intuition, except in circumstances where problems occur
+
+http://stackoverflow.com/questions/336400/how-can-i-use-the-dreyfus-model-of-skill-acquisition
+-------------------------------------------------------------
+* App Design Levels
+====================
+  
+01. String/ Array/ Api call (split, join, len, substr, replace) / (strlen, strcat, strcpy, strcmp, strstr)
+    Containers(array, list, dict) : search, sort, iterate + map, reduce, filter
+
+02. DB I/O CRUD
+
+03. Socket Programming, Async IO, Multithreading
+    - I/O strategy (non-blocking, multiplexed, memory_mapped, scatter_gather)
+
+04. Application Server building
+    -protocols, api
+    -patterns
+    -data structures 	
+
+05. Distributed System building
+	- Failover Clustering
+	- Message Passing
+	- Distributed Failover
+
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+-------------------------------------------------------------
