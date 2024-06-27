@@ -31,19 +31,21 @@ http://stackoverflow.com/questions/336400/how-can-i-use-the-dreyfus-model-of-ski
 01. String/ Array/ Api call (split, join, len, substr, replace) / (strlen, strcat, strcpy, strcmp, strstr)
     Containers(array, list, dict) : search, sort, iterate + map, reduce, filter
 
-02. DB I/O CRUD
+02. DB I/O 
+    - CRUD(create,retreive,update,delete)
 
 03. Socket Programming, Async IO, Multithreading
     - I/O strategy (non-blocking, multiplexed, memory_mapped, scatter_gather)
 
-04. Application Server building
+04. Application Server design
     -protocols, api
     -patterns
-    -data structures    
+    -data structures
+    -Failover Clustering	
 
-05. Distributed System building
-    - Failover Clustering
+05. Distributed System design
     - Message Passing
+	- Distributed transaction journal
     - Distributed Failover
 
 
