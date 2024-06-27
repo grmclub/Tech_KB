@@ -32,7 +32,7 @@ http://stackoverflow.com/questions/336400/how-can-i-use-the-dreyfus-model-of-ski
     Containers(array, list, dict) : search, sort, iterate + map, reduce, filter
 
 02. DB I/O 
-    - CRUD(create,retreive,update,delete)
+    - CRUD(create,retrieve,update,delete)
 
 03. Socket Programming, Async IO, Multithreading
     - I/O strategy (non-blocking, multiplexed, memory_mapped, scatter_gather)
