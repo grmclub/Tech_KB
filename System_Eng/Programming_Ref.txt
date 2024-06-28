@@ -1,7 +1,7 @@
 The more I learn, the more I realize how much I don’t know. — Albert Einstein
 
 -------------------------------------------------------------
-* Torvalds s/w engg
+* Linus Torvalds on software engg
 
 What I think Linus meant, and what developers who have “good taste” do differently, is that they take the time to conceptualize what they are building before they start. They define the boundaries of the components they are working with, and how they interact with each other. They try to ensure everything fits well together, and that execution flows elegantly.
 

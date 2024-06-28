@@ -1,7 +1,6 @@
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
-* The Three-Phase Contribution Review
-* 
-https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/
+* The Three-Phase Contribution Review<br/>
+https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/<br/>
 
 Sarah Sharp\-- <br/>
 Instead of putting off reviewing first-time contributions
