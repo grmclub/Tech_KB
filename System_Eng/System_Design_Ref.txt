@@ -28,7 +28,21 @@ System Design Flow
  - consider bottlenecks and determine solutions
  
 -------------------------------------------------------------
+Layers of the enterprise architecture(TOGAF)
+============================================
+1. Business architecture or business process architecture which defines the business strategy, governance,
+   organization, and key business processes of the organization
 
+2. Applications architecture which provides a blueprint for the individual application systems to be deployed,
+   the interactions between the application systems, and their relationships to the 
+   core business  processes of the organization with the frameworks for services to 
+   be exposed as business functions for integration.
+
+3. Data architecture which describes the structure of an organization's logical and physical data assets 
+   and the associated data management resources.
+
+4. Technology architecture or technology architecture which describes the hardware, software and network infrastructure
+   needed to support the deployment of core, mission-critical applications
 -------------------------------------------------------------
 
 -------------------------------------------------------------
