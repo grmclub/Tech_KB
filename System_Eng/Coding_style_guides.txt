@@ -1,0 +1,25 @@
+
+-------------------------------------------------------------
+https://www.kernel.org/doc/html/v4.10/process/coding-style.html
+
+
+--FAANG Style guides
+https://google.github.io/styleguide/
+
+--amz
+https://aws.amazon.com/what-is/code-quality/
+https://aws.github.io/amazon-freertos/202107.00/c-sdk/main/guide_developer_styleguide.html
+
+
+--Apple
+https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KernelProgramming/style/style.html
+https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/CodingConventions.html
+https://opensource.apple.com/source/lldb/lldb-112/llvm/docs/CodingStandards.html
+
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
