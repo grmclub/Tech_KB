@@ -1,14 +1,11 @@
 <body>
 
 <p class="slate-paragraph">
-<h1 class="post-title entry-title">Programmer Competency Matrix</h1></p>
+<h2 class="post-title entry-title">Programmer Competency Matrix | Sijin Joseph</h2></p>
 
-<p class="slate-paragraph"><blockquote><p>Note that the knowledge for each level is cumulative; being at<br /></p>
-
-<p class="slate-paragraph">level <em>n</em> implies that you also know everything from the<br /></p>
-
-<p class="slate-paragraph">levels lower than <em>n</em>.</p>
-
+<p class="slate-paragraph"><blockquote><p>
+Note that the knowledge for each level is cumulative. Being at level implies that <br />
+you also know everything from the levels lower than n.
 </blockquote></p>
 
 <p class="slate-paragraph"><table></p>
