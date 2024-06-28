@@ -1,6 +1,10 @@
 
 -------------------------------------------------------------
+--Linux
 https://www.kernel.org/doc/html/v4.10/process/coding-style.html
+
+--BSD
+https://man.freebsd.org/cgi/man.cgi?style(9)
 
 
 --FAANG Style guides
@@ -18,6 +22,12 @@ https://opensource.apple.com/source/lldb/lldb-112/llvm/docs/CodingStandards.html
 
 
 -------------------------------------------------------------
+
+--Bloomberg
+https://bloomberg.github.io/bde/knowledge_base/coding_standards.html
+
+
+
 -------------------------------------------------------------
 -------------------------------------------------------------
 -------------------------------------------------------------
