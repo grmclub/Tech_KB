@@ -7,7 +7,7 @@ https://github.com/Sourav692/data-engineering-interview-questions
 System Design Flow 
  
 1. Understand the problem and scope: 
- - define the use cases, with interviewer's help 
+ - define the use cases, with stakeholders/BA's help 
  - suggest additional features 
  - remove items that interviewer deems out of scope 
  - assume high availability is required, add as a use case 
