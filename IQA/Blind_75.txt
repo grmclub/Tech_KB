@@ -4,6 +4,9 @@
 --Blind 75 Core
 https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 https://seanprashad.com/leetcode-patterns/
+https://www.techinterviewhandbook.org/grind75/about
+https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
+
 
 For me personally, blind 75 was enough for getting all the core patterns. The next limiting factors for me were
     - problems with very niche solutions that you'd only get if you've already seen them before
@@ -21,6 +24,13 @@ https://www.reddit.com/r/cscareerquestions/comments/dw9mn9/leetcode_blind_curate
 https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 
 -------------------------------------------------------------
+https://leetcode.com/problems/contains-duplicate/description/
+https://neetcode.io/practice
+https://mobileappcircular.com/crack-top-tier-tech-interviews-with-blind-75-leetcode-problems-9695548355c9
+
+
+
+
 -------------------------------------------------------------
 -------------------------------------------------------------
 -------------------------------------------------------------
