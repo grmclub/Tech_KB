@@ -1,0 +1,219 @@
+The Top 40 Engineering Blogs to Master System Design and Software architecture in 2024
+
+Here is a list of 40 popular Engineering blogs you can read to learn about System Design and Software Architecture in 2024
+
+    Netflix Tech Blog
+
+    https://netflixtechblog.com/
+    This is a great blog to find insights into Netflix's distributed systems and scalable architecture
+
+2. Uber Engineering Blog
+
+    https://eng.uber.com/
+    Covers various aspects of Uber's large-scale distributed systems
+
+3. Airbnb Engineering & Data Science
+
+    https://medium.com/airbnb-engineering
+    Discussions on scaling accommodation platforms and data-driven decisions
+
+4. Instagram Engineering
+
+    https://instagram-engineering.com/
+    Insights into handling billions of photos and interactions
+
+5. Dropbox Tech Blog
+
+    https://dropbox.tech/
+    File storage and synchronization at scale
+
+6. Spotify Engineering
+
+    https://engineering.atspotify.com/
+    Music streaming architecture and data processing
+
+7. Pinterest Engineering
+
+    https://medium.com/@Pinterest_Engineering
+    Visual discovery engine architecture and scaling
+
+8. LinkedIn Engineering
+
+    https://engineering.linkedin.com/blog
+    Professional network's architecture and data handling
+
+9. Slack Engineering
+
+    https://slack.engineering/
+    Real-time messaging and collaboration platform insights
+
+10. Twitter Engineering Blog
+
+    https://blog.twitter.com/engineering/en_us
+    Handling millions of tweets and real-time data processing
+
+11. Facebook Engineering
+
+    https://engineering.fb.com/
+    Insights into one of the world's largest social networks
+
+12. Google Cloud Blog
+
+    https://cloud.google.com/blog/topics/developers-practitioners
+    Cloud architecture and best practices
+
+13. Amazon Web Services (AWS) Architecture Blog
+
+    https://aws.amazon.com/blogs/architecture/
+    Cloud architecture patterns and best practices
+
+14. Microsoft Azure Blog
+
+    https://azure.microsoft.com/en-us/blog/
+    Cloud services and architecture insights
+
+15. Atlassian Engineering
+
+    https://www.atlassian.com/engineering
+    Collaboration tools and scaling agile practices
+
+16. GitHub Engineering
+
+    https://github.blog/category/engineering/
+    Version control and collaboration at scale
+
+17. Etsy Engineering
+
+    https://codeascraft.com/
+    E-commerce platform architecture and practices
+
+18. Shopify Engineering
+
+    https://shopify.engineering/
+    E-commerce solutions and scalable architecture
+
+19. Stripe Engineering Blog
+
+    https://stripe.com/blog/engineering
+    Payment processing and financial technology insights
+
+20. Booking.com Technology Blog
+
+    https://blog.booking.com/
+    Travel industry tech and scaling accommodations platforms
+
+21. Yelp Engineering Blog
+
+    https://engineeringblog.yelp.com/
+    Local business recommendations at scale
+
+22. Cloudflare Blog
+
+    https://blog.cloudflare.com/
+    Content delivery networks and internet security
+
+23. Lyft Engineering Blog
+
+    https://eng.lyft.com/
+    Ride-sharing platform architecture and scaling
+
+24. Zoom Engineering Blog
+
+    https://medium.com/zoom-developer-blog
+    Video conferencing at scale
+
+25. PayPal Engineering Blog
+
+    https://medium.com/paypal-engineering
+    Financial technology and secure transactions at scale
+
+26. Zillow Tech Hub
+
+    https://www.zillow.com/tech/
+    Real estate data processing and recommendations
+
+27. Reddit Engineering Blog
+
+    https://redditblog.com/topic/technology/
+    Scaling one of the world's largest forums
+
+28. SoundCloud Backstage Blog
+
+    https://developers.soundcloud.com/blog/
+    Audio streaming and processing at scale
+
+29. Expedia Technology
+
+    https://medium.com/expedia-group-tech
+    Travel booking systems and scalable architecture
+
+30. Square Engineering Blog
+
+    https://developer.squareup.com/blog/
+    Payment processing and financial services tech
+
+31. Instacart Tech Blog
+
+    https://tech.instacart.com/
+    On-demand grocery delivery platform insights
+
+32. Heroku Engineering Blog
+
+    https://blog.heroku.com/engineering
+    Platform as a Service (PaaS) architecture
+
+33. Twilio Engineering Blog
+
+    https://www.twilio.com/blog/engineering
+    Communication APIs and scalable infrastructure
+
+34. Box Tech Blog
+
+    https://medium.com/box-tech-blog
+    Cloud content management and collaboration
+
+35. Ebay Tech Blog
+
+    https://tech.ebayinc.com/
+    E-commerce platform and auction system architecture
+
+36. Databricks Engineering Blog
+
+    https://databricks.com/blog/category/engineering
+    Big data processing and analytics
+
+37. Figma Engineering Blog
+
+    https://www.figma.com/blog/section/engineering/
+    Collaborative design tools and real-time syncing
+
+38. Grab Tech Blog
+
+    https://engineering.grab.com/
+    Super app architecture for Southeast Asian market
+
+39. Monzo Technology Blog
+
+    https://monzo.com/blog/technology/
+    Digital banking and fintech architecture
+
+40. Flipkart Tech Blog
+
+    https://tech.flipkart.com/
+    E-commerce platform for the Indian market
+--------------------------------------------------------
+
+https://dev.to/somadevtoo/top-50-system-design-interview-questions-for-2024-5dbk	
+	
+	
+--------------------------------------------------------
+
+--------------------------------------------------------
+
+--------------------------------------------------------
+
+
+
+
+	
+	
