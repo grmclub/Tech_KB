@@ -20,7 +20,7 @@ properly. The third phase is making everything polished, sanding off the
 rough corners, and slapping on a coat of paint to match whatever color
 the bike shed is currently painted.
 
-=\> idea, architecture, polish (iap)
+=> idea, architecture, polish (iap)
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 \-\-\-\-\-\-\-\-\--
