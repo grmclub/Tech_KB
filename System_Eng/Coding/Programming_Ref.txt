@@ -30,6 +30,8 @@ http://stackoverflow.com/questions/336400/how-can-i-use-the-dreyfus-model-of-ski
   
 01. String/ Array/ Api call (split, join, len, substr, replace) / (strlen, strcat, strcpy, strcmp, strstr)
     Containers(array, list, dict) : search, sort, iterate + map, reduce, filter
+	- group, accumulate
+	- search, sort
 
 02. DB I/O 
     - CRUD(create,retrieve,update,delete)
@@ -50,7 +52,27 @@ http://stackoverflow.com/questions/336400/how-can-i-use-the-dreyfus-model-of-ski
 
 
 -------------------------------------------------------------
+## Software Engg KB
+
+##SE_1
+- Ambiguous problem Define & Scope it
+- Reliability, Scalability, Large data sets
+
+##SE_2
+SW Engg/Coder - writes code & debugs code
+Staff Engg    - writes & debugs systems
+Engg Mgr      - manages teams & communication
+Director      - manages orgs & debug orgs
 
 -------------------------------------------------------------
 
 -------------------------------------------------------------
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+
+
+
+
