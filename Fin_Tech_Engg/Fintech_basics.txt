@@ -47,6 +47,62 @@
 
 
 -------------------------------------------------------------
+##FinTech Infra Internals
+https://blog.janestreet.com/how-to-build-an-exchange/
+https://www.janestreet.com/tech-talks/building-an-exchange/
+https://news.ycombinator.com/item?id=34274510
+https://blog.janestreet.com/jane-street-tech-talk-verifying-network-data-planes/
+https://blog.janestreet.com/watch-all-of-jane-streets-tech-talks/
+https://blog.janestreet.com/archive/
+https://blog.janestreet.com/authors/
+
+Multicast and the Markets with Brian Nigito
+https://www.youtube.com/watch?v=triyiLwqWUI
+
+
+-misc
+https://blog.janestreet.com/visualizing-information-propagation-in-markets-index/
+https://blog.janestreet.com/memory-allocator-showdown/
+https://blog.janestreet.com/this-is-not-the-performance-you-were-looking-for-the-tricks-systems-play-on-us/
+
+https://blog.janestreet.com/when-bash-scripts-bite/
+https://blog.janestreet.com/inspecting-the-environment-of-a-running-process/
+https://blog.janestreet.com/inspecting-internal-tcp-state-on-linux/
+https://blog.janestreet.com/reading-lamport-again/
+https://blog.janestreet.com/ironing-out-your-release-process/
+https://blog.janestreet.com/async-parallel/
+
+https://blog.janestreet.com/10-tips-for-writing-comments-plus-one-more/
+https://blog.janestreet.com/maps-sets-and-hashtables-in-core/
+https://blog.janestreet.com/iterative-email-problem-solving-with-python/
+https://blog.janestreet.com/iterative-email-problem-solving-with-python-part-2/
+https://blog.janestreet.com/core-gems-time/
+https://blog.janestreet.com/whats-2013-50-1969-of-course/
+
+https://blog.janestreet.com/designing-a-code-review-tool-part-1/
+https://blog.janestreet.com/designing-a-code-review-tool-part-2-patches-or-diffs/
+
+-IQA
+https://blog.janestreet.com/what-a-jane-street-dev-interview-is-like/
+https://blog.janestreet.com/developer-education-at-jane-street-index/
+https://blog.janestreet.com/jane-street-interview-process-2020/
+https://blog.janestreet.com/unraveling/
+https://blog.janestreet.com/13-virtues/
+
+
+-Tech
+https://paulgraham.com/avg.html
+https://brianlovin.com/hn/34274510
+http://zipcpu.com/blog/2017/09/18/clocks-for-sw-engineers.html
+https://github.com/diracdeltas/FastestWebsiteEver
+
+=====================
+##Optivar tech
+https://optiver.com/insights/how-japans-settlement-price-methodology-impacts-option-expiry/
+https://optiver.com/insights/a-uniform-approach-to-corporate-actions/
+
+
+
 -------------------------------------------------------------
 -------------------------------------------------------------
 -------------------------------------------------------------
