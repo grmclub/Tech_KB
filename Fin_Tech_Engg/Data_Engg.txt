@@ -2,7 +2,7 @@
 -------------------------------------------------------------
 "Data Engineering Handbooks
 
-#Julia Evans
+#Julia Evans - Tech Articles
 https://github.com/jvns/pandas-cookbook
 https://jvns.ca/blog/2013/12/22/cooking-with-pandas/
 
