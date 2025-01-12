@@ -104,6 +104,14 @@ https://optiver.com/insights/a-uniform-approach-to-corporate-actions/
 
 
 -------------------------------------------------------------
+--HFT Apps
+
+--cppcon_2024
+When Nanoseconds Matter: Ultrafast Trading Systems in C++ - David Gross - CppCon 2024
+https://www.youtube.com/watch?v=sX2nF1fW7kI
+
+
+
 -------------------------------------------------------------
 -------------------------------------------------------------
 -------------------------------------------------------------
