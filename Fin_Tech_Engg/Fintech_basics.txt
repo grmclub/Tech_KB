@@ -10,6 +10,8 @@
 
 1. Plot msg rate - outgoing/incoming/total
    time - msg count
+   time - by user/session
+   time - by order type
    
 2. order arrival rate 
    time - order count
@@ -17,21 +19,21 @@
 3. latency rate // order ack, Spikes, Jitter, Distribution pct50, 90, 99, 99.9
    time - latency
    
-4. msg processing delay // internal processing ( Tnx_Time - Sending Time) 
+4. msg processing delay // internal processing (Tnx_Time - Sending Time) 
    time - latency
    
 5. Latency/delay distribution /latency distribution
    delay - count
 
 6. FR
-- date, instance, market,new, amend, cxl, fill, order_value, fill_value, fill_ratio 
+- date, instance, market,new,amend,cxl,fill,order_value,fill_value,fill_ratio 
 - N,A,C,F,NV,FV,FR
 
 -------------------------------------------------------------
 *Capacity planning
 
 #### System, Platform Generic scrape system-settings
--host, hw_gen, cpu, mem, disk, network, os, gcc, java_version
+-host,hw_gen,cpu,mem,disk,network,os,gcc,java_version
 
 #### Max throughput settngs
 -network buffers
@@ -42,7 +44,7 @@
 -release version
 
 #### daily scrape availaility & utilizaion
--host, hw_gen, cpu, mem, disk, network
+-host,hw_gen,cpu,mem,disk,network
 
 
 -------------------------------------------------------------
@@ -54,6 +56,9 @@ https://blog.janestreet.com/jane-street-tech-talk-verifying-network-data-planes/
 https://blog.janestreet.com/watch-all-of-jane-streets-tech-talks/
 https://blog.janestreet.com/archive/
 https://blog.janestreet.com/authors/
+
+How Jane Street Does Code Review (Jane Street Tech Talk)
+https://blog.janestreet.com/jane-street-tech-talk-how-jane-street-does-code-review/
 
 Multicast and the Markets with Brian Nigito
 https://www.youtube.com/watch?v=triyiLwqWUI
@@ -145,7 +150,8 @@ https://www.efinancialcareers.jp/news/the-expert-c-programming-technique-you-wil
 https://www.efinancialcareers.jp/news/c-plus-plus-interview-questions-hft-high-frequency-trading
 https://www.efinancialcareers.com/news/c-plus-plus-interview-questions-hft-high-frequency-trading
 
-
+-------------------------
+##Prep IQA
 https://preshing.com/20120612/an-introduction-to-lock-free-programming/
 https://www.efinancialcareers.jp/news/low-latency-c
 https://www.efinancialcareers.com/news/quant-interview-questions-finance
@@ -153,20 +159,69 @@ https://github.com/dwcoder/QuantitativePrimer/tree/master/src
 
 https://www.efinancialcareers.jp/news/electronic-trading-interviews
 https://www.efinancialcareers.com/news/the-unusual-question-goldman-sachs-is-asking-in-2024-job-interviews
-
+-------------------------
 
 https://www.efinancialcareers.jp/news/High-Frequency-Trading-Hiring-And-Pay
 https://www.efinancialcareers.jp/news/quant-jobs-finance
+
+ ------------------------
+ HFT Tricky C++ Interview Questions
+ https://www.youtube.com/watch?v=davP62I_Mw8
+ 
+ Multithreading | Lock Free Programming | HFT Quant Interview
+ https://www.youtube.com/watch?v=bojZqt6yb3M
+ 
+ HFT Low Latency C++ Interview Question - Template Metaprogramming
+ https://www.youtube.com/watch?v=hLxwF5rG8o8
+ 
+ Master Multithreading : Thread Pool In C++
+ https://www.youtube.com/watch?v=u7ouCuieBhI
+ 
+ https://www.youtube.com/@CodingInterviewPrep/videos
+ 
+## KGN
+Essential topics of #Cpp for #HFT industry | C++ | Explained by an HFT developer 
+https://www.youtube.com/watch?v=y6teK4Ma3iw&t=603s
+
+How cache memory can enhance the performance of the HFT system || Explained by an #HFT #Developer 
+https://www.youtube.com/watch?v=aUhdnJv7e44
+ 
+ ------------------------
+
 =================================
 
 -------------------------------------------------------------
---HFT Apps
+##HFT Apps
+----------------------------
+Fast and Small C++ - When Efficiency Matters - Andreas Fertig - CppCon 2024
+https://www.youtube.com/watch?v=rNl591__9zY
 
---cppcon_2024
+Leveraging C++20/23 Features for Low Level Interactions - Jeffrey Erickson - CppCon 2024
+https://www.youtube.com/watch?v=rfkSHxSoQVE&t=1176s
+
+CppCon 2016: Jason Turner “Practical Performance Practices"
+https://www.youtube.com/watch?v=uzF4u9KgUWI
+
+----------------------------
+CppCon 2017: Carl Cook “When a Microsecond Is an Eternity: High Performance Trading Systems in C++”
+https://www.youtube.com/watch?v=NH1Tta7purM&t=2605s
+ 
+Pacific++ 2017: Carl Cook "Low Latency C++ for Fun and Profit"
+https://www.youtube.com/watch?v=BxfT9fiUsZ4&t=2227s
+ 
+Building Low Latency Trading Systems
+https://www.youtube.com/watch?v=yBNpSqOOoRk&t=2515s
+ 
+Trading at light speed: designing low latency systems in C++ - David Gross - Meeting C++ 2022
+https://www.youtube.com/watch?v=8uAW5FQtcvE&t=2794s
+ 
+What is Low Latency C++? (Part 1) - Timur Doumler - CppNow 2023
+https://www.youtube.com/watch?v=EzmNeAhWqVs
+
 When Nanoseconds Matter: Ultrafast Trading Systems in C++ - David Gross - CppCon 2024
 https://www.youtube.com/watch?v=sX2nF1fW7kI
-
-
+ 
+------------------------------
 
 -------------------------------------------------------------
 -------------------------------------------------------------
