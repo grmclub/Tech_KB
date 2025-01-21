@@ -1,12 +1,11 @@
 -------------------------------------------------------------
-
---HFT analytics
+##Basic analytics
 
 -- RED: Rate, Errors, Duration
 -- USE: Utilization, Saturation, Errors
 
 -------------------------------------------------------------
-#### Flow Analytics
+##Flow Analytics
 
 1. Plot msg rate - outgoing/incoming/total
    time - msg count
