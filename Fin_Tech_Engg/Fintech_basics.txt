@@ -39,7 +39,6 @@
 -hyperthreading
 
 #### versions, configuration
--Xms 
 -release version
 
 #### daily scrape availaility & utilizaion
@@ -101,7 +100,64 @@ https://github.com/diracdeltas/FastestWebsiteEver
 https://optiver.com/insights/how-japans-settlement-price-methodology-impacts-option-expiry/
 https://optiver.com/insights/a-uniform-approach-to-corporate-actions/
 
+===============================
+Signals & Threads Podcast - Jane Street
+https://www.youtube.com/watch?v=da2GO5XYJ4U&list=PLCiAikFFaMJouorRXDSfS2UoKV4BfKyQm&index=23&t=2187s
+ 
+System Jitter and Where to Find It: A Whack-a-Mole Experience
+https://www.youtube.com/watch?v=I_TtMk5z0O0
 
+How to Build an Exchange - Jane Street
+https://www.youtube.com/watch?v=b1e4t2k2KJY
+
+What It's Like to Be a Production Engineer at Jane Street
+https://www.youtube.com/watch?v=Rjadq_aG8_w
+=================================
+-How to Simulate a Low Latency Exchange in C++ - Benjamin Catterall - C++ on Sea 2023
+https://www.youtube.com/watch?v=QQrTE4YLkSE
+
+-Devnexus 2022 - How Does a Matching Engine Work - Juan D Bustamante
+https://www.youtube.com/watch?v=U6sriNOd2K0&list=PL8nBmR5eGh34AynaXik3rgiW3qK6FKXVq
+
+-Low Latency Stock Exchange Design Deep Dive with Google SWE! | Systems Design Interview Question 15
+https://www.youtube.com/watch?v=erusCJu6CQY
+-27: High Throughput Stock Exchange | Systems Design Interview Questions With Ex-Google SWE
+https://www.youtube.com/watch?v=dGYfpO3WJ1o
+-26: Robinhood Stock Trading Platform | Systems Design Interview Questions With Ex-Google SWE
+https://www.youtube.com/watch?v=SAa6xFyATcw
+
+-FPGAs and low latency trading - Williston Hayes - Optiver - FPL2020
+https://www.youtube.com/watch?v=RCb8PsdipHI
+ 
+=================================
+##IQA
+HFT Interview Preparation Resources for SDE role
+https://www.youtube.com/watch?v=V-VZCtzYybg&list=PLDyQeDg5RtW8XJZ5mt7sK0L0eGodtxpE-&index=3
+https://www.youtube.com/@CodingInterviewPrep/videos
+
+https://www.youtube.com/@CodingInterviewPrep/videos
+
+How to Ace the Hardest C++ Interview Questions in HFT
+https://www.youtube.com/watch?v=Oiu9L68VFJY
+https://www.youtube.com/@quantlabs/videos
+
+https://www.efinancialcareers.jp/news/the-expert-c-programming-technique-you-will-need-to-know-for-a-hft-interview
+https://www.efinancialcareers.jp/news/c-plus-plus-interview-questions-hft-high-frequency-trading
+https://www.efinancialcareers.com/news/c-plus-plus-interview-questions-hft-high-frequency-trading
+
+
+https://preshing.com/20120612/an-introduction-to-lock-free-programming/
+https://www.efinancialcareers.jp/news/low-latency-c
+https://www.efinancialcareers.com/news/quant-interview-questions-finance
+https://github.com/dwcoder/QuantitativePrimer/tree/master/src
+
+https://www.efinancialcareers.jp/news/electronic-trading-interviews
+https://www.efinancialcareers.com/news/the-unusual-question-goldman-sachs-is-asking-in-2024-job-interviews
+
+
+https://www.efinancialcareers.jp/news/High-Frequency-Trading-Hiring-And-Pay
+https://www.efinancialcareers.jp/news/quant-jobs-finance
+=================================
 
 -------------------------------------------------------------
 --HFT Apps
