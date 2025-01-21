@@ -105,6 +105,7 @@ https://optiver.com/insights/how-japans-settlement-price-methodology-impacts-opt
 https://optiver.com/insights/a-uniform-approach-to-corporate-actions/
 
 ===============================
+##JS Tech
 Signals & Threads Podcast - Jane Street
 https://www.youtube.com/watch?v=da2GO5XYJ4U&list=PLCiAikFFaMJouorRXDSfS2UoKV4BfKyQm&index=23&t=2187s
  
@@ -116,12 +117,18 @@ https://www.youtube.com/watch?v=b1e4t2k2KJY
 
 What It's Like to Be a Production Engineer at Jane Street
 https://www.youtube.com/watch?v=Rjadq_aG8_w
+
+Safe at Any Speed: Building a Performant, Safe, Maintainable Packet Processor
+https://www.youtube.com/watch?v=BysBMdx9w6k&list=PL8nBmR5eGh34AynaXik3rgiW3qK6FKXVq&index=111
 =================================
 -How to Simulate a Low Latency Exchange in C++ - Benjamin Catterall - C++ on Sea 2023
 https://www.youtube.com/watch?v=QQrTE4YLkSE
 
 -Devnexus 2022 - How Does a Matching Engine Work - Juan D Bustamante
 https://www.youtube.com/watch?v=U6sriNOd2K0&list=PL8nBmR5eGh34AynaXik3rgiW3qK6FKXVq
+
+Building an Order Book in C++
+https://www.youtube.com/watch?v=fxN4xEZvrxI&list=PL8nBmR5eGh34AynaXik3rgiW3qK6FKXVq&index=35
 
 -Low Latency Stock Exchange Design Deep Dive with Google SWE! | Systems Design Interview Question 15
 https://www.youtube.com/watch?v=erusCJu6CQY
@@ -192,7 +199,7 @@ https://www.youtube.com/watch?v=aUhdnJv7e44
 =================================
 
 -------------------------------------------------------------
-##HFT Apps
+##HFT Tech
 ----------------------------
 Fast and Small C++ - When Efficiency Matters - Andreas Fertig - CppCon 2024
 https://www.youtube.com/watch?v=rNl591__9zY
@@ -204,6 +211,9 @@ CppCon 2016: Jason Turner “Practical Performance Practices"
 https://www.youtube.com/watch?v=uzF4u9KgUWI
 
 ----------------------------
+The Speed Game: Automated Trading Systems in C++ - Carl Cook - Meeting C++ 2016
+https://www.youtube.com/watch?v=ulOLGX3HNCI&list=PL8nBmR5eGh34AynaXik3rgiW3qK6FKXVq&index=49
+
 CppCon 2017: Carl Cook “When a Microsecond Is an Eternity: High Performance Trading Systems in C++”
 https://www.youtube.com/watch?v=NH1Tta7purM&t=2605s
  
