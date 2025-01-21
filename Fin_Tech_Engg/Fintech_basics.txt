@@ -136,6 +136,9 @@ https://www.youtube.com/watch?v=RCb8PsdipHI
  
 =================================
 ##IQA
+https://www.efinancialcareers.com/news/70-top-banking-interview-questions-and-how-to-answer-them
+https://www.efinancialcareers.com/news/quant-interview-questions-finance
+
 HFT Interview Preparation Resources for SDE role
 https://www.youtube.com/watch?v=V-VZCtzYybg&list=PLDyQeDg5RtW8XJZ5mt7sK0L0eGodtxpE-&index=3
 https://www.youtube.com/@CodingInterviewPrep/videos
@@ -154,7 +157,6 @@ https://www.efinancialcareers.com/news/c-plus-plus-interview-questions-hft-high-
 ##Prep IQA
 https://preshing.com/20120612/an-introduction-to-lock-free-programming/
 https://www.efinancialcareers.jp/news/low-latency-c
-https://www.efinancialcareers.com/news/quant-interview-questions-finance
 https://github.com/dwcoder/QuantitativePrimer/tree/master/src
 
 https://www.efinancialcareers.jp/news/electronic-trading-interviews
