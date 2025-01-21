@@ -23,7 +23,7 @@
 5. Latency/delay distribution /latency distribution
    delay - count
 
-6. Fill Ratio
+6. FR
 - date, instance, market,new, amend, cxl, fill, order_value, fill_value, fill_ratio 
 - N,A,C,F,NV,FV,FR
 
