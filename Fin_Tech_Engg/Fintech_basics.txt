@@ -219,6 +219,9 @@ https://www.youtube.com/watch?v=NH1Tta7purM&t=2605s
  
 Pacific++ 2017: Carl Cook "Low Latency C++ for Fun and Profit"
 https://www.youtube.com/watch?v=BxfT9fiUsZ4&t=2227s
+
+Core C++ 2019 :: Nimrod Sapir :: High Frequency Trading and Ultra Low Latency development techniques
+https://www.youtube.com/watch?v=_0aU8S-hFQI&t=632s
  
 Building Low Latency Trading Systems
 https://www.youtube.com/watch?v=yBNpSqOOoRk&t=2515s
