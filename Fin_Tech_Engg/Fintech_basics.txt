@@ -99,7 +99,7 @@ https://brianlovin.com/hn/34274510
 http://zipcpu.com/blog/2017/09/18/clocks-for-sw-engineers.html
 https://github.com/diracdeltas/FastestWebsiteEver
 
-=====================
+===============================
 ##Optivar tech
 https://optiver.com/insights/how-japans-settlement-price-methodology-impacts-option-expiry/
 https://optiver.com/insights/a-uniform-approach-to-corporate-actions/
@@ -200,7 +200,7 @@ https://www.youtube.com/watch?v=aUhdnJv7e44
 
 -------------------------------------------------------------
 ##HFT Tech
-----------------------------
+====================================
 Fast and Small C++ - When Efficiency Matters - Andreas Fertig - CppCon 2024
 https://www.youtube.com/watch?v=rNl591__9zY
 
@@ -210,7 +210,7 @@ https://www.youtube.com/watch?v=rfkSHxSoQVE&t=1176s
 CppCon 2016: Jason Turner “Practical Performance Practices"
 https://www.youtube.com/watch?v=uzF4u9KgUWI
 
-----------------------------
+====================================
 The Speed Game: Automated Trading Systems in C++ - Carl Cook - Meeting C++ 2016
 https://www.youtube.com/watch?v=ulOLGX3HNCI&list=PL8nBmR5eGh34AynaXik3rgiW3qK6FKXVq&index=49
 
@@ -235,7 +235,7 @@ https://www.youtube.com/watch?v=EzmNeAhWqVs
 When Nanoseconds Matter: Ultrafast Trading Systems in C++ - David Gross - CppCon 2024
 https://www.youtube.com/watch?v=sX2nF1fW7kI
  
-------------------------------
+====================================
 
 -------------------------------------------------------------
 -------------------------------------------------------------
