@@ -231,6 +231,7 @@ https://www.youtube.com/watch?v=8uAW5FQtcvE&t=2794s
  
 What is Low Latency C++? (Part 1) - Timur Doumler - CppNow 2023
 https://www.youtube.com/watch?v=EzmNeAhWqVs
+https://www.youtube.com/watch?v=5uIsadq-nyk&t=16s
 
 When Nanoseconds Matter: Ultrafast Trading Systems in C++ - David Gross - CppCon 2024
 https://www.youtube.com/watch?v=sX2nF1fW7kI
