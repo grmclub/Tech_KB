@@ -1,0 +1,53 @@
+--------------------------------------------------------------------------------------
+##should know
+
+===============================================
+~~Latency related
+http://norvig.com/21-days.html#answers
+https://colin-scott.github.io/personal_website/research/interactive_latency.html
+https://www.forrestthewoods.com/blog/memory-bandwidth-napkin-math/
+https://news.ycombinator.com/item?id=30546995
+https://news.ycombinator.com/item?id=17908403
+===============================================
+--sys internals
+https://github.com/mtdvio/every-programmer-should-know
+http://c0de517e.blogspot.com/2014/06/stuff-that-every-programmer-should-know.html
+https://news.ycombinator.com/item?id=18881649
+https://matt.might.net/articles/what-cs-majors-should-know/
+https://blog.codingconfessions.com/p/gpu-computing
+
+https://robertovitillo.com/what-every-developer-should-know-about-tcp/
+https://news.ycombinator.com/item?id=23177607
+
+What every programmer should know about memory (2007) [pdf] (freebsd.org)
+https://news.ycombinator.com/item?id=36420502
+https://news.ycombinator.com/item?id=19302299
+===============================================
+--Programming
+What every systems programmer should know about lockless concurrency
+https://news.ycombinator.com/item?id=15607869
+
+https://web.archive.org/web/20030812081713/http://klausler.com/cnotes.txt
+https://catonmat.net/unix-utilities-pipe-viewer
+http://blog.llvm.org/2011/05/what-every-c-programmer-should-know_14.html
+===============================================
+--Misc
+https://www.michael-noll.com/blog/2020/01/16/what-every-software-engineer-should-know-about-apache-kafka-fundamentals/
+https://smallstep.com/blog/everything-pki/
+https://databasearchitects.blogspot.com/2021/06/what-every-programmer-should-know-about.html
+
+https://softwareengineering.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
+https://waitbutwhy.com/2016/03/sound.html
+
+https://highscalability.com/10-things-you-should-know-about-aws/
+
+===============================================
+
+
+
+
+-------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
