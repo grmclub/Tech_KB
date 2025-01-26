@@ -4,6 +4,7 @@
 ##CJ Repos
 https://www.youtube.com/@CodingJesus/videos
 https://github.com/Tzadiko
+https://github.com/Tzadiko/JaneStreetPuzzles
 https://github.com/Open-Markets-Initiative
 
 https://cppquiz.org/quiz/question/252
