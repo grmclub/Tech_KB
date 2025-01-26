@@ -1,0 +1,80 @@
+
+--------------------------------------------------------------------------------------
+===================================
+##CJ Repos
+https://www.youtube.com/@CodingJesus/videos
+https://github.com/Tzadiko
+https://github.com/Open-Markets-Initiative
+
+https://cppquiz.org/quiz/question/252
+https://www.cppstories.com/2024/cpp23_lang/
+
+C++ Hash Table Implementation
+https://www.youtube.com/watch?v=2_3fR-k-LzI
+C++ Max Heap Implementation
+https://www.youtube.com/watch?v=6jwj2WIRvTE
+===================================
+Risk management: prop trader vs day trader
+https://www.youtube.com/watch?v=8npDuULUvfE
+5 key quant trading risk metrics (explained by a quant developer)
+https://www.youtube.com/watch?v=I5wTsmUHttw
+
+Quant firms trade faster than you using this (Part 2)
+https://www.youtube.com/watch?v=l_ux_NCqC20
+https://www.youtube.com/@CodingJesus/videos
+
+===================================
+--------------------------------------------------------------------------------------
+===================================
+##cpp IQA
+*Four resources to ace any C++ interview (in quant trading)
+https://www.youtube.com/watch?v=_LDXOQF9Hjs
+
+Trading Systems Developer Guide: https://amzn.to/3XRO5ax
+Daily CPP Interview Guide: https://leanpub.com/cppinterview
+cppstories: https://www.cppstories.com/
+learncpp: learncpp.com
+
+*Top 3 resources to SMASH the C++ interview
+https://www.youtube.com/watch?v=-DMnHGG3NOU
+
+Resource 1: https://amzn.to/4h3bBcE
+Resource 2: cppquiz.org
+Resource 3: https://amzn.to/4gFoQQJ
+
+Quant dev candidate STUNS everyone | Call In 9
+https://www.youtube.com/watch?v=k8tg7gBgvOs
+===================================
+--------------------------------------------------------------------------------------
+##cpp Book references
+https://docs.google.com/spreadsheets/d/1EKx2EDRyNxdVoRrUljeKKdG0G-XeJiR9xMb4Xa-ernk/edit?gid=0#gid=0
+===================================
+* 5 books every C++ developer should read
+1. But how do it know?  - J. Clark Scott
+2. Design Patterns:  elements of reusable object-oriented software - Erich Gamma
+3. C++ Best practices - Jason Turner
+4. C++ 17 in detail - B. Filipek
+
+* Read these 5 books to break into quant trading as a software engineer
+TCP / IP Illustrated Volume 1: https://amzn.to/3WEG8G7
+Operating Systems Three Easy Pieces: https://amzn.to/3zZqEnz
+Inside the Machine: https://amzn.to/3WpBhrj
+Concurrency In Action: https://amzn.to/3Wlpavg
+C++ Software Design: https://amzn.to/3LLZbrK
+Beautiful C++: https://amzn.to/4c0fSe0
+
+* Everything you need to know to become a quant trader (top 5 books)
+https://www.youtube.com/watch?v=FuNTNDEUwkw&t=116s
+
+Option Volatility and Pricing by Sheldon Natenberg: https://amzn.to/3hqRglr
+Dynamic Hedging: https://amzn.to/2TVvgGr
+Frequently Asked Questions in Quantitative Finance (Second Edition) by Paul Wilmott: https://amzn.to/36rvg3E
+Python for Data Analysis: https://amzn.to/2T6F1Bm
+Introduction to Linear Algebra: https://amzn.to/3qXc47m
+Advances in Active Portfolio Management: https://amzn.to/3xwSfpX
+Technical Analysis is Mostly Bullshit: https://amzn.to/2TU3M41
+===================================
+
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
