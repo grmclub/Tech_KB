@@ -1,0 +1,148 @@
+LWN_KB_2025
+
+--------------------------------------------------------------------------------------
+## Authors
+https://lwn.net/Archives/
+
+—----------------------------
+Arjan van de Ven
+https://github.com/fenrus75?tab=repositories
+5 second boot achieved by Arjan de Ven and Auke Kok of Intel's Open Source Technology Center.
+https://lwn.net/Articles/299483/
+https://elinux.org/Boot_Time#Kernel_speedups
+—----------------------------
+
+https://lwn.net/Archives/GuestIndex/#Kerrisk_Michael
+https://lwn.net/Archives/GuestIndex/#Brown_Neil
+https://lwn.net/Kernel/Index/
+https://lwn.net/Archives/GuestIndex/#Drepper_Ulrich
+https://lwn.net/Archives/GuestIndex/#Drysdale_David
+https://lwn.net/Archives/GuestIndex/#Vetter_Daniel
+
+https://lwn.net/Archives/GuestIndex/#Fleming_Matt
+https://lwn.net/Archives/GuestIndex/#Garrett_Matthew
+https://lwn.net/Archives/GuestIndex/#Gorman_Mel
+https://lwn.net/Archives/GuestIndex/#Gregg_Brendan
+https://lwn.net/Archives/GuestIndex/#Hammel_Michael_J.
+https://lwn.net/Archives/GuestIndex/#McKenney_Paul_E.
+
+--------------------------------------------------------------------------------------
+##KB_Topics
+
+– Mel Gorman
+Huge pages part 1 (Introduction)
+https://lwn.net/Articles/374424/
+Huge pages part 2: Interfaces
+https://lwn.net/Articles/375096/
+Huge pages part 3: Administration
+https://lwn.net/Articles/376606/
+Huge pages part 4: benchmarking with huge pages
+https://lwn.net/Articles/378641/
+Huge pages part 5: A deeper look at TLBs and costs
+https://lwn.net/Articles/379748/
+
+–Drepper, Ulrich
+What every programmer should know about memory, Part 1
+https://lwn.net/Articles/250967/
+Memory part 2: CPU caches
+https://lwn.net/Articles/252125/
+Memory part 3: Virtual Memory
+https://lwn.net/Articles/253361/
+Memory part 4: NUMA support
+https://lwn.net/Articles/254445/
+Memory part 5: What programmers can do
+https://lwn.net/Articles/255364/
+Memory part 6: More things programmers can do
+https://lwn.net/Articles/256433/
+Memory part 7: Memory performance tools
+https://lwn.net/Articles/257209/
+Memory part 8: Future technologies
+https://lwn.net/Articles/258154/
+Memory part 9: Appendices and bibliography
+https://lwn.net/Articles/258188/
+
+Top-tier memory management
+https://lwn.net/Articles/857133/
+The design of preemptible read-copy-update
+https://lwn.net/Articles/253651/
+What is RCU, Fundamentally?
+https://lwn.net/Articles/262464/
+--------------------------------------------------------------------------------------
+##Kernel
+Linux kernel design patterns - part 1
+https://lwn.net/Articles/336224/
+Anatomy of a system call, part 1
+https://lwn.net/Articles/604287/
+Anatomy of a system call, part 2
+https://lwn.net/Articles/604515/
+How programs get run
+https://lwn.net/Articles/630727/
+How programs get run: ELF binaries
+https://lwn.net/Articles/631631/
+The bootstrap process on EFI systems
+https://lwn.net/Articles/632528/
+
+Understanding the new control groups API
+https://lwn.net/Articles/679786/
+A realtime developer's checklist
+https://lwn.net/Articles/628537/
+Ask a kernel developer: maintainer workflow
+https://lwn.net/Articles/512720/
+Special sections in Linux binaries
+https://lwn.net/Articles/531148/
+Implementing virtual system calls
+https://lwn.net/Articles/615809/
+A block layer introduction part 1: the bio layer
+https://lwn.net/Articles/736534/
+Atomic usage patterns in the kernel
+https://lwn.net/Articles/698315/
+Improvements in CPU frequency management
+https://lwn.net/Articles/682391/
+
+--------------------------------------------------------------------------------------
+--inotify
+Filesystem notification, part 1: An overview of dnotify and inotify
+https://lwn.net/Articles/604686/
+Filesystem notification, part 2: A deeper investigation of inotify
+https://lwn.net/Articles/605128/
+Filesystem notification series by Michael Kerrisk
+https://lwn.net/Articles/605313/
+Inotify support in FUSE and virtiofs
+https://lwn.net/Articles/874000/
+
+–nfs
+NFS: the new millennium
+https://lwn.net/Articles/898262/
+
+--------------------------------------------------------------------------------------
+
+##Misc
+The Boost C++ Libraries
+https://lwn.net/Articles/162941/
+One-stop performance analysis using atop
+https://lwn.net/Articles/387202/
+
+An introduction to lockless algorithms
+https://lwn.net/Articles/844224/
+
+A Repository with 44 Years of Unix Evolution
+https://www2.dmst.aueb.gr/dds/pubs/conf/2015-MSR-Unix-History/html/Spi15c.html
+Hugo: a static-site generator
+https://lwn.net/Articles/825507/
+
+--------------------------------------------------------------------------------------
+
+--lwn
+The state of the AWK
+https://lwn.net/Articles/820829/
+Using certificates for SSH authentication
+https://lwn.net/Articles/913971/
+Alternatives to SQL Databases
+https://lwn.net/Articles/328487/
+
+Plotting tools for Linux: gnuplot
+https://lwn.net/Articles/837019/
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
