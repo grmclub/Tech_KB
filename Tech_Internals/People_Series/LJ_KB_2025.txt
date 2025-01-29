@@ -1,8 +1,84 @@
 LJ_KB_2025
 
 https://www.linuxjournal.com/content/top-25-linuxjournalcom-articles-all-time-part-1
+https://www.linuxjournal.com/popular?%24Path=/&%24Version=1&quicktabs_1=2&page=8
 
+-------------------------------------------------------------
+–Networking
 
+------------------------
+--Dan Siemon
+https://www.linuxjournal.com/content/queueing-linux-network-stack
+https://www.coverfire.com/articles/queueing-in-the-linux-network-stack/
+https://www.coverfire.com/articles/
+https://www.coverfire.com/archives/2011/02/21/network-latency-experiments/
+
+--Jim Getty
+https://www.bufferbloat.net/projects/
+https://gettys.wordpress.com/
+
+--A.Rubini
+https://www.linux.it/~rubini/docs/
+
+------------------------
+--Dhaval Shah
+https://www.dhaval-shah.com/optimizing-linux-network-stack/
+https://www.dhaval-shah.com/linux-tools-4-analyzing-system-performance/
+https://www.dhaval-shah.com/understanding-jvm-memory-management/
+https://tungdam.medium.com/linux-network-ring-buffers-cea7ead0b8e8
+https://github.com/leandromoreira/linux-network-performance-parameters/blob/master/README.md
+
+--Brendan Gregg
+https://www.brendangregg.com/
+https://www.brendangregg.com/linuxperf.html
+https://www.brendangregg.com/perf.html
+https://www.brendangregg.com/usemethod.html
+
+--Julia Evans
+https://jvns.ca/categories/favorite/
+https://github.com/jvns/teeceepee/tree/master/teeceepee
+https://github.com/jvns/vimconfig/blob/master/vimrc
+https://github.com/jvns/fun-with-threads/blob/master/counter_with_atomics.c
+https://github.com/jvns/dotfiles
+https://github.com/jvns/talks-i-want-to-give
+
+https://jvns.ca/blog/2014/12/14/fun-with-threads/
+https://gist.github.com/jboner/2841832
+https://kamalmarhubi.com/blog/2015/06/01/a-list-of-linux-ipc-mechanisms/
+
+https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/
+https://blog.cloudflare.com/why-we-use-the-linux-kernels-tcp-stack/
+https://blog.cloudflare.com/how-to-achieve-low-latency/
+https://jvns.ca/blog/2013/12/22/cooking-with-pandas/
+
+https://levelup.gitconnected.com/network-optimization-and-documentation-essential-techniques-and-tools-for-network-efficiency-and-a76d0b4e2bf7
+
+------------------------
+https://www.linuxjournal.com/content/exploring-linux-network-protocols-better-packet-processing
+https://www.linuxjournal.com/content/userspace-networking-dpdk
+
+https://www.linuxjournal.com/content/unlocking-linux-networking-essential-insights-tcpip-dns-dhcp-and-routing
+https://www.linuxjournal.com/content/linux-advanced-routing-tutorial
+VLANs on Linux
+https://www.linuxjournal.com/article/7268
+
+Linux Network Programming, Part 1
+https://www.linuxjournal.com/article/2333
+
+-------------------------------------------------------------
+–SysInternals
+Introduction to Named Pipes
+https://www.linuxjournal.com/article/2156
+https://www.linuxjournal.com/content/using-named-pipes-fifos-bash
+https://www.linuxjournal.com/content/lock-free-multi-producer-multi-consumer-queue-ring-buffer
+https://www.linuxjournal.com/content/understanding-linux-filesystems-inodes-block-sizes-and-data-structures
+https://www.linuxjournal.com/content/linux-filesystem-events-inotify
+https://www.linuxjournal.com/content/core-knowledge-modern-linux-kernel-developer-should-have
+https://www.linuxjournal.com/content/what-does-it-take-make-kernel-0
+https://www.linuxjournal.com/content/mastering-core-guide-linux-kernel-customization
+https://www.linuxjournal.com/content/runlevels-and-boot-process-linux
+https://www.linuxjournal.com/content/diy-build-custom-minimal-linux-distribution-source
+-------------------------------------------------------------
 –scripting
 https://www.linuxjournal.com/content/how-use-linux-zip-command-compress-and-uncompress-files-quickly
 https://www.linuxjournal.com/content/downloading-entire-web-site-wget
@@ -16,7 +92,7 @@ https://www.linuxjournal.com/content/bash-associative-arrays
 https://phoenixnap.com/kb/bash-associative-array
 https://www.linuxjournal.com/content/unlocking-full-potential-linuxs-most-versatile-search-tool
 
-
+-------------------------------------------------------------
 –sysAdmin
 https://www.linuxjournal.com/content/how-build-resilience-linux-high-availability-clustering
 https://www.linuxjournal.com/content/haproxy-ubuntu-load-balancing-and-failover-resilient-infrastructure
@@ -33,36 +109,10 @@ https://www.linuxjournal.com/content/how-secure-your-website-openssl-and-ssl-cer
 https://www.linuxjournal.com/content/understanding-public-key-infrastructure-and-x509-certificates
 https://www.linuxjournal.com/content/how-linux-shapes-modern-cloud-computing
 
-
+-------------------------------------------------------------
 –Monitoring
 https://www.linuxjournal.com/content/how-monitor-ubuntu-server-prometheus-collecting-and-visualizing-system-metrics
 https://www.linuxjournal.com/content/linux-system-monitoring-prometheus-grafana-and-collectd
-
-–Networking
-https://www.linuxjournal.com/content/userspace-networking-dpdk
-https://www.linuxjournal.com/content/queueing-linux-network-stack
-https://www.linuxjournal.com/content/unlocking-linux-networking-essential-insights-tcpip-dns-dhcp-and-routing
-https://www.linuxjournal.com/content/linux-advanced-routing-tutorial
-VLANs on Linux
-https://www.linuxjournal.com/article/7268
-
-Linux Network Programming, Part 1
-https://www.linuxjournal.com/article/2333
-
-
-–SysInternals
-Introduction to Named Pipes
-https://www.linuxjournal.com/article/2156
-https://www.linuxjournal.com/content/using-named-pipes-fifos-bash
-https://www.linuxjournal.com/content/lock-free-multi-producer-multi-consumer-queue-ring-buffer
-https://www.linuxjournal.com/content/understanding-linux-filesystems-inodes-block-sizes-and-data-structures
-https://www.linuxjournal.com/content/linux-filesystem-events-inotify
-https://www.linuxjournal.com/content/core-knowledge-modern-linux-kernel-developer-should-have
-https://www.linuxjournal.com/content/what-does-it-take-make-kernel-0
-https://www.linuxjournal.com/content/mastering-core-guide-linux-kernel-customization
-https://www.linuxjournal.com/content/runlevels-and-boot-process-linux
-https://www.linuxjournal.com/content/diy-build-custom-minimal-linux-distribution-source
-
 
 –HW
 https://www.linuxjournal.com/content/data-flash-part-i-evolution-disk-storage-and-introduction-nvme
@@ -81,15 +131,16 @@ https://developers.redhat.com/articles/2024/12/20/our-top-application-developmen
 https://developers.redhat.com/articles/2024/11/13/red-hat-enterprise-linux-95-developers#red_hat_enterprise_linux_workloads
 https://developers.redhat.com/topics/c-plus-plus/all
 https://developers.redhat.com/topics/c/all
-
+-------------------------------------------------------------
 https://tip.golang.org/doc/go1.22
-https://www.linux.it/~rubini/docs/
-
 
 https://medium.com/@nick.ciubotariu/ace-the-coding-interview-every-time-d169ce1fd3fc
 https://www.cyberciti.biz/faq/how-to-install-gol-ang-on-ubuntu-linux/#google_vignette
 https://medium.com/javarevisited/10-best-linux-unix-and-system-programming-books-for-beginners-2fe750951c9f
 
-
-
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
 
