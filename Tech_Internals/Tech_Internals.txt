@@ -12,6 +12,10 @@
 -network protocols
 -network architecture
 --------------------------------------------------------------------------------------
+--Memory Management
+https://educatedguesswork.org/posts/memory-management-1/
+https://medium.com/@tom_84912/byte-queue-limits-the-unauthorized-biography-61adc5730b83
+
 --NVME Technology
 https://www.linuxjournal.com/content/data-flash-part-i-evolution-disk-storage-and-introduction-nvme
 https://www.linuxjournal.com/content/data-flash-part-iv-future-memory-technologies
