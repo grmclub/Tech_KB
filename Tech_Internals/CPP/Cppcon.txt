@@ -1,0 +1,50 @@
+https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+https://www.youtube.com/@CppCon/videos
+
+-------------------------------------------------------------
+CppCon_2025
+
+2025-01-20 - 2025-01-26
+
+The Beman Project: Bringing C++ Standard Libraries to the Next Level - David Sankel - https://youtu.be/f4JinCpcQOg
+
+How to Improve the Safety of C++ Code With a Quantities and Units Library - Mateusz Pusz - https://youtu.be/pPSdmrmMdjY
+
+Secrets of C++ Scripting Bindings: Bridging Compile Time and Run Time - Jason Turner - https://youtu.be/Ny9-516Gh28
+
+Back to Basics: Functional Programming and Monads in C++ - Jonathan Müller - https://youtu.be/-dXFmWXMrm0
+
+How to Design a Slimmer Vector of Variants in C++ - Christopher Fretz - https://youtu.be/VDoyQyMXdDU
+
+-------------------------------------------------------------
+CppCon 2024
+https://www.youtube.com/watch?v=as5Z45G59Ws&list=PLHTh1InhhwT6U7t1yP2K8AtTEKmcM3XU_
+CppCon 2023
+https://www.youtube.com/watch?v=I8UvQKvOSSw&list=PLHTh1InhhwT7gQEuYznhhvAYTel0qzl72
+CppCon 2022
+https://www.youtube.com/watch?v=ELeZAKCN4tY&list=PLHTh1InhhwT6c2JNtUiJkaH8YRqzhU7Ag
+CppCon 2021 - All Sessions
+https://www.youtube.com/watch?v=YoaZzIZFErI&list=PLHTh1InhhwT6bY4nS4p7f5b_754myC3ze
+CppCon 2020
+https://www.youtube.com/watch?v=ZAji7PkXaKY&list=PLHTh1InhhwT6VxYHtoWIvOup9gz0p95Qr
+CppCon 2020 Lightning Talks
+https://www.youtube.com/watch?v=aw2mQKXhgvU&list=PLHTh1InhhwT7bZ9bfG3pIR6VVjXLrrUoP
+CppCon 2019
+https://www.youtube.com/watch?v=u_ij0YNkFUs&list=PLHTh1InhhwT6KhvViwRiTR7I5s09dLCSw
+CppCon 2019 Back to Basics
+https://www.youtube.com/watch?v=32tDTD9UJCE&list=PLHTh1InhhwT4CTnVjJqnAKeMfGzOWjsRa
+CppCon 2018
+https://www.youtube.com/watch?v=HddFGPTAmtU&list=PLHTh1InhhwT6V9RVdFRoCG_Pm5udDxG1c
+CppCon 2017
+https://www.youtube.com/watch?v=fX2W3nNjJIo&list=PLHTh1InhhwT6bwIpRk0ZbCA0N2p1taxd6
+CppCon 2016
+https://www.youtube.com/watch?v=CPgxw1EzC54&list=PLHTh1InhhwT7J5jl4vAhO1WvGHUUFgUQH
+CppCon 2015
+https://www.youtube.com/watch?v=1OEu9C51K2A&list=PLHTh1InhhwT75gykhs7pqcR_uSiG601oh
+CppCon 2014
+https://www.youtube.com/watch?v=7P536lci5po&list=PLHTh1InhhwT7esTl1bRitiizeEnksGU7J
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
