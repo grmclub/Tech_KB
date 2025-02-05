@@ -42,6 +42,9 @@ https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition<br
 https://netflixtechblog.com/tagged/architecture<br/>
 https://dev.to/gbengelebs/netflix-system-design-backend-architecture-10i3<br/>
 https://netflix.github.io/<br/>
+https://netflixtechblog.com/
+https://research.netflix.com/research-area/analytics
+
 
 --others_1<br/>
 https://www.infoq.com/presentations/microservices-netflix-industry/<br/>
