@@ -39,6 +39,7 @@ https://www.brendangregg.com/
 https://www.brendangregg.com/linuxperf.html
 https://www.brendangregg.com/perf.html
 https://www.brendangregg.com/usemethod.html
+https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55
 
 --Julia Evans
 https://jvns.ca/categories/favorite/
