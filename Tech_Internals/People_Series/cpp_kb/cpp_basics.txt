@@ -34,6 +34,9 @@ https://leimao.github.io/blog/Argument-Parser-Getopt-C/
 https://gist.github.com/avances123/2406651
 https://gist.github.com/ashwin/d88184923c7161d368a9
 
+https://stackoverflow.com/questions/73550612/using-getopt-to-parse-command-line-options-and-their-arguments
+https://opensource.com/article/21/8/short-option-parsing-c
+
 -------------------------------------------------------------
 -------------------------------------------------------------
 -------------------------------------------------------------
