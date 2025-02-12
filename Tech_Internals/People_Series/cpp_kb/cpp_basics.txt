@@ -1,0 +1,45 @@
+
+-app template - csv tools
+-app template - socket app
+-app template - trading app
+-datalogging
+-monitoring
+- try sqllite as transaction journal
+- distributed replication
+
+-------------------------------------------------------------
+##cpp examples
+https://www.programiz.com/cpp-programming/examples
+https://www.w3schools.com/cpp/cpp_examples.asp
+https://www.geeksforgeeks.org/cpp-programming-examples/
+https://www.w3schools.com/cpp/cpp_vectors.asp
+
+https://codevisionz.com/cpp-code-examples/
+https://codevisionz.com/lessons/cpp-cheat-sheet-basics/
+https://github.com/sinairv/Cpp-Tutorial-Samples
+
+
+-------------------------------------------------------------
+https://www.learncpp.com/
+http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rp-waste
+https://www.sanfoundry.com/cpp-programs/
+
+-------------------------------------------------------------
+##Getopt
+https://www.gnu.org/software/libc/manual/html_node/Example-of-Getopt.html
+https://stackoverflow.com/questions/26900980/getopt-command-line-get-values-c
+https://leimao.github.io/blog/Argument-Parser-Getopt-C/
+
+
+https://gist.github.com/avances123/2406651
+https://gist.github.com/ashwin/d88184923c7161d368a9
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
+
