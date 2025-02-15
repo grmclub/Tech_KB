@@ -1,6 +1,11 @@
 https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 https://www.youtube.com/@CppCon/videos
 
+--cpp FAQ
+https://isocpp.org/faq
+https://www.parashift.com/c++-faq/
+
+
 -------------------------------------------------------------
 CppCon_2025
 
