@@ -1,0 +1,24 @@
+-------------------------------------------------------------
+##c/cpp 
+- undefined behaviour
+- quirky behaviour
+https://www.scaler.com/topics/cpp/origin-and-philosophy-of-cpp/
+https://github.com/Open-Markets-Initiative/low-latency-reference/tree/main/articles
+
+##CPP Undefined beaviour
+https://www.think-cell.com/en/career/devblog/cpp-needs-undefined-behavior-but-maybe-less#:~:text=The%20behavior%20of%20a%20C++,%2C%20unspecified%2C%20and%20undefined%20behavior.
+https://stackoverflow.com/questions/68789372/strange-behaviour-in-c-programming
+https://gist.github.com/fay59/5ccbe684e6e56a7df8815c3486568f01
+https://stackoverflow.com/questions/24780941/weird-behaviour-in-c
+https://stackoverflow.com/questions/67061856/strange-behaviour-in-c
+https://stackoverflow.com/questions/7670110/strange-gcc-behaviour
+https://stackoverflow.com/questions/40570626/declaration-in-if-statement-weird-behaviour-c
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
