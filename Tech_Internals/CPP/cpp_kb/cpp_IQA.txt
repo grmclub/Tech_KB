@@ -1,0 +1,141 @@
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+##CPP IQA
+https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
+https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading
+https://stackoverflow.com/questions/2391679/why-do-we-need-virtual-functions-in-c
+https://stackoverflow.com/questions/1143262/what-is-the-difference-between-const-int-const-int-const-and-int-const
+https://stackoverflow.com/questions/461203/when-to-use-virtual-destructors
+https://stackoverflow.com/questions/3279543/what-is-the-copy-and-swap-idiom
+
+-------------------------------------------------------------
+## IQA sample
+https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30/
+https://stackoverflow.com/questions/1398436/c-interview-testing-potential-candidates
+
+    1.Introduction
+    2.Question about recent project candidate worked on
+    3.Easy Programming Question
+    4.Pointer/Recursion Question
+    5.Are you satisfied?
+    6.Do you have any questions?
+
+
+-------------------------------------------------------------
+I've interviewed quite a lot of C++ developers, and over time I've found that it's not usually worth going into the detailed minutiae of the language. Now I primarily just want to make sure you understand general programming and OOP concepts, that you understand the fundamentals of the C++ language and that you know how to write decent modern C++ (you'd be surprised at the number of people I've interviewed who have 20+ years of C++ experience yet who have never heard of a unique_ptr or a vector because they've spent 20 years writing C with classes, or have spent a long time working at a company using some custom standard library replacement.)
+
+Generally I'll ask questions along the lines of:
+    Can you explain move semantics?
+    Can you describe what unique_ptr and shared_ptr are and when you would use them?
+    Can you name some of the standard library containers (vector, array, map etc.) and explain what uses each one has?
+    Have you heard of the rule of 5 and can you explain what it is?
+    Do you know what RAII is and can you explain it?
+    Are you aware of undefined behaviour, implementation defined behaviour and unspecified behaviour, and do you know the differences?
+    Do you actively try to keep up with developments in the language?
+But my favorite questions are more open ended. For example:
+    What are one or two things that you really like about the C++ language and why?
+    Similarly, what are two things you really dislike about the language and would change if you could?
+    Is there anything fundamental you think is still missing from the language or the standard library?
+    What other languages do you like and why?
+Then I'll usually ask more general questions about multi-threading, object oriented programming (e.g. inheritance vs. composition, polymorphism, class design), development practices such as unit testing and what constitutes testable, maintainable code, tools that you're familiar with (e.g. cmake) and so on.
+
+    compiler generated functions
+    move semantics
+    OOP concepts
+    game design patterns
+    threading
+    event dispatch
+    etc etc Also, Data structures and algos goes without saying.
+-------------------------------------------------------------
+I've already showed my "interview guide" here two or three times, probably need to suggest it as a pinned post.
+
+My point is, modern C++ is a conglomerate of barely intersecting subsets. Candidate must show non-zero knowledge on any of them. Depth of the knowledge varies from Junior to Senior Dev.
+
+    C-legacy subset of C++. Work with the basic types, memory, pointers, alignment. However, we also can put here references, rvalue references, new/delete, why not to use it in 99% of the code, memory managers, and other C++ specific, but low-level things, which could be considered belonging to this subset
+
+    OOP subset. Classes, inheritance, virtual functions, design patterns, and anti-patterns. Don’t forget the multiple and virtual inheritance. Patterns related to new C++14/17 features.
+
+    Template programming and metaprogramming subset. To claim “knowledge” you both should know how to apply metaprogramming template magic, and not to have a temptation to apply it in the human-readable code. C++20 concepts are optional.
+
+    The subset of Standard Library of C++. All these beautiful algorithms, containers, and iterators. Don’t forget new features like ranges and filesystem
+
+    Multithreading subset. Includes both lock-based and lock-free approach, atomics, async, future/promise etc. Common multithreading traps, from data race to ABA’ problem. Having a “multithreaded” type of mindset is necessary, if you work with modern architectures. Average CPU offers 4-12 cores on desktop, and 128-256 on server, know how to take advantage of these resources. GPU is optional.
+-------------------------------------------------------------
+OOP, C++11 (especially smart pointers) and design patterns (e.g. Gang of Four's ones) 
+Usually tricky questions in C and C++ are based on these topics:
+
+    Pointers
+    Memory management(malloc, calloc etc)
+    Polymorphism
+    Friend function in C++
+    Classes and OOPs in C++
+    struct and functions in C
+    Arrays
+    String manipulation
+    Constructors and destructors
+-------------------------------------------------------------
+Here are some tricky interview questions on C and C++ that can help assess a candidate's understanding of the languages:
+
+C Interview Questions
+
+    What is the difference between
+    - malloc() allocates uninitialized memory, while calloc() allocates memory and initializes it to zero.
+    Explain pointer arithmetic.
+    - Pointer arithmetic involves performing operations on pointers, such as incrementing or decrementing them, which moves the pointer by the size of the data type it points to.
+    What will happen if you free a pointer twice?
+    - Freeing a pointer twice can lead to undefined behavior, including program crashes or memory corruption.
+    What is a segmentation fault?
+    - A segmentation fault occurs when a program tries to access a memory location that it's not allowed to access.
+    How does the
+    - The const keyword makes a variable immutable, meaning its value cannot be changed after initialization. It can apply to pointers, function parameters, and more.
+
+C++ Interview Questions
+
+    What is the difference between
+    - The primary difference is that members of a struct are public by default, while members of a class are private by default.
+    Explain the concept of RAII (Resource Acquisition Is Initialization).
+    - RAII is a programming idiom where resource allocation is tied to object lifetime. Resources are acquired during object creation and released during destruction, helping manage memory and other resources automatically.
+    What are virtual destructors? Why are they important?
+    - A virtual destructor ensures that the destructor of the derived class is called when an object is deleted through a base class pointer. This is crucial for proper resource cleanup in polymorphic classes.
+    What is the difference between shallow copy and deep copy?
+    - A shallow copy copies the object's immediate values, while a deep copy duplicates all objects that are referenced, creating a complete independent copy.
+    Can you explain the concept of templates in C++?
+    - Templates allow functions and classes to operate with generic types, enabling code reusability and type safety without sacrificing performance.
+
+General Tricky Questions
+
+    What is the "diamond problem" in C++?
+    - The diamond problem occurs in multiple inheritance when a class inherits from two classes that both inherit from a common base class, leading to ambiguity in the base class's methods or attributes.
+    How do you handle exceptions in C++?
+    - Exceptions in C++ are handled using try, catch, and throw. You can throw exceptions when an error occurs and catch them in a safe manner to prevent crashes.
+    What is undefined behavior in C/C++?
+    - Undefined behavior occurs when the C or C++ standard does not prescribe any particular behavior for a given operation, leading to unpredictable results, which can include program crashes, incorrect results, or security vulnerabilities.
+    Explain the use of the
+    - The volatile keyword tells the compiler that a variable's value may be changed by something outside the current code flow (e.g., hardware or a separate thread), preventing the compiler from optimizing out accesses to that variable.
+    What is the purpose of
+    - The static keyword indicates that a variable retains its value between function calls, and for global variables, it limits their visibility to the file in which they are declared.
+
+These questions not only test knowledge of the languages but also critical thinking and problem-solving skills.
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
