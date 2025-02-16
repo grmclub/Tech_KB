@@ -1,12 +1,25 @@
-https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
-https://www.youtube.com/@CppCon/videos
-
 --cpp FAQ
 https://isocpp.org/faq
 https://www.parashift.com/c++-faq/
+https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+
+###########################################################
+##References
+https://en.cppreference.com/w/
+https://en.cppreference.com/w/cpp/header
+https://cplusplus.com/reference/stl/
+
+##Code_Repos
+https://github.com/AnthonyCalandra/modern-cpp-features
+https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md
+https://github.com/datawookie/awesome-public-datasets
 
 
 -------------------------------------------------------------
+##cppcon
+https://www.youtube.com/@CppCon/videos
+
+
 CppCon_2025
 
 2025-01-20 - 2025-01-26
