@@ -7,6 +7,29 @@
 - try sqllite as transaction journal
 - distributed replication
 
+
+=================================
+https://www.youtube.com/@bootdotdev/videos
+https://github.com/boostcon
+=================================
+https://www.youtube.com/@TsodingDaily/videos
+https://www.youtube.com/@CodingJesus/videos
+https://www.youtube.com/@elithecomputerguy/videos
+https://www.youtube.com/@MeetingCPP/videos
+https://blog.cloudflare.com/author/marek-majkowski/
+https://www.youtube.com/@aptrock327/videos
+
+--SW Design
+https://www.youtube.com/@AsliEngineering/videos
+
+Better Code: Runtime Polymorphism - Sean Parent
+https://www.youtube.com/watch?v=QGcVXgEVMJg&list=PLiWEEi8ezRkXoi4nJcPzyPlbXhnSA2VvB
+
+CppCon 2017: Louis Dionne “Runtime Polymorphism: Back to the Basics”
+https://www.youtube.com/watch?v=gVGtNFg4ay0
+=================================
+
+
 -------------------------------------------------------------
 ##cpp examples
 https://www.programiz.com/cpp-programming/examples
