@@ -1,0 +1,74 @@
+-------------------------------------------------------------
+--CodingJesus
+https://www.youtube.com/@CodingJesus/
+https://calendly.com/coding-jesus
+
+-------------------------------------------------------------
+##read these 5 books to break into quant trading as a software engineer
+
+TCP / IP Illustrated Volume 1: https://amzn.to/3WEG8G7
+Operating Systems Three Easy Pieces: https://amzn.to/3zZqEnz
+Inside the Machine: https://amzn.to/3WpBhrj
+Concurrency In Action: https://amzn.to/3Wlpavg
+C++ Software Design: https://amzn.to/3LLZbrK
+Beautiful C++: https://amzn.to/4c0fSe0
+
+Relevant Chapters: https://docs.google.com/spreadsheets/d/1EKx2EDRyNxdVoRrUljeKKdG0G-XeJiR9xMb4Xa-ernk/edit?gid=0#gid=0
+
+-------------------------------------------------------------
+##5 books every C++ developer should read
+
+1. But how do it know?  - J. Clark Scott
+2. Design Patterns:  elements of reusable object-oriented software - Erich Gamma
+3. C++ Best practices - Jason Turner
+4. C++ 17 in detail - B. Filipek
+5. C++ Concurrency in Action - Williams
+
+-------------------------------------------------------------
+##Everything you need to know to become a quant trader (in 2024) + sample interview problem
+
+Option Volatility and Pricing: https://amzn.to/3Wu4NNX
+Option Market Making: Trading and Risk Analysis for Financial and Commodity Option Markets: https://amzn.to/4b6IItq
+Python for Data Analysis: https://amzn.to/4a7iFRm
+Bayesian Statistics the Fun Way: https://amzn.to/3UtIzJB
+Inside the Black Box: A Simple Guide to Quantitative and High Frequency Trading: https://amzn.to/4b1Nmsx
+-------------------------------------------------------------
+##Intermediate cpp dev
+
+Modern C++ Programming Cookbook: Master Modern C++ with comprehensive solutions for C++23 and all previous standards 3rd ed. Edition
+by Marius Bancila : https://amzn.to/3PVgKI1
+
+Template Metaprogramming with C++: Learn everything about C++ templates and unlock the power of template metaprogramming
+by Marius Bancila 
+
+C++20 STL Cookbook: Leverage the latest features of the STL to solve real-world problems
+by Bill Weinman 
+
+Modern C++ for Absolute Beginners: A Friendly Introduction to the C++ Programming Language and C++11 to C++23 Standards 2nd ed. Edition
+by Slobodan Dmitrović 
+-------------------------------------------------------------
+##Everything you need to know to become a quant trader (top 5 books)
+
+Option Volatility and Pricing by Sheldon Natenberg: https://amzn.to/3hqRglr
+Dynamic Hedging: https://amzn.to/2TVvgGr
+Frequently Asked Questions in Quantitative Finance (Second Edition) by Paul Wilmott: https://amzn.to/36rvg3E
+Python for Data Analysis: https://amzn.to/2T6F1Bm
+Introduction to Linear Algebra: https://amzn.to/3qXc47m
+Advances in Active Portfolio Management: https://amzn.to/3xwSfpX
+Technical Analysis is Mostly Bullshit: https://amzn.to/2TU3M41
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
+
+
+
+
+
+
+
