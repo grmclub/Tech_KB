@@ -1,4 +1,31 @@
 -------------------------------------------------------------
+##Architecture
+--cpu       :  L1,L2, L3 caches, NUMA 
+--Memory    :  virtual memoey
+--OS        :  scheduling, mutex, spin_lock
+--Network   :  protocols, IPC(sockets, FIFO, Shared mem, Msg Queues), kernel bypass
+               -tcp_ip stack,tcp_ip states, path of a packet
+               -socket connector, acceptor, select, epoll
+			   -pcap extraction, filtering
+--compiler  : stages of compiling --linking --loading
+
+##cpp
+--Inheritance     : MI Diamond problem
+--Polymorphism    : vtable, virtual dispatch, Interfaces
+--Smart pointers
+--STL             : containers, algorithms, templates, concepts
+--multithreading
+--Dynamic memory allocation
+--Design Patterns : Singleton/Double check locking, Observer, Strategy, Factory
+--DSA             : locked queue, circular queue, lock free queue
+                    - sliding window 
+					- Throttling
+					- Multiplexing
+--Trading DSA     : LOB, Fix acceptor/connector, protocol decoder
+
+--cpp versions & features : standards related definations
+                            -undefined behaviour
+--external libraries      : boost
 
 -------------------------------------------------------------
 ##CPP IQA
