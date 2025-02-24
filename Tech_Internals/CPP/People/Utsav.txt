@@ -1,0 +1,76 @@
+
+
+https://www.amazon.com/shop/engineeringwithutsav
+-------------------------------------------------------------
+Books Every Software Engineer Should Read in 2025
+https://www.youtube.com/watch?v=Hc9HtESrvdM
+
+##DATA STRUCTURES & ALGORITHMS
+Grokking Algorithms (Beginner) - https://amzn.to/3D7MC9x
+Introduction to Algorithms (Intermediate/Advanced) - https://amzn.to/41olInp
+
+##DISTRIBUTED SYSTEMS
+Distributed Systems for Fun & Profit - https://book.mixu.net/distsys
+Understanding to Distributed System - https://amzn.to/3D6VBb2
+Designing Data Intensive Applications - https://amzn.to/3CZc6WD
+
+##MACHINE LEARNING
+Machine Learning (Non-technical) - https://amzn.to/41qSh4c
+100-Page Machine Learning Book - https://amzn.to/3X7P32X
+ML: The Art & Science of Algoritms that Make Sense of Data - https://amzn.to/4gWtnhm
+Deep Learning - https://amzn.to/3EJzpV0
+
+##DATA ENGINEERING
+Fundamentals of Data Engineering (Beginner) - https://amzn.to/4b9qcl0
+Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing (Intermediate) - https://amzn.to/3CZcmVB
+
+##DEVOPS/MLOPS
+The Pheonix Project - https://amzn.to/3EMJCA8
+Cloud Native DevOps w/ Kubernetes - https://amzn.to/3CMKdBh
+Designing ML Systems - https://amzn.to/3wA48zy
+Lean DevOps - https://amzn.to/42YxCpd
+
+##SOFTWARE ARCHITECTURE
+Software Architecture: The Hard Parts - https://amzn.to/3XTHQ4g
+Software Engineering at Google - https://amzn.to/4bKcCV6
+
+##CODING BEST PRACTICES
+Clean Code - https://amzn.to/3nHNtAC
+Clean Architecture - https://amzn.to/3kZ7UqR
+The Productive Programmer - https://amzn.to/33aMeSE
+
+##ENGINEERING MANAGEMENT
+Engineering Management for the Rest of Us - https://amzn.to/3JanteZ
+
+##ENTREPRENEURSHIP
+The Unfair Advantage - https://amzn.to/3CIBE6z
+The Lean Startup - https://amzn.to/3XpzMcx
+Act like a Leader, Think like a Leader - https://amzn.to/3NlyBGx
+
+##PRODUCTIVITY
+Atomic Habits - https://amzn.to/44kouJ3
+Deep Work - https://amzn.to/44jy8LZ
+The Productivity Project - https://amzn.to/3CLZEps
+How to Take Smart Notes - https://amzn.to/4b7R6JS
+Building a Second Brain - https://amzn.to/3qXegzU
+
+##FINANCE
+The Psychology of Money - https://amzn.to/3PprU97
+The 5 Types of Wealth - https://amzn.to/4k8wDss
+The Intelligent Investor - https://amzn.to/3CI5dFB
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
