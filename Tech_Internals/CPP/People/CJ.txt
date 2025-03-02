@@ -8,6 +8,9 @@ https://github.com/Open-Markets-Initiative
 https://github.com/Open-Markets-Initiative/low-latency-reference
 
 ## CJ resources
+https://www.youtube.com/@CodingJesus/
+https://calendly.com/coding-jesus
+
 https://www.learncpp.com/
 https://cppquiz.org/quiz/question/252
 
@@ -24,6 +27,41 @@ Resource 3: https://amzn.to/4gFoQQJ
 "Four resources to ace any C++ interview (in quant trading)
 https://www.youtube.com/watch?v=_LDXOQF9Hjs
 
+-------------------------------------------------------------
+##read these 5 books to break into quant trading as a software engineer
+
+TCP / IP Illustrated Volume 1: https://amzn.to/3WEG8G7
+Operating Systems Three Easy Pieces: https://amzn.to/3zZqEnz
+Inside the Machine: https://amzn.to/3WpBhrj
+Concurrency In Action: https://amzn.to/3Wlpavg
+C++ Software Design: https://amzn.to/3LLZbrK
+Beautiful C++: https://amzn.to/4c0fSe0
+
+Relevant Chapters: https://docs.google.com/spreadsheets/d/1EKx2EDRyNxdVoRrUljeKKdG0G-XeJiR9xMb4Xa-ernk/edit?gid=0#gid=0
+
+-------------------------------------------------------------
+##5 books every C++ developer should read
+
+1. But how do it know?  - J. Clark Scott
+2. Design Patterns:  elements of reusable object-oriented software - Erich Gamma
+3. C++ Best practices - Jason Turner
+4. C++ 17 in detail - B. Filipek
+5. C++ Concurrency in Action - Williams
+
+-------------------------------------------------------------
+##Intermediate cpp dev
+
+Modern C++ Programming Cookbook: Master Modern C++ with comprehensive solutions for C++23 and all previous standards 3rd ed. Edition
+by Marius Bancila : https://amzn.to/3PVgKI1
+
+Template Metaprogramming with C++: Learn everything about C++ templates and unlock the power of template metaprogramming
+by Marius Bancila 
+
+C++20 STL Cookbook: Leverage the latest features of the STL to solve real-world problems
+by Bill Weinman 
+
+Modern C++ for Absolute Beginners: A Friendly Introduction to the C++ Programming Language and C++11 to C++23 Standards 2nd ed. Edition
+by Slobodan Dmitrović 
 -------------------------------------------------------------
 ##SDE Resources
 ##Trading Systems Developer Guide: https://amzn.to/3XRO5ax
