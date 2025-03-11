@@ -1,0 +1,24 @@
+
+-------------------------------------------------------------
+What every programmer should know about memory, Part 1
+https://lwn.net/Articles/250967/
+https://people.freebsd.org/~lstewart/articles/cpumemory.pdf
+
+Notes From What Every Programmer Should Know About Memory
+https://nichijou.co/Memory/
+
+Analysis of 'What Every Programmer Should Know About Memory'
+https://samueleresca.net/analysis-of-what-every-programmer-should-know-about-memory/
+https://faculty.cs.niu.edu/~berezin/463/lec/bus/bus0e.html
+https://samueleresca.net/memory-management-optimizations-techniques/
+https://samueleresca.net/implementing-thread-state-analysis-methodology/
+-------------------------------------------------------------
+https://www.hudsonrivertrading.com/hrtbeat/low-latency-optimization-part-1/
+https://perfwiki.github.io/main/
+
+
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
