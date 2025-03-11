@@ -63,6 +63,15 @@ https://stackoverflow.com/questions/73550612/using-getopt-to-parse-command-line-
 https://opensource.com/article/21/8/short-option-parsing-c
 
 -------------------------------------------------------------
+##STL Algo
+https://algocademy.com/link/?problem=maximum-sum-subarray&lang=cpp
+
+##STL test
+https://www.w3schools.com/cpp/cpp_vectors.asp
+https://www.ibm.com/docs/en/zos/3.1.0?topic=files-cc-header
+
+
+
 -------------------------------------------------------------
 -------------------------------------------------------------
 -------------------------------------------------------------
