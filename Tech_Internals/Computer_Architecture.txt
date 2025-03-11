@@ -23,6 +23,10 @@ https://www.hudsonrivertrading.com/hrtbeat/low-latency-optimization-part-1/
 https://perfwiki.github.io/main/
 
 
+##Latency Quick Ref
+https://colin-scott.github.io/personal_website/research/interactive_latency.html
+https://gist.github.com/jboner/2841832
+
 
 -------------------------------------------------------------
 https://nichijou.co/MathFinance_Risk/
