@@ -44,6 +44,8 @@ https://lwn.net/Articles/379748/
 –Drepper, Ulrich
 What every programmer should know about memory, Part 1
 https://lwn.net/Articles/250967/
+https://people.freebsd.org/~lstewart/articles/cpumemory.pdf
+
 Memory part 2: CPU caches
 https://lwn.net/Articles/252125/
 Memory part 3: Virtual Memory
