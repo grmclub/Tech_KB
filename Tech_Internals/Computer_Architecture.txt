@@ -1,19 +1,26 @@
 
 -------------------------------------------------------------
-What every programmer should know about memory, Part 1
+##What every programmer should know about memory, Part 1
 https://lwn.net/Articles/250967/
 https://people.freebsd.org/~lstewart/articles/cpumemory.pdf
 
-Notes From What Every Programmer Should Know About Memory
+##Notes From What Every Programmer Should Know About Memory
 https://nichijou.co/Memory/
 
-Analysis of 'What Every Programmer Should Know About Memory'
+##Analysis of 'What Every Programmer Should Know About Memory'
 https://samueleresca.net/analysis-of-what-every-programmer-should-know-about-memory/
-https://faculty.cs.niu.edu/~berezin/463/lec/bus/bus0e.html
 https://samueleresca.net/memory-management-optimizations-techniques/
 https://samueleresca.net/implementing-thread-state-analysis-methodology/
 
+##Latency Quick Ref
 https://d2l.djl.ai/chapter_computational-performance/hardware.html
+https://colin-scott.github.io/personal_website/research/interactive_latency.html
+https://gist.github.com/jboner/2841832
+
+##Intel Motherboard Chipset
+https://faculty.cs.niu.edu/~berezin/463/lec/bus/bus0e.html
+
+
 https://cstaleem.com/types-of-computer-buses
 https://www.overclock.net/threads/north-and-south-bridge.1208541/
 https://www.pctechguide.com/chipsets/intels-triton-chipsets-explained-their-history-architecture-and-development
@@ -22,13 +29,12 @@ https://www.heelpbook.net/2012/motherboards/
 https://www.hudsonrivertrading.com/hrtbeat/low-latency-optimization-part-1/
 https://perfwiki.github.io/main/
 
-
-##Latency Quick Ref
-https://colin-scott.github.io/personal_website/research/interactive_latency.html
-https://gist.github.com/jboner/2841832
-
+##G10 HW specs
+https://www.hpe.com/psnow/doc/a00008180enw.html?jumpid=in_pdp-psnow-qs
+https://www.hpe.com/psnow/doc/a00008180enw
 
 -------------------------------------------------------------
+##Misc
 https://nichijou.co/MathFinance_Risk/
 
 
