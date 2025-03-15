@@ -20,10 +20,9 @@ https://gist.github.com/jboner/2841832
 ##Intel Motherboard Chipset
 https://faculty.cs.niu.edu/~berezin/463/lec/bus/bus0e.html
 
-
+https://www.pctechguide.com/chipsets/intels-triton-chipsets-explained-their-history-architecture-and-development
 https://cstaleem.com/types-of-computer-buses
 https://www.overclock.net/threads/north-and-south-bridge.1208541/
-https://www.pctechguide.com/chipsets/intels-triton-chipsets-explained-their-history-architecture-and-development
 https://www.heelpbook.net/2012/motherboards/
 -------------------------------------------------------------
 https://www.hudsonrivertrading.com/hrtbeat/low-latency-optimization-part-1/
