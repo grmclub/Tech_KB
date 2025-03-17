@@ -15,6 +15,11 @@ https://stackoverflow.com/questions/7670110/strange-gcc-behaviour
 https://stackoverflow.com/questions/40570626/declaration-in-if-statement-weird-behaviour-c
 
 -------------------------------------------------------------
+A Guide to Undefined Behavior in C and C++, Part 1
+https://blog.regehr.org/archives/213
+https://blog.regehr.org/archives/226
+https://blog.regehr.org/archives/232
+
 -------------------------------------------------------------
 -------------------------------------------------------------
 -------------------------------------------------------------
