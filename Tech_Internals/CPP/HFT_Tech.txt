@@ -10,6 +10,7 @@ https://rigtorp.se/low-latency-guide/
 ##Sub_micro_sec_trading
 https://github.com/Richard-Rose/SubMicroTrading
 https://submicro.blogspot.com/2015/04/intro.html
+https://github.com/simondevenish/SubZero
 
 ##DSA
 https://github.com/leannejdong/dsa-hft/blob/main/README.md
@@ -17,6 +18,11 @@ https://github.com/leannejdong/Design-Patterns
 https://github.com/leannejdong/webfilter/blob/main/lockfree.md
 
 -------------------------------------------------------------
+##trading tools
+https://github.com/Open-Markets-Initiative
+https://github.com/GDhir/Ouch_Network_Parser
+https://github.com/lucylow/Martha_Stewart
+
 https://github.com/matiaslindgren/hft-risk-server
 https://github.com/muditbhargava66
 
@@ -32,6 +38,7 @@ https://github.com/rigtorp/libpcap
 https://github.com/rigtorp/quickfix
 
 -------------------------------------------------------------
+##Algo tools
 https://github.com/reshinto/cpp_utilities/blob/main/load_environment/main.cpp
 
 https://github.com/lucylow/Martha_Stewart
@@ -42,8 +49,6 @@ https://github.com/ranjan2829/Live-High-Frequency-Trading-Exchange-Engine
 https://hangukquant.github.io/hft/hft/
 https://github.com/pedrosfaria2/python_drop_copy
 https://github.com/Jayasuryan0821/AlgoTrading-on-Kite
-https://github.com/simondevenish/SubZero
-https://github.com/auth12/open_fix
 
 ##LOB_Collection
 https://github.com/YukunJ/LimitOrderBook
@@ -51,8 +56,9 @@ https://github.com/blaahhrrgg/limit-order-book
 https://github.com/allan7yin/low-latency-limit-order-book
 
 -------------------------------------------------------------
-
-
+##Fix tools
+https://github.com/auth12/open_fix
+https://github.com/rigtorp/quickfix
 
 -------------------------------------------------------------
 
