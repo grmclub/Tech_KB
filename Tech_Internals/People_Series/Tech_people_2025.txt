@@ -1,0 +1,126 @@
+
+-------------------------------------------------------------
+--Vic Hargrave 
+https://github.com/vichargrave?tab=repositories
+https://vichargrave.github.io/projects/
+https://vichargrave.github.io/year-archive/
+
+--M.Tim Jones
+https://github.com/mtimjones?tab=repositories
+https://developer.ibm.com/search/?q=m+tim+jones
+
+--text processing
+https://developer.ibm.com/tutorials/ba-cleanse-process-visualize-data-set-1/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=20
+https://developer.ibm.com/tutorials/l-lpic1-103-2/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=127
+https://developer.ibm.com/tutorials/au-vitips/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=160
+https://developer.ibm.com/articles/au-unixtext/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=69
+
+--------
+--Linux
+https://developer.ibm.com/articles/l-linux-kernel/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=24
+https://developer.ibm.com/articles/l-config/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=147
+
+--------
+
+--Arpan Sen
+https://developer.ibm.com/tutorials/au-memorymanager/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=188
+
+
+--IBM Devworks
+
+--ai_ml
+https://developer.ibm.com/articles/introduction-to-machine-learning/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=70
+https://developer.ibm.com/articles/l-neural/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=75
+https://developer.ibm.com/articles/awb-ai-agents-introduction/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=89
+
+--systems
+https://developer.ibm.com/articles/iot-mqtt-why-good-for-iot/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=80
+https://developer.ibm.com/articles/au-aix7networkoptimize1/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=82
+https://developer.ibm.com/articles/au-aix7memoryoptimize2/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=83
+https://developer.ibm.com/tutorials/l-ubuntu-inotify/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=101
+
+--tools
+https://developer.ibm.com/articles/server-unavailable-custom-php-script/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=87
+https://developer.ibm.com/articles/au-endianc/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=105
+https://developer.ibm.com/tutorials/l-glib/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=182
+
+--python
+https://developer.ibm.com/articles/python-overview-and-basics/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=141
+https://developer.ibm.com/tutorials/awb-tokenizing-text-in-python/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=157
+
+--containers
+https://developer.ibm.com/tutorials/linux-basics-and-commands/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=166
+
+--se
+https://developer.ibm.com/blogs/awb-best-practices-it-operations-aiops-ibm-z/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=34
+https://developer.ibm.com/articles/accessibility-101-for-web-gui-developers/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=142
+https://developer.ibm.com/articles/policy-as-code-ansible-automation-engine-and-open-policy-agent/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=37
+https://developer.ibm.com/articles/wa-html5webapp/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=156
+https://developer.ibm.com/tutorials/java-theory-and-practice-1/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=181
+
+
+-------------------------------------------------------------
+
+------------------------
+--Dan Siemon
+https://www.linuxjournal.com/content/queueing-linux-network-stack
+https://www.coverfire.com/articles/queueing-in-the-linux-network-stack/
+https://www.coverfire.com/articles/
+https://www.coverfire.com/archives/2011/02/21/network-latency-experiments/
+
+--Jim Gettys
+https://www.bufferbloat.net/projects/
+https://gettys.wordpress.com/
+
+--A.Rubini
+https://www.linux.it/~rubini/docs/
+
+--Gustavo Duarte
+https://manybutfinite.com/category/linux/
+https://wxdublin.gitbooks.io/deep-into-linux-and-beyond/content/scheduler-internals.html
+https://manybutfinite.com/post/how-computers-boot-up/
+
+
+------------------------
+--Dhaval Shah
+https://www.dhaval-shah.com/optimizing-linux-network-stack/
+https://www.dhaval-shah.com/linux-tools-4-analyzing-system-performance/
+https://www.dhaval-shah.com/understanding-jvm-memory-management/
+https://tungdam.medium.com/linux-network-ring-buffers-cea7ead0b8e8
+https://github.com/leandromoreira/linux-network-performance-parameters/blob/master/README.md
+
+--Brendan Gregg
+https://www.brendangregg.com/
+https://www.brendangregg.com/linuxperf.html
+https://www.brendangregg.com/perf.html
+https://www.brendangregg.com/usemethod.html
+https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55
+
+--Julia Evans
+https://jvns.ca/categories/favorite/
+https://github.com/jvns/teeceepee/tree/master/teeceepee
+https://github.com/jvns/vimconfig/blob/master/vimrc
+https://github.com/jvns/fun-with-threads/blob/master/counter_with_atomics.c
+https://github.com/jvns/dotfiles
+https://github.com/jvns/talks-i-want-to-give
+
+https://jvns.ca/blog/2014/12/14/fun-with-threads/
+https://gist.github.com/jboner/2841832
+https://kamalmarhubi.com/blog/2015/06/01/a-list-of-linux-ipc-mechanisms/
+
+https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/
+https://blog.cloudflare.com/why-we-use-the-linux-kernels-tcp-stack/
+https://blog.cloudflare.com/how-to-achieve-low-latency/
+https://jvns.ca/blog/2013/12/22/cooking-with-pandas/
+
+https://levelup.gitconnected.com/network-optimization-and-documentation-essential-techniques-and-tools-for-network-efficiency-and-a76d0b4e2bf7
+
+------------------------
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
