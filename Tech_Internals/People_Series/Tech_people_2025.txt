@@ -8,6 +8,7 @@ https://vichargrave.github.io/year-archive/
 --M.Tim Jones
 https://github.com/mtimjones?tab=repositories
 https://developer.ibm.com/search/?q=m+tim+jones
+https://developer.ibm.com/articles/os-developers-know-rust/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=1
 
 --text processing
 https://developer.ibm.com/tutorials/ba-cleanse-process-visualize-data-set-1/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=20
@@ -20,6 +21,19 @@ https://developer.ibm.com/articles/au-unixtext/?mhsrc=ibmsearch_a&mhq=m%20tim%20
 https://developer.ibm.com/articles/l-linux-kernel/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=24
 https://developer.ibm.com/articles/l-config/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=147
 
+https://developer.ibm.com/tutorials/l-timers-list/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=5
+https://developer.ibm.com/tutorials/l-tasklets/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=29
+https://developer.ibm.com/tutorials/l-linux-process-management/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=9
+https://developer.ibm.com/tutorials/l-completely-fair-scheduler/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=10
+https://developer.ibm.com/articles/l-kernel-memory-access/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=12
+https://developer.ibm.com/tutorials/l-network-filesystems/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=18
+https://developer.ibm.com/tutorials/l-linux-filesystem/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=21
+https://developer.ibm.com/tutorials/l-dynamic-libraries/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=20
+https://developer.ibm.com/articles/l-initrd/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=22
+
+https://developer.ibm.com/articles/l-async/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=28
+https://developer.ibm.com/tutorials/l-pci-passthrough/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=6
+https://developer.ibm.com/articles/cl-cloudstorage/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=0
 --------
 
 --Arpan Sen
@@ -32,6 +46,8 @@ https://developer.ibm.com/tutorials/au-memorymanager/?mhsrc=ibmsearch_a&mhq=m%20
 https://developer.ibm.com/articles/introduction-to-machine-learning/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=70
 https://developer.ibm.com/articles/l-neural/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=75
 https://developer.ibm.com/articles/awb-ai-agents-introduction/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=89
+https://developer.ibm.com/articles/a-beginners-guide-to-natural-language-processing/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=13
+https://developer.ibm.com/articles/cc-beginner-guide-machine-learning-ai-cognitive/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=2
 
 --systems
 https://developer.ibm.com/articles/iot-mqtt-why-good-for-iot/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=80
@@ -50,6 +66,7 @@ https://developer.ibm.com/tutorials/awb-tokenizing-text-in-python/?mhsrc=ibmsear
 
 --containers
 https://developer.ibm.com/tutorials/linux-basics-and-commands/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=166
+https://developer.ibm.com/learningpaths/kubernetes-learning-path/
 
 --se
 https://developer.ibm.com/blogs/awb-best-practices-it-operations-aiops-ibm-z/?mhsrc=ibmsearch_a&mhq=m%20tim%20jones&mhp=34
