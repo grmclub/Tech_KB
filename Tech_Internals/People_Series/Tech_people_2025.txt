@@ -1,5 +1,13 @@
 
 -------------------------------------------------------------
+--Rob Tougher
+Linux Socket Programming In C++
+https://tldp.org/LDP/LG/issue74/tougher.html
+A Framework For Writing Application Servers In C++
+https://tldp.org/LDP/LG/issue79/tougher.html
+Creating Reusable Software Libraries
+https://linuxgazette.net/issue81/tougher.html
+
 --Vic Hargrave 
 https://github.com/vichargrave?tab=repositories
 https://vichargrave.github.io/projects/
