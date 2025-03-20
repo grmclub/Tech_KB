@@ -1,0 +1,46 @@
+
+
+https://www.sandordargo.com/blog/2025/03/19/cpp26-deprecate-remove-library-features
+
+In defense of linked lists
+https://antirez.com/news/138
+
+https://medium.com/@martin00001313/advanced-c-optimization-techniques-for-high-performance-applications-part-1-55aba61b4dad
+https://johnfarrier.com/c-performance-checklist-for-low-latency-systems/
+https://medium.com/@martin00001313/test-your-knowledge-of-c-memory-model-b9dc7b4b105c
+
+-------------------------------------------------------------
+--Stoustroup
+https://www.stroustrup.com/
+https://thenewstack.io/bjarne-stroustrup-on-how-he-sees-c-evolving/
+https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3586r0.html
+https://mesutoezdil.medium.com/the-evolution-and-impact-of-c-bjarne-stroustrups-advice-f7cac9c500ef
+https://cacm.acm.org/blogcacm/21st-century-c/
+
+
+--Stephanov
+https://www.stepanovpapers.com/
+https://izaron.github.io/posts/stepanov-stl/
+
+--Nicolai M. Josuttis
+https://www.cppstdlib.com/
+https://www.josuttis.com/
+https://cppstd20.com/
+
+-------------------------------------------------------------
+--Sylvain Tiset
+https://medium.com/@sylvain.tiset
+https://medium.com/@sylvain.tiset/master-these-algorithms-to-become-a-super-developer-dd90c3f6f5c5
+https://medium.com/@sylvain.tiset/a-masterclass-on-data-structures-70caefe54391
+https://medium.com/@sylvain.tiset/unlimited-knowledge-on-rate-limiters-76dffdc28ab5
+https://medium.com/@sylvain.tiset/35-laws-and-principles-in-software-development-531adeec9af1
+
+
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
