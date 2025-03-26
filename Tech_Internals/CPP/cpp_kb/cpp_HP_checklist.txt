@@ -18,9 +18,13 @@ https://johnfarrier.com/unlocking-the-power-of-stdhash-in-c-programming/
 
 -------------------------------------------------------------
 https://undercodetesting.com/c-performance-checklist-for-low-latency-systems/
+
+--David Gross/Optiver
 https://david-grs.github.io/low_latency_presentation/#/10
 https://github.com/david-grs?tab=repositories
 https://github.com/david-grs/talk-lowlatencycpp/blob/master/index.html
+Trading at light speed: designing low latency systems in C++ - David Gross - Meeting C++ 2022
+https://www.youtube.com/watch?v=8uAW5FQtcvE
 
 
 --Stacy Gaudreau
@@ -28,6 +32,27 @@ https://stacygaudreau.com/blog/cpp/low-latency-cpp-for-hft-part1/
 https://stacygaudreau.com/blog/cpp/low-latency-cpp-for-hft-part2/
 https://stacygaudreau.com/blog/cpp/low-latency-cpp-for-hft-part3-network-programming/
 https://github.com/PacktPublishing/Building-Low-Latency-Applications-with-CPP
+
+
+--Medium
+https://medium.com/@jayantanand00/enhancing-c-c-performance-strategies-for-low-latency-and-high-efficiency-coding-003d6e92f29e
+
+--Misc
+https://github.com/lkimuk/cpp-resources/blob/main/2024/articles/250311.md
+https://github.com/morganstanley/Xpedite
+
+https://github.com/odygrd/quill
+https://github.com/lyndskg/networking-sans-latency
+https://github.com/0burak/imperial_hft
+C++ Design Patterns for Low-latency Applications Including High-frequency Trading - Cornell
+https://arxiv.org/abs/2309.04259
+https://arxiv.org/pdf/2309.04259
+
+https://github.com/kungfu-origin/kungfu
+https://roq-trading.com/
+https://github.com/aspone/OrderBook
+https://hackaday.com/2024/07/13/c-design-patterns-for-low-latency-applications/
+
 
 -------------------------------------------------------------
 -------------------------------------------------------------
