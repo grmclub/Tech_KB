@@ -103,6 +103,7 @@ https://github.com/diracdeltas/FastestWebsiteEver
 ##Optivar tech
 https://optiver.com/insights/how-japans-settlement-price-methodology-impacts-option-expiry/
 https://optiver.com/insights/a-uniform-approach-to-corporate-actions/
+https://x.com/optiverglobal
 
 ===============================
 ##JS Tech
