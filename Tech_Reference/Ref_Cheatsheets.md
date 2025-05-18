@@ -24,6 +24,12 @@ https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%
 https://github.com/datawookie/awesome-public-datasets<br/>
 
 
+#### JS
+https://htmlcheatsheet.com/js/
+https://www.geeksforgeeks.org/javascript-cheat-sheet-a-basic-guide-to-javascript/?
+https://www.javascriptcheatsheet.org/
+
+
 #### Python
 https://overapi.com/python<br/>
 
