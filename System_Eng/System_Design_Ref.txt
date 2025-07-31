@@ -2,6 +2,9 @@
 https://rspacesamuel.medium.com/design-patterns-every-data-engineer-should-know-f6c48cd73592
 https://www.eckerson.com/articles/data-pipeline-design-patterns
 https://github.com/Sourav692/data-engineering-interview-questions
+
+
+https://github.com/jarulraj/periodic-table
 -------------------------------------------------------------
 
 System Design Flow 
