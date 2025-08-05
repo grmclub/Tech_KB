@@ -36,6 +36,26 @@ https://medium.com/@weidagang/linux-beyond-the-basics-numa-53b32ff60d6f#:~:text=
 Linux Kernel Performance on NUMA Systems 
 https://www.youtube.com/watch?v=f4IadLD6My4
 
+------
+https://mecha-mind.medium.com/demystifying-cpu-caches-with-examples-810534628d71
+https://igoro.com/archive/gallery-of-processor-cache-effects/
+
+What every programmer should know about memory, Part 1
+https://lwn.net/Articles/250967/
+
+code::dive conference 2014 - Scott Meyers: Cpu Caches and Why You Care
+https://www.youtube.com/watch?v=WDIkqP4JbkE
+
+https://www.reddit.com/r/C_Programming/comments/oftqg4/anyone_have_a_good_textbook_reference_on_memory/
+
+##MIT 6.046J Design and Analysis of Algorithms, Spring 2015
+https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
+
+-------
+https://wwang.github.io/teaching/slides/Comp_Arch/Caches.pdf
+https://www.nm.ifi.lmu.de/pub/Diplomarbeiten/hilc24/PDF-Version/hilc24.pdf
+
+
 --------------------------------------------------------------------------------------
 ##Cache Internals
 How CPU Memory & Caches Work - Computerphile
