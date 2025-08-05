@@ -92,6 +92,14 @@ https://www.youtube.com/watch?v=0TLDTodL7Lc
 Understanding Compiler Optimization
 https://www.youtube.com/watch?v=KnkZ18m5u9I
 
+How CPU Memory & Caches Work - Computerphile
+https://www.youtube.com/watch?v=SAk-6gVkio0
+
+What is CUDA? - Computerphile
+https://www.youtube.com/watch?v=K9anz4aB0S0
+
+Coding a Web Server in 25 Lines - Computerphile
+https://www.youtube.com/watch?v=7GBlCinu9yg&t=934s
 
 
 --------------------------------------------------------------------------------------
