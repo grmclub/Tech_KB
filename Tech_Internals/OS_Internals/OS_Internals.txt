@@ -1,0 +1,87 @@
+====================
+https://www.youtube.com/@DevConfs/videos
+https://www.youtube.com/@Computerphile/videos
+https://www.youtube.com/@BitLemonSoftware/videos
+
+====================
+
+--------------------------------------------------------------------------------------
+1. Checking NUMA Configuration:
+
+numactl --hardware: Displays information about available NUMA nodes, their associated CPUs, and memory capacity, according to LabEx. 
+
+lscpu: Provides a comprehensive overview of CPU and NUMA node details. 
+`/proc/PID/numa_maps`: Shows the NUMA node mapping of a process's virtual memory
+
+
+
+2. NUMA Configuration Tools and Techniques:
+    numactl:
+    This command-line tool allows you to bind processes to specific NUMA nodes, set memory policies, and manage memory allocation across nodes. 
+
+Kernel Parameters:
+Kernel command-line parameters like numa=off can disable NUMA awareness, while numa_balancing enables or disables NUMA balancing. 
+hwloc:
+A library for discovering and representing the topology of hardware resources, including NUMA nodes. 
+System Calls:
+System calls like set_mempolicy allow you to set memory policies for specific processes or regions of memory. 
+dmesg:
+Can be used to query the kernel ring buffer for NUMA configuration details
+
+##numa node optimization
+https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/virtualization_tuning_and_optimization_guide/chap-virtualization_tuning_optimization_guide-numa
+
+https://medium.com/@weidagang/linux-beyond-the-basics-numa-53b32ff60d6f#:~:text=Additional%20NUMA%20Interfaces%20Besides%20system%20calls%20and,resources%2C%20including%20NUMA%20nodes%2C%20processors%2C%20and%20caches.
+
+Linux Kernel Performance on NUMA Systems 
+https://www.youtube.com/watch?v=f4IadLD6My4
+
+--------------------------------------------------------------------------------------
+##Cache Internals
+How CPU Memory & Caches Work - Computerphile
+https://www.youtube.com/watch?v=SAk-6gVkio0
+
+How Cache Works Inside a CPU
+https://www.youtube.com/watch?v=zF4VMombo7U
+https://www.youtube.com/watch?v=zF4VMombo7U&list=PL38NNHQLqJqYnNrTenxBvGJSPCkV9EOWk
+
+Cache Replacement Policies (LRU, Tree-pLRU, MRU, QLRU, FIFO, LFU, Random and more)
+https://www.youtube.com/watch?v=P_UYI23DddU
+
+CPU Cache Write Policies (Write Through, Write Back, Write Allocate, No Write Allocate)
+https://www.youtube.com/watch?v=wfVy85Dqiyc
+
+Cache Hierarchy: How Modern CPU Caches Are Organized (L1, L2 and L3) 
+https://www.youtube.com/watch?v=7yrK_9PderQ
+
+Beginner's Guide to CPU Caches
+
+
+--------------------------------------------------------------------------------------
+##misc Topics
+
+DMA Controller: How Peripheral Devices Transfer Data to RAM
+https://www.youtube.com/watch?v=s8RGHggL7ws
+
+Why Programs Use Stack, Heap, and Other Memory Segments
+https://www.youtube.com/watch?v=EXIxAPITb7U
+
+Transport Layer Security (TLS) - Computerphile
+https://www.youtube.com/watch?v=0TLDTodL7Lc
+
+Understanding Compiler Optimization
+https://www.youtube.com/watch?v=KnkZ18m5u9I
+
+
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+
+
+
+
