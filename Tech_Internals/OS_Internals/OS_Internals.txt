@@ -5,7 +5,22 @@ https://www.youtube.com/@BitLemonSoftware/videos
 
 ====================
 
---------------------------------------------------------------------------------------
+-----------------------------------
+##numactl
+
+https://frankdenneman.nl/2016/07/07/numa-deep-dive-part-1-uma-numa/
+
+https://queue.acm.org/detail.cfm?id=2513149
+
+https://queue.acm.org/detail.cfm?id=2852078
+
+https://frankdenneman.nl/2010/02/03/sizing-vms-and-numa-nodes/
+
+https://thenewstack.io/internode-cache-thrashing-hunting-a-numa-performance-bug/
+https://www.phoronix.com/news/Linux-6.16-NUMA-Task-Stats
+
+
+---------------------------------------------------
 1. Checking NUMA Configuration:
 
 numactl --hardware: Displays information about available NUMA nodes, their associated CPUs, and memory capacity, according to LabEx. 
