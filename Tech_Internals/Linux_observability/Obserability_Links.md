@@ -21,10 +21,10 @@ https://www.linuxjournal.com/content/stay-ahead-game-essential-tools-and-techniq
 	The four golden signals are the most valuable metrics for any service that exposes an interface,
 	whether that interface is used by other services or by end users.
 	
-    Latency -- How long it takes to handle or service a request against the interface
+    Latency          -- How long it takes to handle or service a request against the interface
     Calls or traffic -- Volume of traffic against the interface, such as requests per second
-    Errors -- Rate at which requests against the interface result in an error
-    Saturation -- Current utilization of the service, typically as a percentage of its total capacity
+    Errors           -- Rate at which requests against the interface result in an error
+    Saturation       -- Current utilization of the service, typically as a percentage of its total capacity
 
 
 \--------------------------------------------------------------------------------------
