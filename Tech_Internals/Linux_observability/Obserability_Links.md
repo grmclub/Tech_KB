@@ -1,4 +1,4 @@
-##Linux for Automation: Scripts and Services
+## Linux for Automation: Scripts and Services
 
 Linux tools to rely on for scheduling and automating tasks:
 
@@ -8,14 +8,14 @@ Linux tools to rely on for scheduling and automating tasks:
     inotify: React to file changes (e.g., log monitoring)
 \--------------------------------------------------------------------------------------
 
-####Linux Performance monitoring
-https://www.linuxjournal.com/content/linux-system-performance-tuning-optimizing-cpu-memory-and-disk
-https://www.linuxjournal.com/content/stay-ahead-game-essential-tools-and-techniques-linux-server-monitoring
+#### Linux Performance monitoring
+https://www.linuxjournal.com/content/linux-system-performance-tuning-optimizing-cpu-memory-and-disk  <br/>
+https://www.linuxjournal.com/content/stay-ahead-game-essential-tools-and-techniques-linux-server-monitoring   <br/>
 
-https://www.linuxjournal.com/content/linux-memory-management-understanding-page-tables-swapping-and-memory-allocation
-https://www.linuxjournal.com/content/boost-your-linux-system-exploring-art-and-science-performance-optimization
-https://www.linuxjournal.com/content/linux-performance-monitoring-using-tools-top-vmstat-and-iostat
-https://www.linuxjournal.com/content/system-performance-monitoring-and-tuning-guide
+https://www.linuxjournal.com/content/linux-memory-management-understanding-page-tables-swapping-and-memory-allocation   <br/>
+https://www.linuxjournal.com/content/boost-your-linux-system-exploring-art-and-science-performance-optimization    <br/>
+https://www.linuxjournal.com/content/linux-performance-monitoring-using-tools-top-vmstat-and-iostat    <br/>
+https://www.linuxjournal.com/content/system-performance-monitoring-and-tuning-guide    <br/>
 \--------------------------------------------------------------------------------------
 
 
