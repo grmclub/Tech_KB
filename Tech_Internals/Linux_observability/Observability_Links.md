@@ -55,7 +55,7 @@ https://www.linuxjournal.com/content/unlocking-linux-networking-essential-insigh
 https://www.linuxjournal.com/content/linux-networking-simplified-guide-ip-addresses-and-routing  <br/>
 https://www.linuxjournal.com/content/tcp-analysis-wireshark  <br/>
 
--- Dan Siemon
+-- Dan Siemon <br/>
 https://www.linuxjournal.com/content/queueing-linux-network-stack   <br/>
 https://www.coverfire.com/articles/queueing-in-the-linux-network-stack/   <br/>
 https://www.coverfire.com/articles/   <br/>
