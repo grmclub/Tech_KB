@@ -17,6 +17,16 @@ https://www.linuxjournal.com/content/system-performance-monitoring-and-tuning-gu
 https://www.linuxjournal.com/content/optimizing-linux-server-performance-benchmarking-and-advanced-techniques  <br/>
 https://www.linuxjournal.com/content/stay-ahead-game-essential-tools-and-techniques-linux-server-monitoring  <br/>
 
+#### The four golden signals are:
+	The four golden signals are the most valuable metrics for any service that exposes an interface,
+	whether that interface is used by other services or by end users.
+	
+    Latency -- How long it takes to handle or service a request against the interface
+    Calls or traffic -- Volume of traffic against the interface, such as requests per second
+    Errors -- Rate at which requests against the interface result in an error
+    Saturation -- Current utilization of the service, typically as a percentage of its total capacity
+
+
 \--------------------------------------------------------------------------------------
 #### Linux Internals KB
 https://www.linuxjournal.com/content/linux-boot-process-best-geeks-know-it  <br/>
