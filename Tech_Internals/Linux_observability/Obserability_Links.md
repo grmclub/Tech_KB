@@ -38,6 +38,26 @@ https://www.linuxjournal.com/content/sort-command-beginners-guide-using-linuxs-b
 https://www.linuxjournal.com/content/understanding-pythons-asyncio  <br/>
 
 \--------------------------------------------------------------------------------------
+#### networking
+https://www.linuxjournal.com/content/linux-networking-mastering-vlan-trunking-bonding-and-qos-high-performance-systems  <br/>
+https://www.linuxjournal.com/content/exploring-linux-network-protocols-better-packet-processing  <br/>
+https://www.linuxjournal.com/content/unlocking-linux-networking-essential-insights-tcpip-dns-dhcp-and-routing  <br/>
+https://www.linuxjournal.com/content/linux-networking-simplified-guide-ip-addresses-and-routing  <br/>
+https://www.linuxjournal.com/content/tcp-analysis-wireshark  <br/>
+
+#### bash
+https://www.linuxjournal.com/content/beyond-basics-unlocking-power-advanced-bash-scripting  <br/>
+https://www.linuxjournal.com/content/boost-productivity-bash-tips-and-tricks  <br/>
+https://www.linuxjournal.com/content/boost-productivity-custom-command-shortcuts-using-linux-aliases  <br/>
+https://www.linuxjournal.com/content/transform-your-workflow-these-10-essential-yet-overlooked-linux-tools-you-need-try  <br/>
+  <br/>
+https://www.linuxjournal.com/content/how-divide-two-variables-bash-scripting  <br/>
+https://www.linuxjournal.com/content/efficient-text-processing-linux-awk-cut-paste  <br/>
+https://www.linuxjournal.com/content/mastering-text-manipulation-sed-command  <br/>
+https://www.linuxjournal.com/content/how-add-simple-progress-bar-shell-script  <br/>
+https://www.linuxjournal.com/content/linux-shell-scripting-pathway-automated-system-excellence  <br/>
+https://www.linuxjournal.com/content/fault-tolerant-sftp-scripting-retry-failed-transfers-automatically  <br/>
+https://www.linuxjournal.com/content/brief-story-time-and-timeout  <br/>
 \--------------------------------------------------------------------------------------
 \--------------------------------------------------------------------------------------
 \--------------------------------------------------------------------------------------
