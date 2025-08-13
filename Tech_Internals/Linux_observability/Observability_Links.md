@@ -55,6 +55,14 @@ https://www.linuxjournal.com/content/unlocking-linux-networking-essential-insigh
 https://www.linuxjournal.com/content/linux-networking-simplified-guide-ip-addresses-and-routing  <br/>
 https://www.linuxjournal.com/content/tcp-analysis-wireshark  <br/>
 
+-- Dan Siemon
+https://www.linuxjournal.com/content/queueing-linux-network-stack   <br/>
+https://www.coverfire.com/articles/queueing-in-the-linux-network-stack/   <br/>
+https://www.coverfire.com/articles/   <br/>
+https://www.coverfire.com/archives/2011/02/21/network-latency-experiments/   <br/>
+
+
+
 #### Bash
 https://www.linuxjournal.com/content/beyond-basics-unlocking-power-advanced-bash-scripting  <br/>
 https://www.linuxjournal.com/content/boost-productivity-bash-tips-and-tricks  <br/>
