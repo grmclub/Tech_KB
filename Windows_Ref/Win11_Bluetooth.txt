@@ -1,0 +1,29 @@
+
+Windows 11 device.
+I would suggest you also try to Check the microphone settings. Please follow the steps below;
+a. Right-click the sound icon on the taskbar and select "Open Sound settings."
+b. Under "Input," select your Bluetooth headset as the default microphone.
+c. Check the volume levels and make sure the microphone is not muted.
+
+https://learn.microsoft.com/en-us/answers/questions/4160029/bluetooth-microphone-is-not-working-on-windows-11
+Check if the microphone is enabled in the Bluetooth settings:
+
+    Press Windows key + I to open the Settings app.
+    Go to "Devices" > "Bluetooth & other devices".
+    Click on your Bluetooth headset and then click on "Device properties".
+    Make sure the "Input" option is turned on.
+
+Also, Check if the microphone is enabled in the privacy settings:
+
+    Press Windows key + I to open the Settings app.
+    Go to "Privacy" > "Microphone".
+    Make sure the "Allow apps to access your microphone" option is turned on.
+
+Windows 11 uses Bluetooth 5.3 
+https://www.headphonesty.com/2022/10/windows-11-bluetooth-audio-not-working/
+https://superuser.com/questions/1692847/bluetooth-headset-doesnt-work-as-headphones-only-as-hands-free-headset-on-win
+https://www.youtube.com/watch?v=zqRVAarlqEE
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
