@@ -17,5 +17,11 @@ https://www.kdnuggets.com/2023/03/etl-elt-one-right-data-pipeline.html
 --kafka
 https://www.kdnuggets.com/building-a-formula-1-streaming-data-pipeline-with-kafka-and-risingwave
 
+
+--Performance
+https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55
+
+
 --Misc Tech
 http://www.tcpipguide.com/free/t_TCPConnectionTermination-2.htm
+
