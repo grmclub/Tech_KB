@@ -4,12 +4,14 @@ https://www.kdnuggets.com/5-useful-python-scripts-for-busy-data-scientists
 https://www.kdnuggets.com/10-useful-python-one-liners-for-data-cleaning
 https://www.kdnuggets.com/build-etl-pipelines-for-data-science-workflows-in-about-30-lines-of-python
 https://www.kdnuggets.com/15-useful-python-one-liners-string-manipulation
-https://www.kdnuggets.com/building-your-first-etl-pipeline-with-bash
+https://www.kdnuggets.com/10-surprising-things-you-can-do-with-pythons-collections-module
 
 https://realpython.com/python-csv/
+https://www.squash.io/processing-csv-files-in-python/
 
 
 --bash
+https://www.kdnuggets.com/building-your-first-etl-pipeline-with-bash
 https://www.kdnuggets.com/2023/02/bash-scripts-data-science.html
 https://www.kdnuggets.com/data-cleaning-with-bash-a-handbook-for-developers
 https://www.kdnuggets.com/2023/03/etl-elt-one-right-data-pipeline.html
