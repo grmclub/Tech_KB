@@ -3,7 +3,7 @@ https://rspacesamuel.medium.com/design-patterns-every-data-engineer-should-know-
 https://www.eckerson.com/articles/data-pipeline-design-patterns
 https://github.com/Sourav692/data-engineering-interview-questions
 
-
+https://dev.to/somadevtoo/15-system-design-resources-for-interviews-including-cheat-sheets-4mak
 https://github.com/jarulraj/periodic-table
 -------------------------------------------------------------
 
