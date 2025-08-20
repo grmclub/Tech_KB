@@ -12,6 +12,8 @@ https://www.linuxjournal.com/content/boost-your-linux-system-exploring-art-and-s
 https://www.linuxjournal.com/content/elevate-your-linux-experience-effective-performance-optimization-techniques-enhanced-speed  <br/>
 
 #### Linux Performance Monitoring
+
+https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55 <br/>
 https://www.linuxjournal.com/content/linux-system-performance-tuning-optimizing-cpu-memory-and-disk  <br/>
 https://www.linuxjournal.com/content/system-performance-monitoring-and-tuning-guide  <br/>
 https://www.linuxjournal.com/content/optimizing-linux-server-performance-benchmarking-and-advanced-techniques  <br/>
