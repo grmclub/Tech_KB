@@ -47,6 +47,11 @@
 
 
 -------------------------------------------------------------
+##exchange+connectivity
+https://github.com/exchange-core/exchange-core
+https://github.com/Open-Markets-Initiative/wireshark-lua
+https://github.com/Open-Markets-Initiative/omi-low-latency-reference
+
 ##FinTech Infra Internals
 https://blog.janestreet.com/how-to-build-an-exchange/
 https://www.janestreet.com/tech-talks/building-an-exchange/
