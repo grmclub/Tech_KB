@@ -48,7 +48,7 @@ https://active-source.co.jp/locations/
 #Roppongi/Azabu Juban
 
 Brewdog
-Two dogs
+Two Dogs
 Hobgoblin
 Public Six
 Tusk
@@ -57,6 +57,7 @@ Geronimo
 Shamrock 
 Cedar Chop House
 Havana Cafe
+Jazz Cafe London
 
 --------------------------------------------------------------------------------------
 ## Ginza/Shinbashi
