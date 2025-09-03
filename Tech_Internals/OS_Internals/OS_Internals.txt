@@ -19,7 +19,7 @@ https://frankdenneman.nl/2010/02/03/sizing-vms-and-numa-nodes/
 https://thenewstack.io/internode-cache-thrashing-hunting-a-numa-performance-bug/
 https://www.phoronix.com/news/Linux-6.16-NUMA-Task-Stats
 
-What Every Programmer Should Know About Memory - Ulrich Drepper
+What Every Programmer Should Know About Memory - Ulrich Drepper //Ch3, Ch6
 https://people.freebsd.org/~lstewart/articles/cpumemory.pdf
 
 ---------------------------------------------------
