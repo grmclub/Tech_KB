@@ -18,18 +18,42 @@ Linux Network Programming, Part 1
 https://www.linuxjournal.com/article/2333
 
 -------------------------------------------------------------
+--Performance Tuning
+https://www.linuxjournal.com/content/linux-system-performance-tuning-optimizing-cpu-memory-and-disk
+https://www.linuxjournal.com/content/system-performance-monitoring-and-tuning-guide
+https://www.linuxjournal.com/content/boost-your-linux-system-exploring-art-and-science-performance-optimization
+https://www.linuxjournal.com/content/stay-ahead-game-essential-tools-and-techniques-linux-server-monitoring
+
+https://www.linuxjournal.com/content/optimizing-linux-server-performance-benchmarking-and-advanced-techniques
+https://www.linuxjournal.com/content/achieve-maximum-performance-overclocking-your-linux-system
+https://www.linuxjournal.com/content/linux-performance-monitoring-using-tools-top-vmstat-and-iostat
+
+-------------------------------------------------------------
 –SysInternals
 Introduction to Named Pipes
 https://www.linuxjournal.com/article/2156
 https://www.linuxjournal.com/content/using-named-pipes-fifos-bash
-https://www.linuxjournal.com/content/lock-free-multi-producer-multi-consumer-queue-ring-buffer
-https://www.linuxjournal.com/content/understanding-linux-filesystems-inodes-block-sizes-and-data-structures
 https://www.linuxjournal.com/content/linux-filesystem-events-inotify
+
+https://www.linuxjournal.com/content/how-properly-manage-inter-process-communication-linux
+https://www.linuxjournal.com/content/linux-memory-management-understanding-page-tables-swapping-and-memory-allocation
+https://www.linuxjournal.com/content/understanding-linux-filesystems-inodes-block-sizes-and-data-structures
+
+##DevWorks
+https://www.linuxjournal.com/content/lock-free-multi-producer-multi-consumer-queue-ring-buffer
+https://github.com/tempesta-tech/blog/blob/master/lockfree_rb_q.cc
+
+##Kernel Maintenance
 https://www.linuxjournal.com/content/core-knowledge-modern-linux-kernel-developer-should-have
-https://www.linuxjournal.com/content/what-does-it-take-make-kernel-0
+https://www.linuxjournal.com/content/diy-build-custom-minimal-linux-distribution-source
+https://www.linuxjournal.com/content/how-build-custom-distributions-scratch
+https://www.linuxjournal.com/content/how-optimize-your-linux-kernel-custom-parameters
+https://www.linuxjournal.com/content/linux-boot-process-best-geeks-know-it
 https://www.linuxjournal.com/content/mastering-core-guide-linux-kernel-customization
 https://www.linuxjournal.com/content/runlevels-and-boot-process-linux
-https://www.linuxjournal.com/content/diy-build-custom-minimal-linux-distribution-source
+https://www.linuxjournal.com/content/what-does-it-take-make-kernel-0
+
+
 
 ##Path of packet
 Controlling Queue Delay - A modern AQM is just one piece of the solution to bufferbloat.
@@ -51,17 +75,32 @@ https://www.tenouk.com/Module39a.html
 
 -------------------------------------------------------------
 –scripting
-https://www.linuxjournal.com/content/how-use-linux-zip-command-compress-and-uncompress-files-quickly
-https://www.linuxjournal.com/content/downloading-entire-web-site-wget
-https://www.linuxjournal.com/content/doing-date-math-command-line-part-i
-https://www.linuxjournal.com/content/sending-emailssend-them-linux-terminal
 https://www.linuxjournal.com/content/bash-brace-expansion
-https://www.linuxjournal.com/content/bash-arrays
+https://www.linuxjournal.com/content/beyond-basics-unlocking-power-advanced-bash-scripting
+https://www.linuxjournal.com/content/doing-date-math-command-line-part-i
+https://www.linuxjournal.com/content/downloading-entire-web-site-wget
 https://www.linuxjournal.com/content/how-replace-variable-file-using-sed
+https://www.linuxjournal.com/content/how-use-linux-zip-command-compress-and-uncompress-files-quickly
+https://www.linuxjournal.com/content/sending-emailssend-them-linux-terminal
 
+https://www.linuxjournal.com/content/bash-arrays
 https://www.linuxjournal.com/content/bash-associative-arrays
 https://phoenixnap.com/kb/bash-associative-array
 https://www.linuxjournal.com/content/unlocking-full-potential-linuxs-most-versatile-search-tool
+
+Work the Shell - Understanding Exit Codes
+https://www.linuxjournal.com/article/10844
+Work the Shell - Dealing with Signals
+https://www.linuxjournal.com/article/10815
+Work the Shell - Scripting Common File Rename Operations
+https://www.linuxjournal.com/article/10885
+
+##Date related
+https://www.linuxjournal.com/content/doing-date-math-command-line-part-i
+https://www.linuxjournal.com/content/doing-date-math-command-line-part-ii
+https://www.linuxjournal.com/content/use-date-command-measure-elapsed-time
+https://www.linuxjournal.com/content/days-between-dates-counting
+https://www.linuxjournal.com/content/days-between-dates
 
 -------------------------------------------------------------
 –sysAdmin
