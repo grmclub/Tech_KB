@@ -1,0 +1,17 @@
+-------------------------------------------------------------
+--cmd fu
+https://www.commandlinefu.com/commands/view/8937/multiple-variable-assignments-from-command-output-in-bash
+https://www.commandlinefu.com/commands/browse/sort-by-votes
+
+https://www.commandlinefu.com/commands/browse/sort-by-votes
+https://www.commandlinefu.com/commands/tagged/611/commandlinefu
+https://catonmat.net/top-ten-one-liners-from-commandlinefu-explained
+
+https://www.commandlinefu.com/commands/tagged/2741/top-ten
+https://www.linuxjournal.com/content/beyond-basics-unlocking-power-advanced-bash-scripting
+
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
