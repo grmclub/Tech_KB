@@ -56,12 +56,23 @@ Experiencing strong growth due to increasing inbound tourism, contributing to a 
 
 ==================
 https://www.rieti.go.jp/en/columns/a01_0364.html
+https://asiafundmanagers.com/japan-economy/
+https://www.jetro.go.jp/en/invest/attractive_sectors/
+https://asiafundmanagers.com/china-economy/
+
+https://www.jetro.go.jp/en/invest/attractive_sectors/ict/
+
 
  we notice that Education, Learning Support has the highest ratio at 46.9%, followed by Accommodation, Eating and Drinking Services at 37.8%. In the service sector, there are many industries with a high added value ratio, such as Scientific Research, Professional and Technical Services, which ranked fourth at 35.0%; 
 
 However, the added value ratio is low in the consumer businesses, such as Living Related and Personal Services and Amusement Services, which ranked 14th (17.0%), and Wholesale and Retail Trade, which ranked 17th, the lowest (10.6%).
 
 Meanwhile, Manufacturing is ranked 15th at 15.6%, which is lower than the overall added value ratio.
+
+According to the Trade in Value Added (TiVA) database published by the Organisation for Economic Co-operation and Development (OECD) and the World Trade Organization (WTO), as of 2009, approximately 30% of the export value of the Japanese manufacturing industry is generated from the service sector. In other words, 30% of the factors that support the international competitiveness of Japanese goods are derived from the efficiency of the service sector. Moreover, approximately 40% of added value in total Japanese exports is generated from the service sector.
+
+Prominent Japanese firms such as SoftBank, Nomura, Mitsubishi Estate, AEON, and Japan Airlines are among the world’s largest companies.
+The industrial sector accounts for about 27% of Japan’s GDP. Leveraging advanced technology, Japan is a leading manufacturer of consumer electronics, automobiles, optical media, and semiconductors. Notably, Japan’s automobile industry is the third-largest globally, with companies like Toyota, Honda, Nissan, and Mazda playing significant roles.
 --------------------------------------------------------------------------------------
 ##India
 https://sourcebae.com/blog/gccs-in-india-tax-reliefs-incentives-explained/
@@ -71,6 +82,8 @@ https://sourcebae.com/blog/scaling-your-gcc-when-to-hire-internally-vs-partner/
 https://sourcebae.com/blog/top-skills-in-demand-across-global-capability-centers-in-india/
 https://sourcebae.com/blog/roles-most-commonly-hired-in-gccs-2025-edition/
 https://sourcebae.com/blog/category/gcc/
+
+https://asiafundmanagers.com/indian-economy/
 
 
 Product development roles are experiencing high mobility, with 55% of product development professionals actively exploring new opportunities. Key skills in demand include:
