@@ -1,0 +1,206 @@
+--------------------------------------------------------------------------------------
+
+Japan's legal services sector is a growing market driven by increasing foreign investment and complex corporate law needs, though it features a specialized professional system with distinct roles for lawyers (Bengoshi), judicial scriveners (Shihō Shoshi), and administrative scriveners (Gyōsei Shoshi). While corporate law is a key growth area, the sector also handles dispute resolution, real estate, and labor issues, with significant demand for English-speaking professionals. 
+
+https://www.rsm.global/japan/shiodome/en/insights/category/immigration/japanese-legal-profession-system-navigating-differences-overseas-lawyer-systems
+https://www.rsm.global/japan/shiodome/en/insights/category/accounting-taxes/notifications-when-establishing-companies-japan
+https://www.rsm.global/japan/shiodome/en/insights/category/accounting-taxes/your-guide-japanese-business-experts
+
+
+Unlike the prevalent model in Western countries where a single "Lawyer" typically handles all legal matters, Japan employs a system of specialized legal professionals. Qualifications are divided by role, including "Bengoshi" (弁護士), "Shihō Shoshi" (司法書士), and "Gyōsei Shoshi" (行政書士), each responsible for distinct areas of legal practice.
+
+## Japan: The "Division of Labor" in the Legal Profession
+
+In Japan, the legal profession is characterized by specialization, with distinct roles for different legal professionals:
+
+    Bengoshi (Lawyer): Often considered the equivalent of a "Lawyer" in other jurisdictions, Bengoshi handle a wide range of legal matters, including litigation, contracts, negotiations, and corporate legal affairs. Their expertise extends from criminal and civil disputes to complex transactions like mergers and acquisitions (M&A) and internal compliance investigations.
+    
+	Shihō Shoshi (Judicial Scrivener): These professionals are specialists in real estate and commercial registration. Their primary responsibilities include preparing documents for submission to courts and handling registration procedures. They also have limited representation rights in summary courts. Shihō Shoshi play a crucial role in company formation and real estate transactions.
+    
+	Gyōsei Shoshi (Administrative Scrivener): Gyōsei Shoshi focus on administrative procedures, assisting with applications to government agencies for permits, licenses, and visa applications. They are vital in supporting business start-ups and the employment of foreign nationals.
+
+What are the 5 legal systems around the world?
+The legal systems of nearly all countries are generally modeled upon elements of five main types: 
+- civil law     (including French law, the Napoleonic Code, Roman law, Roman-Dutch law, and Spanish law); 
+- common law    (including United State law); 
+- customary law; mixed or pluralistic law;  
+- religious law (including Islamic law).  
+- international law, An additional type of legal system - which governs the conduct of independent nations in their relationships with one another 
+
+The foundation of English common law is "legal precedent" - referred to as stare decisis, meaning "to stand by things decided."
+--------------------------------------------------------------------------------------
+##Civil Law basic principles
+
+Basic principles of Civil Law include protection of private rights, the principle of honesty and good faith, the rule of law, and the use of codified statutes to provide a predictable legal framework. These principles guide the resolution of disputes between individuals and organizations, focusing on providing remedies and compensation for harm or infringement of rights. 
+Protection of Private Rights 
+
+    Purpose:
+    The main goal of civil law is to protect and promote the interests of private individuals and entities.
+    Rights and Liberties:
+    Individuals have the power to compel others to respect their legitimate interests, such as property, liberty, or a specific privilege.
+    Remedies:
+    When a right is violated, civil law aims to provide a remedy, such as compensation (damages), to restore the injured party to their original position. 
+
+Honesty and Good Faith (Good Faith) 
+
+    Diligence and Sincerity:
+    Parties involved in civil activities must exercise their rights and fulfill their obligations with good faith and sincerity.
+    Credibility and Morality:
+    This principle requires individuals to maintain credibility and adhere to social morality, not engaging in fraud or deceit to harm others.
+    Market Order:
+    The realization of this principle helps maintain normal market order and a healthy social credit system. 
+
+Rule of Law
+
+    Accountability:
+    Everyone, including the government and individuals, is accountable to the law. 
+
+Just Laws:
+Laws must be clear, public, fair, and applied to protect fundamental human rights. 
+Accessible and Impartial Justice:
+A system of civil justice must be accessible to everyone and administered by independent judges free from bias. 
+
+
+--------------------------------------------------------------------------------------
+General civil tort provisions involve wrongful acts or omissions by one party that cause harm or loss to another, leading to a private civil lawsuit for monetary damages or other relief. The main types of torts are negligence, intentional torts, and strict liability. A successful tort claim typically requires proving the defendant had a duty of care, breached that duty, the breach caused the harm, and the plaintiff suffered actual damages. 
+
+
+Key Concepts
+
+    Tort: A civil wrong, not arising from a contract, that causes loss or harm to an individual, giving rise to a civil lawsuit for compensation. 
+
+Plaintiff: The injured party who brings the lawsuit. 
+Defendant: The party accused of committing the tort. 
+Damages: Monetary compensation awarded to the plaintiff to make up for the loss or harm suffered. 
+Common Law: Most torts are established by judicial precedent and case law, though some are defined by statutes. 
+
+Types of Torts
+
+Negligence:
+The most common tort, occurring when a defendant fails to exercise reasonable care, resulting in harm to another person. 
+
+Intentional Torts:
+Wrongful acts committed by a defendant with the intent to cause harm. Examples include assault, battery, defamation, and false imprisonment. 
+
+Strict Liability:
+Liability imposed on the defendant for certain actions regardless of intent or fault, often for engaging in ultra-hazardous activities or making defective products. 
+
+
+Elements of a Tort Claim (Common Law Negligence)
+To establish a successful tort claim, the plaintiff must generally prove four elements: 
+
+Duty:
+The defendant owed a legal duty of care to the plaintiff. 
+
+Breach of Duty:
+The defendant failed to meet their duty of care through an act or omission. 
+
+Causation:
+The defendant's breach was the actual and proximate cause of the plaintiff's injury. 
+
+Damages:
+The plaintiff suffered actual loss or injury as a result of the defendant's actions. 
+
+
+
+--------------------------------------------------------------------------------------
+What are the five types of torts?
+
+Proceedings managed in the Major Torts List include:
+
+    Defamation proceedings.
+    Tortious claims for economic loss or property damage.
+    Nuisance claims, including land contamination.
+    Intentional torts.
+    Tortious claims of significant public interest.
+
+
+
+--------------------------------------------------------------------------------------
+In civil tort law, assault is the intentional act causing a reasonable apprehension of an imminent harmful or offensive contact, while battery is the actual harmful or offensive physical contact itself. Assault does not require physical contact, but the victim must reasonably fear an impending touch, whereas battery requires a voluntary act by the defendant that results in physical contact with the victim. 
+Assault
+
+Definition:
+An intentional act that places a person in reasonable fear or apprehension of an immediate harmful or offensive contact. 
+
+Key Element:
+The victim must be aware of the impending contact and feel that it is about to happen. 
+Example:
+Pointing a gun at someone or aggressively lunging towards them can be an assault. 
+
+Battery
+
+    Definition:
+    The actual, intentional, and harmful or offensive physical contact with another person or their belongings. 
+
+Key Element:
+Actual physical contact, even if not seriously injurious or if the contact is with an item of clothing or something the person is holding, can constitute battery. 
+Example:
+Hitting someone, even gently, or throwing something that makes contact can be a battery. 
+
+Relationship between Assault and Battery 
+
+    Often, assault and battery occur together, but they can happen independently.
+    Assault precedes battery in the sense of the apprehension of the act occurring.
+    A common scenario involves an assault (the threat) followed by a battery (the physical act).
+
+##Japanese Laws for assault & battery
+In Japanese law, the terms "assault" and "battery" are covered under the Penal Code, with Assault (暴行, Boukou) generally referring to the use of force or intimidation without injury, while Battery (Shougai, or Injury) occurs when an assault results in physical harm. Penalties vary, with assault carrying up to two years in prison or a fine, and battery carrying up to 15 years in prison, depending on the severity of the injury. 
+Key Distinctions & Penalties
+
+    Assault (暴行, Boukou):
+    The use of force or threats without necessarily causing physical injury. 
+
+    Penalty: Imprisonment for up to two years or a fine not exceeding ¥300,000. 
+
+Battery (傷害, Shougai):
+An assault that results in actual physical injury to another person. 
+
+    Penalty: Imprisonment for not more than 15 years or a fine not exceeding ¥500,000. 
+
+Aggravated Offenses 
+
+    Use of Weapons: If weapons are used or severe injuries are inflicted, the charges and penalties become significantly more severe.
+
+
+##Jp laws translation
+https://www.japaneselawtranslation.go.jp/en/laws/view/3581/en
+https://lawzana.com/assault-battery-lawyers/japan
+https://lawzana.com/lawyer/kaynex-law-offices/tokyo
+
+Defamation 
+Personal Injury 
+Assault & Battery
+
+Tokyo Sanno Law Office
+https://www.ynmlaw.com/english/e_lawyer/
+
+
+--Business
+June Advisors Group
+https://www.june-group.jp/#business-incorporation
+
+Kaynex law office
+https://www.kaynex-law.com/en/professionals/index.html
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------
+https://blog.gaijinpot.com/what-are-self-defense-laws-in-japan/
+
+Obscenity Laws:
+Taking photos of people without their permission, especially for voyeuristic purposes, can fall under obscenity offenses
+
+https://realgaijin.substack.com/p/new-definitions-of-crime-and-punishment
+https://www.justanswer.com/employment-law/7wqn9-possible-voice-record-conversations-co-workers.html
+
+Laws in Japan for foreigners
+https://japan-dev.com/blog/laws-in-japan-for-foreigners
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
