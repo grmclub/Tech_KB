@@ -1,0 +1,103 @@
+
+https://www.andacademy.com/resources/blog/ui-ux-design/types-of-product-design/
+https://www.personalfinancelab.com/finance-knowledge/marketing/classification-of-products-and-services/
+https://www.shopify.com/blog/product-design-process#
+
+- Concept
+- Target Customers
+- Delivery Channels
+- Benifits & Revenue
+
+--------------------------------------------------------------------------------------
+##Product Design
+
+The Product Design Process (Example Steps)
+
+    Product Vision & Planning: Define the product's purpose and long-term goals. 
+
+- Research: Conduct user and market research to understand user needs and identify problems to solve. 
+- Ideation: Brainstorm and develop numerous potential solutions to the identified problems. 
+- Design & Prototyping: Create detailed designs, including wireframes and prototypes, to visualize and test ideas. 
+- Testing & Iteration: Put prototypes in front of users for feedback and make improvements based on their insights. 
+- Manufacturing & Launch: Oversee the production of the final product and prepare it for release. 
+- Post-Launch Support: Continue to gather data and user feedback after launch to ensure ongoing success and future improvements. 
+
+What Designers Create
+Product designers work on a wide range of items, from everyday goods to complex systems, including: 
+
+- Home appliances and consumer electronics
+- Vehicles, furniture, and fashion accessories
+- Digital products, apps, and services
+- Packaging and various other goods
+--------------------------------------------------------------------------------------
+The product design process, as expressed by Koberg and Bagnell, typically involves three main aspects:[5]
+
+    - Analysis
+    - Concept
+    - Synthesis
+
+Analysis
+
+    Accept situation: Here, the designers decide on committing to the project and finding a solution to the problem. They pool their resources into figuring out how to solve the task most efficiently.[5]
+    Analyze: In this stage, everyone in the team begins research. They gather general and specific materials which will help to figure out how their problem might be solved. This can range from statistics and questionnaires to published articles, among many other sources.[5]
+
+Concept
+
+    Define: This is where the key issue of the matter is defined. The conditions of the problem become objectives, and restraints on the situation become the parameters within which the new design must be constructed.[5]
+
+Synthesis
+Ideate: The designers here brainstorm different ideas, solutions for their design problem. The ideal brainstorming session does not involve any bias or judgment, but instead builds on original ideas.[5]
+Select: By now, the designers have narrowed down their ideas to a select few, which can be guaranteed successes and from there they can outline their plan to make the product.[5]
+Implement: This is where the prototypes are built, the plan outlined in the previous step is realized and the product starts to become an actual object.[5]
+Evaluate: In the last stage, the product is tested, and from there, improvements are made. Although this is the last stage, it does not mean that the process is over. The finished prototype may not work as well as hoped so new ideas need to be brainstormed
+
+--------------------------------------------------------------------------------------
+##The product design process
+
+The specific steps can vary, but most processes are a variation of the following stages: 
+
+- Define the problem: Identify a user problem worth solving. This involves researching user pain points and analyzing the market to find gaps and opportunities.
+- Research: Conduct deep research to understand the user, market, and technical constraints. Methods include user interviews, surveys, and competitive analysis.
+- Ideate: Brainstorm many possible solutions to the identified problem. Techniques like sketching, mind-mapping, and workshops are used to generate a wide range of ideas.
+- Prototype: Create tangible models or simulations of the product. Prototypes can be low-fidelity (simple wireframes) or high-fidelity (interactive mockups) and are used for testing ideas quickly and cheaply.
+- Test and validate: Put prototypes in front of real users to gather feedback and test assumptions. This iterative phase helps refine the design before major development begins.
+- Build and launch: Collaborate with developers and manufacturers to implement the final design. The designer remains involved to ensure the product matches the intended user experience.
+- Measure and iterate: After launch, designers use analytics and user feedback to learn from the product's performance. These insights fuel continuous improvement and future updates. 
+
+##5 key elements of product design
+
+    Functionality.
+    Aesthetics.
+    Quality.
+    Sustainability.
+    User experience.
+
+
+##What are the 4 general types of products?
+Within the category of consumer products, there are four main classifications: convenience goods, shopping goods, specialty goods, and unsought goods. This article will describe characteristics of goods in each category, provide examples, and discuss relevant marketing strategies.
+
+--------------------------------------------------------------------------------------
+##Service Design
+
+The service design process
+The service design process generally follows these steps: 
+
+    - Project planning: Define clear goals, assign roles, and set timelines for the project.
+    - User research: Use interviews, surveys, and field studies to deeply understand user needs and pain points.
+    - Ideation: Brainstorm and generate creative solutions based on the research findings.
+    - Prototyping: Create low-fidelity prototypes to test and refine new ideas quickly and cost-effectively.
+    - Blueprint and test: Map out the entire service ecosystem, including backstage processes, with a service blueprint. Test and iterate based on feedback before launching.
+    - Continuous iteration: After launch, constantly test, gather feedback, and optimize the service to ensure it remains relevant and valuable to users. 
+
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
