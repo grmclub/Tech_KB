@@ -52,6 +52,7 @@ https://github.com/exchange-core/exchange-core
 
 ##OMI
 https://github.com/Open-Markets-Initiative/wireshark-lua
+https://github.com/Open-Markets-Initiative/Directory/tree/main/Projects
 https://github.com/Open-Markets-Initiative/omi-low-latency-reference
 https://github.com/Open-Markets-Initiative/omi-low-latency-reference/tree/main/articles
 https://github.com/Open-Markets-Initiative/c-structs/tree/main
