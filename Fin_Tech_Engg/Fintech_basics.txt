@@ -224,6 +224,12 @@ https://www.youtube.com/watch?v=rfkSHxSoQVE&t=1176s
 CppCon 2016: Jason Turner “Practical Performance Practices"
 https://www.youtube.com/watch?v=uzF4u9KgUWI
 
+What is Low Latency C++? (Part 1) - Timur Doumler - CppNow 2023
+https://www.youtube.com/watch?v=EzmNeAhWqVs&t=20s
+
+What is Low Latency C++? (Part 2) - Timur Doumler - CppNow 2023
+https://www.youtube.com/watch?v=5uIsadq-nyk&t=21s
+
 ====================================
 The Speed Game: Automated Trading Systems in C++ - Carl Cook - Meeting C++ 2016
 https://www.youtube.com/watch?v=ulOLGX3HNCI&list=PL8nBmR5eGh34AynaXik3rgiW3qK6FKXVq&index=49
