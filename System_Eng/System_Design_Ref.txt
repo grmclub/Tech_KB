@@ -5,6 +5,15 @@ https://github.com/Sourav692/data-engineering-interview-questions
 
 https://dev.to/somadevtoo/15-system-design-resources-for-interviews-including-cheat-sheets-4mak
 https://github.com/jarulraj/periodic-table
+
+--Bytego
+https://bytebytego.com/courses/system-design-interview/scale-from-zero-to-millions-of-users
+https://github.com/ByteByteGoHq/system-design-101
+https://medium.com/javarevisited/is-bytebytego-a-good-place-to-learn-system-design-2c1b43c09ac5
+https://medium.com/javarevisited/top-30-system-design-interview-questions-and-problems-for-programmers-417e89eadd67
+
+
+
 -------------------------------------------------------------
 
 System Design Flow 
