@@ -14,6 +14,17 @@ https://calendly.com/coding-jesus
 https://www.learncpp.com/
 https://cppquiz.org/quiz/question/252
 
+##Coding Jesus - References
+--Four resources to ace any C++ interview (in quant trading) 
+https://www.youtube.com/watch?v=_LDXOQF9Hjs
+
+Trading Systems Developer Guide: https://amzn.to/3XRO5ax
+Daily CPP Interview Guide      : https://leanpub.com/cppinterview
+cppstories                     : https://www.cppstories.com/
+learncpp                       : https://learncpp.com/
+
+https://cppcast.com/episodes/
+
 -------------------------------------------------------------
 ##IQA resources
 
@@ -24,20 +35,60 @@ Resource 1: https://amzn.to/4h3bBcE
 Resource 2: cppquiz.org - https://cppquiz.org/quiz/question/252
 Resource 3: https://amzn.to/4gFoQQJ
 
+Recommended Resources:
+
+1.  CPP Daily Interview (Book): This resource covers critical C++ topics required for interviews, 
+    such as templates, smart pointers, move semantics, the rule of five, and virtual functions/vtable pointers. 
+	It is excellent for benchmarking your current knowledge level (1:25 - 2:46).
+
+2. cppquiz.org (Website): A free site featuring over 150 C++ questions ranging up to the C++23 standard. 
+   It provides a code snippet, allows you to submit an answer, and offers a detailed explanation from an experienced C++ developer, often including quotes from the official C++ standard (2:46 - 4:21).
+
+3. The Trading Systems Interview Guide by Jeff Vogal (Book): This book is particularly useful for quant trading roles, 
+   as it bridges the gap between C++ and tertiary subjects like operating systems, computer architecture, and networking. It is organized into distinct sections to help you study specific domains (4:22 - 5:50).
+
+
 "Four resources to ace any C++ interview (in quant trading)
 https://www.youtube.com/watch?v=_LDXOQF9Hjs
 
+Key Resources for Interview Preparation
+
+1.Fundamentals: Use learncpp.com to master core language concepts. The creator highlights that many candidates fail due to poor understanding of basics like virtual pointers, vtables, and memory management (1:08-2:38).
+    
+2. System Design & Interview Guides:
+        Trading Systems Developer Guide by Jeff Vogles for low-level and high-level language details (2:52-3:22).
+        CPP Interview Guide by Sandor Dargo for day-to-day practice questions (3:22-4:05).
+    Data Structure Implementation: Modern interviews are moving away from standard coding challenges toward implementing data structures from scratch (e.g., std::vector, std::unique_ptr, std::mutex). Understanding how these work under the hood is critical (4:05-5:55).
+    
+3.  Language Knowledge: Candidates are expected to be deeply invested in the language. You must be able to specify your C++ version (e.g., C++17, C++20) 
+    and discuss specific features introduced in those versions, such as fold expressions or modules (6:00-8:35).
+    
+4.  Staying Up-to-Date: Use cppstories.com for digestible updates on the latest C++ standards, and practice using online compiler environments like 
+    Godbolt and Wandabox (8:06-8:56).
+
+
 -------------------------------------------------------------
 ##read these 5 books to break into quant trading as a software engineer
+https://www.youtube.com/watch?v=0pwpP2QOW9g
 
-TCP / IP Illustrated Volume 1: https://amzn.to/3WEG8G7
-Operating Systems Three Easy Pieces: https://amzn.to/3zZqEnz
-Inside the Machine: https://amzn.to/3WpBhrj
-Concurrency In Action: https://amzn.to/3Wlpavg
-C++ Software Design: https://amzn.to/3LLZbrK
-Beautiful C++: https://amzn.to/4c0fSe0
+TCP / IP Illustrated Volume 1       : https://amzn.to/3WEG8G7
+Operating Systems Three Easy Pieces : https://amzn.to/3zZqEnz
+Inside the Machine                  : https://amzn.to/3WpBhrj
+Concurrency In Action               : https://amzn.to/3Wlpavg
+C++ Software Design                 : https://amzn.to/3LLZbrK
+Beautiful C++                       : https://amzn.to/4c0fSe0
 
 Relevant Chapters: https://docs.google.com/spreadsheets/d/1EKx2EDRyNxdVoRrUljeKKdG0G-XeJiR9xMb4Xa-ernk/edit?gid=0#gid=0
+
+The Recommended Books:
+
+    TCP/IP Illustrated Volume 1 (0:25 - 1:30): Focuses on network protocols and latency optimization, covering critical topics like UDP, multicast, ARP, and TCP congestion control.
+    Operating Systems: Three Easy Pieces (1:30 - 2:38): Essential for understanding kernel concepts, threading, memory allocation, and scheduling (concurrency, virtualization, and persistence).
+    Inside the Machine (2:40 - 4:26): Explores computer architecture, providing insight into CPU design, pipelining, cache coherency, and hardware-level optimization.
+    C++ Concurrency in Action (4:55 - 6:15): A language-specific guide for C++ that translates the OS-level concurrency concepts into practical, multi-threaded code.
+    Beautiful C++ & C++ Software Design (6:35 - 8:28): Focuses on clean code, design patterns, and professional coding guidelines to ensure maintainable and efficient software architecture.
+
+
 
 -------------------------------------------------------------
 ##5 books every C++ developer should read
