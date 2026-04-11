@@ -1,0 +1,145 @@
+
+--------------------------------------------------------------------------------------
+##Ultimate Roadmap to Quant Dev Interviews (Chapter by Chapter Study Guide) 
+https://www.youtube.com/watch?v=_CMNUnn0Lf4
+https://www.youtube.com/@zacklight/videos
+
+I’ll walk you through the exact self‑study roadmap I used to go from clueless student to HFT software engineer. 
+
+Key Areas of Study:
+
+    - Algorithms (1:46): Aim for a ~1,900 rating in LeetCode weekly contests. This should be a continuous process alongside other topics.
+	
+    - C++ (2:10): A four-month focus. Recommended reading includes A Tour of C++ (Bjarne Stroustrup), the Effective C++ series by Scott Myers, and practical interview books like 100 Interview Questions. Understanding STL implementation is highly recommended.
+	
+    - Concurrency (4:30): Dedicate one month to mastering this, primarily using the book C++ Concurrency in Action.
+	
+    - Python (4:50): For those on the Python track, Fluent Python is the gold standard.
+	
+    - Computer Networking (5:10): Focus on chapters 1–5 of Computer Networking: A Top-Down Approach (two-month study period).
+	
+    - Operating Systems (5:46): Use Operating Systems: Three Easy Pieces. Prioritize virtualization and concurrency; skip disk-related chapters (two-month period).
+	
+    - Computer Architecture (6:20): Focus on caching, branch prediction, and memory hierarchies (two-month period).
+	
+    - System Design (6:45): A critical three-month study topic in HFT. Focus on low-level performance (caching, latency, throughput). Recommended: Designing Data-Intensive Applications and Alex Xu’s system design series.
+	
+    - Behavioral Questions (7:38): Don't ignore this; it determines if you are a cultural fit.
+	
+    - Math & Stats (7:58): Considered non-mandatory as it accounts for only ~10% of interviews, but helpful if time permits.
+
+--------------------------------------------------------------------------------------
+## How to Ace the Hardest C++ Interview Questions in HFT 
+https://www.youtube.com/watch?v=Oiu9L68VFJY
+
+https://quantnet.com/threads/study-programme-for-quant-researcher-interviews.50152/
+https://www.efinancialcareers.com/news/c-plus-plus-interview-questions-hft-high-frequency-trading
+
+
+Key Challenges in HFT Interviews
+
+    -Technical Complexity: Interviews often focus on deep knowledge of the Linux kernel, memory management (0:56-1:08), and standard C++ coding challenges involving memory pools, thread-safe vectors, and lock-free programming (2:15-3:40).
+    -Advanced Concepts: Candidates are expected to handle complex topics like meta-template programming, asynchronous code using coroutines, and the integration of hardware like FPGAs (3:47-4:20).
+    -Open-ended Design: Firms may present open-ended design problems, such as building systems for market making or distributing market data, to test a candidate's practical system design skills (3:54-4:15, 6:07-6:55).
+    -Take-home Projects: There is a growing trend of using take-home projects to evaluate a developer's ability to solve complex tasks under less time pressure (5:19-6:03).
+
+Recommended Preparation Strategies
+
+    -Master the Fundamentals: The host emphasizes that proficiency in C is a critical foundation before tackling the complexities of C++ and Python (8:06-8:37).
+    -Utilize Specialized Resources: The host suggests leveraging platforms like LeetCode and Wall Street CPP for practice (1:40-2:00).
+    -Leverage QuantLabs.net: The creator offers his own resources for those pursuing HFT careers, including:
+        An HFT C++ ebook available via the website (8:51-9:12).
+        A new Forum section featuring dedicated threads for technical (Q&A) and trading-specific knowledge (9:20-10:20).
+        A comprehensive Futures and Options course to help developers understand the market strategies they will be building systems for (11:47-12:59).
+
+
+
+
+--------------------------------------------------------------------------------------
+##cpp IB IQA
+
+https://www.efinancialcareers.com/news/electronic-trading-interviews
+https://www.efinancialcareers.com/news/70-top-banking-interview-questions-and-how-to-answer-them
+https://www.efinancialcareers.sg/news/how-to-ace-an-hft-interview-in-apac-s-competitive-buy-side-market-sc
+https://www.efinancialcareers.com/news/High-Frequency-Trading-Hiring-And-Pay
+
+
+https://www.quantstart.com/articles/5-Important-But-Not-So-Common-Books-A-Quant-Should-Read-Before-Applying-for-a-Job/#:~:text=Meyers%20(%20Scott%20Meyers%20)%20provides%2085,are%20highly%20applicable%20to%20quantitative%20model%20development.
+https://www.reddit.com/r/cpp/comments/lcbbno/given_my_current_level_of_c_knowledge_what_can_i/#:~:text=Honestly,%20you%20are%20missing%20basics,%20that%20would,and%20experience%20in%20efficiency%20and%20memory%20management
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+##What Is Prime Brokerage?
+
+Prime brokerage is a top-tier bundled service that investment banks and other financial institutions offer to their largest clients, such as hedge funds. Services provided under prime brokering include securities lending, leveraged trade execution, and cash management.
+
+Brokerage clients who trade frequently in large volumes often need to be able to borrow securities or cash to engage in netting, which offsets the value of multiple positions or payments exchanged between two or more parties.
+
+Prime brokerage services are provided by most of the largest financial services firms, including Goldman Sachs, UBS, and Morgan Stanley. Such services have been available since the 1970s.
+--------------------------------------------------------------------------------------
+##Prime Brokerage Services
+
+A prime brokerage offers a set of services to qualifying clients. The assigned broker, or brokers, may provide settlement agent services along with financing for leverage. Custody of assets may be offered, as well as daily preparations of account statements. 
+--------------------------------------------------------------------------------------
+##Example of a Prime Brokerage
+
+Hedge Fund ABC just launched with $75 million that it raised from investors. It is a small hedge fund that employs 15 people. The majority of these individuals are traders, researchers, and a few administrative people. The fund has limited resources that it can allocate to the various needs of the business.
+
+To alleviate some of the burdens, ABC transacts with J.P. Morgan's prime brokerage unit. The two entities sign a prime brokerage agreement detailing that J.P. Morgan will assume the responsibilities of managing ABC's cash management, calculating its net asset value (NAV) on a monthly basis, and performing a risk management analysis on its portfolio. For these services, it is agreed that J.P. Morgan will charge a monthly fee of $20,000.
+
+After six months, ABC has grown and its investment strategy has become more complex. It needs to borrow securities as part of its investment strategy and transacts with J.P. Morgan to provide securities lending services. For this, J.P. Morgan charges 5% on the amount of money borrowed. ABC also engages with J.P. Morgan for capital introduction services, whereby J.P. Morgan introduces ABC to potential investors, charging 2% of the invested amount by each investor.
+
+All these services that J.P. Morgan provides to hedge fund ABC constitute prime brokerage services. 
+
+--------------------------------------------------------------------------------------
+## What Is the Difference Between a Broker and a Prime Broker?
+
+A broker is an individual or entity that facilitates the purchase or sale of securities, such as the buying or selling of stocks and bonds for an investment account. A prime broker is a large financial institution that provides a multitude of services, from cash management to securities lending to risk management for other large institutions.
+
+https://marquee.gs.com/welcome/our-platform/prime-services
+Services provided under prime brokering include securities lending, leveraged trade execution, and cash management.
+
+https://65cc61e688952.site123.me/blog/recognizing-the-environment-the-four-categories-of-providers-of-financial-services
+https://thehedgefundjournal.com/barclays-eprime-brokerage/
+
+
+##what is an IB prime brokerage Services ?
+
+an IB Prime Services is a comprehensive global financing and services platform designed primarily for institutional clients like hedge funds, asset managers, and pension funds. It serves as a centralized hub that provides the leverage, infrastructure, and operational support necessary for complex trading strategies.
+
+Core Service Pillars
+The platform is structured into three primary divisions to offer a "holistic" view of a client's portfolio:
+
+Equity Financing: Includes traditional cash prime brokerage, synthetic prime brokerage (swaps/derivatives), and stock borrow/loan services.
+
+Fixed Income Financing: Provides stability and liquidity through the financing of rates, credit, and securitized products.
+
+Prime Derivative Services (PDS): Covers the execution and clearing of futures and options, OTC clearing, and FX prime brokerage
+
+Key Features and Capabilities
+
+Quantitative Prime Services (QPS): A specialized sub-unit that caters to high-frequency and quantitative funds, offering low-latency Direct Market Access (DMA) and high-speed execution through the X platform.
+
+Cross-Asset Netting: Through its Global Netting Agreement (GNA), an IB allows clients to offset margin requirements across different asset classes, optimizing capital efficiency.
+
+Capital Solutions: A dedicated team that provides "Capital Introductions," helping hedge funds connect with potential investors, and offers strategic consulting on industry trends.
+
+Asset Protection: Provides frameworks for global custody, clearing, and asset servicing to Clients
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+
