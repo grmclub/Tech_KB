@@ -11,6 +11,13 @@ https://www.geeksforgeeks.org/python/flask-tutorial/
 https://www.geeksforgeeks.org/python/how-to-build-a-web-app-using-flask-and-sqlite-in-python/
 
 --------------------------------------------------------------------------------------
+##bash
+https://natelandau.com/bash-scripting-utilities/
+https://github.com/awesome-lists/awesome-bash
+
+
+
+
 
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
