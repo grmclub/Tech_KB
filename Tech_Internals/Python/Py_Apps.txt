@@ -10,14 +10,33 @@ https://www.geeksforgeeks.org/pandas/pandas-tutorial/
 https://www.geeksforgeeks.org/python/flask-tutorial/
 https://www.geeksforgeeks.org/python/how-to-build-a-web-app-using-flask-and-sqlite-in-python/
 
+##python utils
+https://github.com/wasmerio/Python-Scripts
+https://medium.com/@diwasb54/python-utility-functions-every-developer-should-know-bf483303f022
+https://www.geeksforgeeks.org/python/top-python-scripts-for-developers-to-implement/
+https://github.com/lucasayres/python-tools
+https://www.windmill.dev/blog/useful-python-scripts
+https://python.plainenglish.io/8-simple-python-scripts-that-made-me-feel-way-more-productive-b6bca1607884
+https://python.plainenglish.io/how-i-built-7-tiny-python-utilities-that-save-me-hours-every-week-d552f7ca8b17
+https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-everyday-tasks
+
+https://github.com/hseera/python-utilities
+https://blog.stackademic.com/10-python-scripts-i-use-almost-every-day-most-people-dont-talk-about-these-b90519f46e2f
+
+https://medium.com/@maryashoukataly/836909f5edbf
+https://medium.com/@maryashoukataly/0dd02d73fe02
+https://www.kdnuggets.com/7-data-science-projects-land-six-figure-job
+https://pwskills.com/blog/7-data-science-projects-to-land-a-6-figure-job/
+https://www.dataquest.io/blog/data-science-projects-for-beginners-to-advanced/
 --------------------------------------------------------------------------------------
 ##bash
 https://natelandau.com/bash-scripting-utilities/
 https://github.com/awesome-lists/awesome-bash
 
 
-
-
+##IQA
+https://medium.com/javarevisited/how-to-crack-system-design-interviews-in-2022-tips-questions-and-resources-fcad05e2dab
+https://medium.com/pinterest-engineering/a-pinterest-engineering-guide-to-technical-interviews-1c2471c2d139
 
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
