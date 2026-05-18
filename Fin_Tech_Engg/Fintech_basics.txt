@@ -72,6 +72,10 @@ https://blog.janestreet.com/authors/
 How Jane Street Does Code Review (Jane Street Tech Talk)
 https://blog.janestreet.com/jane-street-tech-talk-how-jane-street-does-code-review/
 
+Dwarkesh Goes Inside Jane Street's Latest AI Data Center
+https://m.youtube.com/watch?v=8J-GUnfSqeE
+
+
 Multicast and the Markets with Brian Nigito
 https://www.youtube.com/watch?v=triyiLwqWUI
 
