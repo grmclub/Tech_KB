@@ -16,6 +16,9 @@ https://medium.com/javarevisited/top-30-system-design-interview-questions-and-pr
 https://donnemartin.com/
 https://systemdesignschool.io/primer
 https://github.com/donnemartin/system-design-primer
+https://systemdesignschool.io/primer#core-design-challenges
+System Design Primer is a free, open-source GitHub repository (donnemartin/system-design-primer) with 250k+ stars, making it one of the most referenced system design interview prep resources on GitHub.
+
 
 -------------------------------------------------------------
 
@@ -59,9 +62,46 @@ Layers of the enterprise architecture(TOGAF)
 4. Technology architecture or technology architecture which describes the hardware, software and network infrastructure
    needed to support the deployment of core, mission-critical applications
 -------------------------------------------------------------
+##System Design School
 
+This primer provides a quick crash course: essential components, interview templates, and the mental models needed to solve common problems. It's designed for rapid learning and last-minute preparation.
+
+The full course goes deep. It's organized into two main tracks:
+
+Fundamentals covers the core building blocks that appear in every system design interview:
+
+    Microservices & Communication: How services talk to each other. Message queues, Kafka, circuit breakers, service discovery. Why async communication prevents cascading failures.
+    Scaling Services: Load balancing, auto-scaling, caching patterns, CDNs. When to use cache-aside versus write-through. How to handle cache thundering herd.
+    Data Storage: B-trees, LSM trees, SQL versus NoSQL. When to use document databases versus key-value stores. OLTP versus OLAP workloads.
+    Scaling Data: Replication (primary-replica, multi-leader), partitioning (consistent hashing, range-based), change data capture. How to handle partition rebalancing.
+    Batch & Stream Processing: MapReduce, stream processing, lambda architecture. When to use batch versus stream.
+    Patterns: Rate limiting, unique ID generation, saga pattern, fan-out/fan-in. Reusable solutions to common problems.
+
+Domain Knowledge covers specialized topics that appear in specific problem types:
+
+    Transactions: Database isolation levels, pessimistic versus optimistic locking, flash sale inventory patterns. How to prevent double-booking.
+    Distributed Systems: CAP theorem, PACELC theorem, consistency models, consensus algorithms (Raft, Paxos), failure handling. The theory behind the practice.
+    Geospatial Search: Geohash, quadtrees, H3 hexagonal indexing, S2 library. How Uber finds nearby drivers.
+    Search Engines: Inverted indexes, TF-IDF, BM25, Elasticsearch architecture. How search actually works.
+    Media Systems: Video transcoding, file chunking, adaptive bitrate streaming. How Netflix delivers video.
+    Probabilistic Data Structures: Bloom filters, count-min sketch, HyperLogLog. Memory-efficient approximations for massive scale.
+
+For L4-L5, the primer gets you interview-ready fast. The full course adds depth. For L6+, you need the full course—surface knowledge fails under aggressive probing.
 -------------------------------------------------------------
+--What are the 4 pillars of system design?
+Scalability, Availability, Reliability, and Performance are the four pillars of system design that stand as the foundation for creating robust software systems
+AI can help write code, but it can't replace clear reasoning, pattern recognition, and decision-making.
 
+Let's look at 15 examples of design systems created by the world's top companies:
+
+    The Wix Studio Design System.
+    Google Material Design.
+    Apple Human Interfaces Guidelines.
+    Microsoft Fluent Design System.
+    Salesforce Lightning Design System.
+    Atlassian Design System.
+    Adobe Spectrum.
+    IBM Carbon Design System.
 -------------------------------------------------------------
 
 -------------------------------------------------------------
