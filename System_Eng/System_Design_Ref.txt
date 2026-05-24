@@ -19,6 +19,13 @@ https://github.com/donnemartin/system-design-primer
 https://systemdesignschool.io/primer#core-design-challenges
 System Design Primer is a free, open-source GitHub repository (donnemartin/system-design-primer) with 250k+ stars, making it one of the most referenced system design interview prep resources on GitHub.
 
+--team Blind
+https://www.teamblind.com/post/system-design-prep-in-a-week-qvzyemna
+https://www.teamblind.com/post/my-approach-to-system-design-v4sjardx
+
+##system prog ref
+https://github.com/angrave/SystemProgramming/wiki
+
 
 -------------------------------------------------------------
 
