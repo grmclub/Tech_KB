@@ -12,7 +12,10 @@ https://github.com/ByteByteGoHq/system-design-101
 https://medium.com/javarevisited/is-bytebytego-a-good-place-to-learn-system-design-2c1b43c09ac5
 https://medium.com/javarevisited/top-30-system-design-interview-questions-and-problems-for-programmers-417e89eadd67
 
-
+-sdd basics
+https://donnemartin.com/
+https://systemdesignschool.io/primer
+https://github.com/donnemartin/system-design-primer
 
 -------------------------------------------------------------
 
