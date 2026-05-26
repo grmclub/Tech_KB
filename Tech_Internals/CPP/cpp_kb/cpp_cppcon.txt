@@ -1,0 +1,35 @@
+
+
+
+
+--------------------------------------------------------------------------------------
+##Back to Basics: Standard Library Containers in Cpp - Rainer Grimm - CppCon 2022 
+
+In this CppCon 2022 presentation, Rainer Grimm provides a comprehensive guide to Standard Library containers in C++. He explains that the Standard Template Library (STL) is built on three pillars: containers, algorithms, and iterators (2:06-2:39). The talk focuses on helping developers choose the right container based on the use case and performance requirements (1:54-2:02).
+Key Highlights:
+
+    -Container Types: There are 13 main containers in the STL, categorized into sequence containers (e.g., std::vector, std::array, std::deque) and associative containers (ordered and unordered, like std::map and std::unordered_map) (2:49-3:34).
+	
+    -General Interface: Containers share a common, generic interface, meaning many functions (like begin, end, clear, or size) work consistently across different types (4:04-11:07).
+	
+    -Sequence Containers: While std::array and std::vector are highlighted as your "best friends," Grimm explains the specific trade-offs of others like std::list and std::forward_list. He emphasizes that performance often depends on contiguous memory and cache-friendly access (12:20-19:22).
+	
+    -Associative Containers: The presentation explains how ordered maps (based on binary balanced search trees) offer logarithmic access, while unordered maps (based on hash tables) provide constant-time access, often making them faster for large datasets (24:24-43:30).
+
+Performance Recommendations:
+
+    -Sequence Containers: In most cases, std::vector is the preferred choice due to its contiguous memory layout, which optimizes performance by minimizing cache misses compared to linked-list structures (48:00-52:43).
+
+    -Associative Containers: std::unordered_map is typically faster for lookup-heavy tasks than std::map. The speaker demonstrates through performance tests that as datasets grow, the constant-time access of the hash-based unordered_map scales much better than the logarithmic-time access of ordered structures (54:08-1:00:43).
+
+Grimm concludes by advising developers to always measure performance before making changes based on assumptions and points viewers toward his books and blog, Modernes C++, for further learning.
+
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
