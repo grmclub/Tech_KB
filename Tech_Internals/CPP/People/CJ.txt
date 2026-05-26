@@ -103,7 +103,6 @@ Key Resources for Interview Preparation
 4.  Staying Up-to-Date: Use cppstories.com for digestible updates on the latest C++ standards, and practice using online compiler environments like 
     Godbolt and Wandabox (8:06-8:56).
 
-
 -------------------------------------------------------------
 ##read these 5 books to break into quant trading as a software engineer
 https://www.youtube.com/watch?v=0pwpP2QOW9g
@@ -124,8 +123,6 @@ The Recommended Books:
     Inside the Machine (2:40 - 4:26): Explores computer architecture, providing insight into CPU design, pipelining, cache coherency, and hardware-level optimization.
     C++ Concurrency in Action (4:55 - 6:15): A language-specific guide for C++ that translates the OS-level concurrency concepts into practical, multi-threaded code.
     Beautiful C++ & C++ Software Design (6:35 - 8:28): Focuses on clean code, design patterns, and professional coding guidelines to ensure maintainable and efficient software architecture.
-
-
 
 -------------------------------------------------------------
 ##5 books every C++ developer should read
