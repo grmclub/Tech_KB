@@ -1,0 +1,85 @@
+
+--------------------------------------------------------------------------------------
+cpp+internals
+
+https://www.youtube.com/@osopcoding/videos
+https://www.youtube.com/@SuboptimalEng/videos
+https://www.youtube.com/@TheCherno/videos
+https://www.youtube.com/@CppCon/videos
+
+
+
+--------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=H4s55GgAg0I
+https://www.youtube.com/watch?v=3tIqpEmWMLI
+
+How the C++ Compiler Works
+
+Key concepts covered in the video include:
+
+    Translation Units: Every .cpp file passed to the compiler is treated as a translation unit, which eventually results in an intermediate .obj (object) file (2:44 - 4:15).
+    Pre-processing: This is the first step of compilation. The pre-processor handles directives like #include, #define, and #if. It essentially performs text substitution and file inclusion before the actual code is parsed (6:03 - 10:45).
+    Compilation to Machine Code: After pre-processing, the compiler parses the code into an Abstract Syntax Tree (AST) and generates the actual machine instructions for the CPU.
+    Optimization: The video demonstrates how compiler settings (like O2 optimization vs. debug mode) drastically affect the generated assembly code. Compiling in debug mode produces more verbose code for easier debugging, while optimization settings can significantly simplify instructions—for example, by performing constant folding (e.g., calculating 5 * 2 at compile time) or removing redundant function calls (12:20 - 16:55).
+    Function Calls: The video briefly touches on how the compiler generates call instructions and uses decorated function signatures to ensure the linker can correctly connect different object files (15:04 - 16:30).
+
+In summary, the compiler's role is to convert C++ text into object files containing machine instructions and constant data, which are then passed to the linker to produce the final executable.
+
+How the C++ Linker Works 
+
+This video by The Cherno provides a clear explanation of how the C++ Linker functions as the final stage of transforming source code into an executable binary. The process involves taking individual object files (translation units) created during compilation and stitching them together into one cohesive program.
+Key Concepts:
+
+    Compilation vs. Linking (1:40 - 3:10): The presenter distinguishes between compilation (translating individual files into object files) and linking (resolving references between them). Compilation errors start with 'C' (e.g., syntax issues), whereas linker errors start with 'LNK' (e.g., unresolved symbols).
+    The Entry Point (0:55 - 4:05): Every application requires an entry point (usually main()) so the operating system knows where to begin execution. The linker is responsible for finding this symbol.
+    Common Linking Errors (5:45 - 11:15):
+        Unresolved External Symbol: Occurs when a function is called but the linker cannot find its definition in any provided object file.
+        Duplicate Symbols: Occurs when two object files contain definitions for the same function, causing ambiguity.
+    Solutions to Linking Issues (12:00 - 14:45): The presenter demonstrates how to resolve symbol errors using techniques like:
+        Using the static keyword to limit scope to a single translation unit.
+        Using inline functions to allow multiple definitions of the same function.
+        Properly separating declarations (in header files) and definitions (in source files) to ensure each function is defined only once.
+
+
+
+--------------------------------------------------------------------------------------
+C++ Under the Hood: Internal Class Mechanisms - Chris Ryan - CppCon 2024 
+https://www.youtube.com/watch?v=gWinNE5rd6Q&t=16s
+
+
+In this technical deep dive, Chris Ryan explains the inner workings of C++ class mechanisms, moving beyond the black-box abstraction often used in development to show how the language behaves at the hardware level. The talk covers object construction, polymorphism, and memory management.
+Key Takeaways from the Presentation:
+
+    The C++ Onion (0:36 - 11:34): The speaker describes the hierarchical nature of inheritance as an "onion." Objects are constructed from the inside out and destroyed from the outside in. Each layer of inheritance, including member variables and base classes, follows a specific order of initialization and destruction.
+    Vtables and Polymorphism (3:45 - 9:32, 30:15 - 38:53):
+        Every class with virtual functions utilizes a vtable (virtual table), typically an array of function pointers.
+        The vtable pointer is usually located at offset zero within an object, allowing the compiler to find the correct virtual function even when dealing with derived types via base class pointers.
+        In cases of multiple inheritance, objects may contain multiple vtable pointers and require "this" pointer adjustments to correctly call methods in different base classes.
+    Function and Data Pointers (12:45 - 29:50):
+        Ryan distinguishes between classic C-style function pointers and C++ member function pointers, which require an object context to invoke.
+        Pointer-to-member data acts as a layer of indirection, representing an offset into the object's memory layout rather than a raw address, which allows for powerful data-morphic patterns (like multi-column sorting).
+    Stack Frames and Memory (38:53 - 45:43): The speaker provides an overview of how stack frames are managed, including the role of the base pointer in accessing parameters and local variables, and how debuggers walk the stack to identify function call history.
+
+C++ Under the Hood: (Internal Class Mechanisms) - Chris Ryan - NDC TechTown 2024 
+https://www.youtube.com/watch?v=m0uQF2E6D0M&t=1763s
+
+In this talk from NDC TechTown 2024, software engineer Chris Ryan provides a deep dive into the internal mechanisms of C++, specifically focusing on how classes and objects work under the hood. He emphasizes that understanding these concepts is vital for debugging and writing more predictable code.
+
+Key Topics Covered:
+
+    The C++ Onion (Inheritance and Polymorphism): Ryan explores the "onion" structure of objects, detailing how inheritance layers add functionality and how polymorphic mechanisms function through the vtable (virtual method table) (3:02, 37:12). He highlights that objects can have multiple this pointers depending on the inheritance hierarchy (14:20, 17:42).
+    Construction and Destruction Order: A core rule in C++ is that destruction occurs in the reverse order of construction (21:03, 22:55). The talk demonstrates how this applies to local objects, arrays, and global static objects, as well as the initialization of objects before main() (24:41, 31:01).
+    Pointer Mechanisms: Ryan distinguishes between raw pointers, pointers to member functions, and pointers to member data (44:28, 52:23, 1:00:54). He explains that member pointers are often offsets into the object, and uniquely, a "null" pointer-to-member is represented by -1 (1:06:13).
+    Stack Frames and Base Pointers: In a non-C++ specific segment, Ryan breaks down how stack frames function on a theoretical x86 architecture, explaining how return addresses and base pointers are managed during function calls and stack unwinding (1:11:03, 1:16:43).
+
+Key Takeaways:
+
+    Polymorphism Efficiency: Contrary to popular belief, polymorphism is described as relatively efficient, typically involving a single index lookup in the vtable (40:34).
+    Internal Complexity: The compiler often generates hidden code—such as "thunk" functions—to handle virtual calls and offset adjustments between inherited classes (57:27).
+    Developer Responsibility: The speaker advocates for simple, clean code and stresses the importance of knowing these internals to avoid common pitfalls in software architecture.
+
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
