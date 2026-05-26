@@ -24,6 +24,43 @@ cppstories                     : https://www.cppstories.com/
 learncpp                       : https://learncpp.com/
 
 https://cppcast.com/episodes/
+-------------------------------------------------------------
+##My favourite cpp design books -CJ
+The creator highlights seven specific books throughout the video:
+    C++: A Beginner's Guide
+    C++ 17 in Detail
+    45ish C++ Actionable Tips
+    Design Patterns: Elements of Reusable Object-Oriented Software
+    The Art of Writing Efficient Programs
+    C++ Software Design
+    C++ Programming Cookbook
+
+##Every book to break into Quant as a SWE -CJ
+Here is the recommended progression of resources mentioned in the video:
+C++ Foundations
+    For Beginners/Refresher: C++ A Beginner's Guide [00:11].
+    Building a Foundation: C++ 17 in Detail [00:17]. Most quant firms operate on C++ 17, 20, or 23 [00:22].
+    Best Practices: Beautiful C++ for core guidelines to write clean, efficient, and safe code [00:38].
+Design, Systems, and Architecture
+    Design Patterns: Learn to build reusable code patterns [00:28].
+    Operating Systems & Hardware: Inside the Machine is recommended to understand the interaction between software and computer hardware [00:49].
+    Networking: TCP/IP Illustrated to understand networking within the context of OS and your code [01:03].
+    Parallel Programming: C++ Multi-threading resources to write performant parallel code [01:09].
+    Software Design: Software Design for high-quality architecture principles and best practices [01:15].
+Interview Preparation
+    Benchmarking: Daily C++ Interview is recommended once you are comfortable with the basics to identify gaps in your skill set [01:44].
+The creator also points to their own website, getcracked.io, which includes daily questions and additional book recommendations to help prepare for Quant trading roles
+
+===============
+Recommended Learning Progression
+    C++ Fundamentals: Start with C++: A Beginner's Guide for basics, followed by C++ 17 in Detail to establish a solid foundation, as most firms utilize C++ 17, 20, or 23.
+
+    Design & Quality: Use Design Patterns to build reusable code and Beautiful C++ for core guidelines on writing clean, efficient, and safe code.
+
+    Systems Knowledge: The creator highlights the importance of understanding the hardware-software interface via Inside the Machine, networking fundamentals through TCP/IP Illustrated, and parallel programming through multi-threading resources.
+
+    Architecture & Interview Prep: Once foundations are set, Software Design is recommended for high-level principles, and Daily C++ Interview is suggested for benchmarking skills and finding knowledge gaps.
+===============
 
 -------------------------------------------------------------
 ##IQA resources
