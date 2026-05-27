@@ -61,6 +61,33 @@ Recommended Learning Progression
 
     Architecture & Interview Prep: Once foundations are set, Software Design is recommended for high-level principles, and Daily C++ Interview is suggested for benchmarking skills and finding knowledge gaps.
 ===============
+This video by Coding Jesus outlines a recommended reading list for software engineers looking to break into the Quant trading industry.
+Recommended Book List
+
+The progression starts with building a strong C++ foundation before moving into specialized topics:
+
+    Foundation:
+        C++: A Beginner's Guide (for those starting from scratch).
+        C++ 17 in Detail (essential as firms operate on C++ 17, 20, or 23) [00:17].
+    Design & Standards:
+        Design Patterns (for reusable patterns) [00:28].
+        Beautiful C++ (for clean, efficient, and safe code guidelines) [00:38].
+    Systems & Infrastructure:
+        Operating Systems and Computer Architecture knowledge is crucial for understanding hardware-software interaction [00:49].
+        TCP/IP Illustrated (for networking knowledge in a trading context) [01:03].
+    Advanced C++:
+        Multi-threading (to write performant, parallel code) [01:09].
+        Software Design (for high-quality architecture principles) [01:15].
+    Interview Preparation:
+        Daily C++ Interview (to benchmark your skills and identify knowledge gaps) [01:44].
+
+The speaker also recommends visiting his website, getcracked.io, which features daily Quant trading interview questions covering C++, OS, computer architecture, and networking [02:01].
+
+For more resources, check the original video: https://www.youtube.com/watch?v=EP5ojBcdy4c
+
+===============
+
+
 
 -------------------------------------------------------------
 ##IQA resources
