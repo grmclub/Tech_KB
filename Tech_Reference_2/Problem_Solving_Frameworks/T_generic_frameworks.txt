@@ -315,6 +315,7 @@ A punchy framework designed for impromptu speaking, answering executive question
     • Reason: Give the underlying data, logic, or justification for your point.
     • Explanation: Provide a concrete example, story, or statistic to illustrate it.
     • Point: Restate your original point to close the loop and solidify the message.
+
 If you are preparing for a specific discussion right now, let me know:
     • What is the objective of your communication? (e.g., giving tough feedback, pitching an idea, or resolving an argument)
     • Who is your target audience? (e.g., a manager, a client, a direct report, or a family member)
