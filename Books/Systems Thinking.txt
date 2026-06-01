@@ -86,6 +86,33 @@ Key Philosophical Takeaways
     • Resilience Over Control: Rather than forcing rigid control over complex environments, successful management focuses on building systemic resilience and flexibility.
 
 --------------------------------------------------------------------------------------
+System Leverage Hierarchy Diagram
+
+/summarize The 12 Leverage Points and draw a quick diagram
+
+▲ HIGHEST LEVERAGE: THE INTENT (Mindsets & Beliefs)
+│  [1] Transcending Paradigms (Realizing no single paradigm is absolute truth)
+│  [2] Paradigms (The fundamental mindset out of which the system arises)
+│
+├───► THE DESIGN (System Rules & Architecture)
+│     [3] Goals (The ultimate purpose or function of the system)
+│     [4] Self-Organization (The power to add, change, or evolve structure)
+│     [5] Rules (Incentives, punishments, and constraints)
+│
+├───► THE FEEDBACKS (Loops & Information Flows)
+│     [6] Information Flows (Who does and does not have access to data)
+│     [7] Reinforcing Feedback Loops (The gain around driving loops)
+│     [8] Balancing Feedback Loops (The strength of corrective mechanisms)
+│     [9] Delays (The lengths of time relative to system changes)
+│
+▼ LOWEST LEVERAGE: THE PARAMETERS (Physical Mechanics)
+   [10] Stock-and-Flow Structures (Physical nodes and intersections)
+   [11] Buffers (The sizes of stabilizing stocks relative to flows)
+   [12] Numbers (Constants, taxes, standards, and parameters)
+
+Would you like to apply one of these high-leverage points to a specific problem you are trying to solve, or should we look at a real-world case study where changing a paradigm shifted an entire industry?
+
+
 
 --------------------------------------------------------------------------------------
 
