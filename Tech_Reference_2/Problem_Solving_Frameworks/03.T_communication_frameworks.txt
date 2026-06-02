@@ -1,0 +1,47 @@
+
+
+-------------------------------------------------------------
+##list commonly used communication frameworks with a short summary
+
+Here are the most popular communication frameworks used globally to structure feedback, deliver presentations, resolve conflicts, and pitch ideas clearly:
+
+1. SCQA (Situation-Complication-Question-Answer) 
+A storytelling and business communication framework developed by McKinsey & Company to structure complex information into a compelling narrative. 
+    • Situation: State the current, undisputed facts or context.
+    • Complication: Introduce the trigger, bottleneck, or problem that disrupted the situation.
+    • Question: Formulate the core question or challenge that arises from the complication.
+    • Answer: Deliver your proposed solution or recommendation directly.
+
+2. Radical Candor
+A feedback framework developed by Kim Scott that builds high-performing teams by balancing professional challenge with personal care. 
+    • Care Personally: Show genuine empathy, investment, and human connection with the individual.
+    • Challenge Directly: Provide clear, upfront, and unvarnished truth about their performance gaps.
+    • The Goal: Avoid ruinous empathy (caring without challenging) and obnoxious aggression (challenging without caring). 
+
+3. STAR Method (Situation-Task-Action-Result)
+A universally adopted framework for behavioral interviews, status reports, and structured storytelling.
+    • Situation: Briefly describe the specific context, challenge, or background.
+    • Task: Outline the objective, responsibility, or target you needed to achieve.
+    • Action: Explain exactly what you did, how you did it, and the tools you used.
+    • Result: Detail the outcome, quantified metrics, and lessons learned from the action. 
+
+4. Nonviolent Communication (NVC)
+Developed by Marshall Rosenberg, this framework resolves personal or professional conflicts by focusing on objective observations and shared needs. [1, 2]
+    • Observations: State the objective, concrete facts of what happened without judgement.
+    • Feelings: Express how you feel in relation to these facts.
+    • Needs: Identify the core human needs or values creating those feelings.
+    • Requests: Make a specific, actionable, and concrete request to move forward. 
+
+5. PREP Technique 
+A punchy framework designed for impromptu speaking, answering executive questions, or making a quick point in a meeting.
+    • Point: State your main message or conclusion in the very first sentence.
+    • Reason: Give the underlying data, logic, or justification for your point.
+    • Explanation: Provide a concrete example, story, or statistic to illustrate it.
+    • Point: Restate your original point to close the loop and solidify the message.
+
+If you are preparing for a specific discussion right now, let me know:
+    • What is the objective of your communication? (e.g., giving tough feedback, pitching an idea, or resolving an argument)
+    • Who is your target audience? (e.g., a manager, a client, a direct report, or a family member)
+
+-------------------------------------------------------------
+-------------------------------------------------------------

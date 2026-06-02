@@ -1,0 +1,107 @@
+-------------------------------------------------------------
+Here are the most popular problem-solving frameworks used globally across technology, business, and operations, along with a short summary of their core steps:
+
+1. Six Sigma (DMAIC)
+A data-driven methodology developed by Motorola, widely used to eliminate defects and reduce variation in manufacturing and business processes.
+    • Define: State the problem, project goals, and customer requirements.
+    • Measure: Collect baseline performance data on the current process.
+    • Analyze: Study the data to find the root cause of defects.
+    • Improve: Develop, test, and implement creative solutions.
+    • Control: Monitor the new process to sustain the gains.
+
+2. Design Thinking
+A human-centered framework developed by IDEO and Stanford’s d.school, focused on understanding user needs to create innovative products and services.
+    • Empathize: Research and observe users to understand their experiences.
+    • Define: Formulate a clear, user-centric problem statement.
+    • Ideate: Brainstorm a wide range of wild, creative solutions.
+    • Prototype: Build cheap, scaled-down versions of the best ideas.
+    • Test: Put the prototypes in front of real users for feedback.
+
+3. McKinsey’s 7-Step Problem Solving
+A highly structured, analytical approach used by top management consulting firms to solve complex, ambiguous business strategies.
+    • Step 1: Define the problem clearly using specific boundaries.
+    • Step 2: Disaggregate the problem into logical parts using issue trees.
+    • Step 3: Prioritize the issues to eliminate non-critical paths.
+    • Step 4: Build a work plan and formulate testable hypotheses.
+    • Step 5: Conduct deep data analysis to test the hypotheses.
+    • Step 6: Synthesize the findings into a cohesive narrative.
+    • Step 7: Formulate actionable, high-impact recommendations.
+
+4. 8D (Eight Disciplines) Problem Solving
+Originally created by the US military and popularized by Ford Motor Company, this framework resolves critical product and safety failures in manufacturing engineering.
+    • D1–D3: Form a team, define the problem, and isolate immediate symptoms.
+    • D4–D5: Identify the root cause and choose permanent corrections.
+    • D6–D7: Implement and validate the permanent fixes, then prevent recurrence.
+    • D8: Recognize and celebrate the team's contribution.
+
+5. TRIZ (Theory of Inventive Problem Solving)
+An inventive engineering framework developed in Russia, based on patterns found across millions of global patents to solve difficult physical or technical contradictions.
+    • Step 1: Define the technical system and its specific problem.
+    • Step 2: Translate the problem into a standard TRIZ contradiction.
+    • Step 3: Look up the contradiction in the TRIZ Matrix.
+    • Step 4: Apply the suggested Inventive Principles to engineer a solution.
+If you are trying to tackle a challenge right now, let me know:
+    • What specific problem are you trying to solve?
+    • Is it a technical engineering issue, a business strategy dilemma, or a user experience challenge?
+
+
+-------------------------------------------------------------
+##list Poylas problem solving framework with a short summary
+
+Pólya’s problem-solving framework is a highly popular, four-step heuristic method developed by Hungarian mathematician George Pólya. Introduced in his landmark 1945 book, How to Solve It, the framework was originally built for mathematics but is widely applied globally to coding, engineering, and general logic problems.
+
+The four fundamental steps of Pólya’s framework are:
+
+1. Understand the Problem
+Before attempting a solution, you must gain absolute clarity on what is being asked.
+    • Actions: Restate the problem in your own words. Identify the unknown variables, the given data, and the core conditions. Determine if there is enough information available to solve it.
+	
+2. Devise a Plan
+Find the connection between the given data and the unknown to map out a strategy.
+    • Actions: Select a specific mental tactic. Common strategies include looking for a pattern, drawing a diagram, working backward from the goal, solving a simpler version of the problem, or guessing and checking.
+
+3. Carry Out the Plan
+Execute your chosen strategy with care, patience, and precise tracking.
+    • Actions: Detail each individual step to see if it is correct. Prove or verify each mathematical or logical transformation. If the plan fails, discard it immediately, pivot, and choose an alternative path.
+
+4. Look Back (Reflect)
+Review the final solution to ensure accuracy and to maximize your learning from the process.
+    • Actions: Double-check the final result to confirm it logically answers the original question. Analyze whether you could have derived the solution differently. Determine if this specific method can be applied to solve future, related problems.
+	
+If you are currently facing a tricky logical or analytical challenge, let me know:
+    • What specific problem are you trying to map out?
+    • Are you having trouble understanding the variables or devising the right strategy?
+
+===============
+https://medium.com/enjoy-algorithm/four-steps-of-polyas-problem-solving-techniques-80eb39d51c94
+https://math.libretexts.org/Courses/Coalinga_College/Math_for_Educators_(MATH_010A_and_010B_CID120)/05%3A_Problem_Solving/5.02%3A_George_Polya%27s_Strategy
+
+===============
+Pólya's problem-solving strategy is a systematic approach designed to tackle mathematical problems effectively. His method consists of four principal steps: understanding the problem, devising a plan, carrying out the plan, and looking back. This structured approach encourages critical thinking and fosters a deeper comprehension of the problem-solving process. Polya believed that by following these steps, students could develop their analytical skills and become more proficient in tackling a wide range of mathematical challenges.
+
+Polya's Problem-Solving Strategy
+
+    1. Understand the Problem: 
+        ◦ Read the problem carefully: Ensure you understand all the terms and the problem’s requirements. 
+        ◦ Identify what is given and what needs to be found: Distinguish between the known and unknown variables. 
+        ◦ Restate the problem in your own words: This helps clarify the problem and ensures you have grasped the main idea. 
+        ◦ Draw a diagram if necessary: Visual aids can make complex problems more manageable and understandable. 
+
+    2. Devise a Plan: 
+        ◦ Think of possible strategies: Consider various approaches, such as working backwards, looking for a pattern, or breaking the problem into smaller parts. 
+        ◦ Choose the most promising strategy: Select the method that seems most likely to lead to a solution. 
+        ◦ Relate the problem to similar problems: Use insights from previously solved problems that are similar in nature.
+		
+    3. Carry Out the Plan: 
+        ◦ Implement the chosen strategy: Apply the steps of your plan systematically. 
+        ◦ Be thorough and patient: Carefully execute each step without rushing. 
+        ◦ Keep track of your work: Document each part of the process to make it easier to review and correct if necessary. 
+
+    4. Look Back: 
+        ◦ Review the solution: Check the results to ensure they make sense and the problem is fully solved. 
+        ◦ Reflect on the process: Consider what worked well and what didn’t, which helps improve future problem-solving skills. 
+        ◦ Generalize the solution: Think about how the strategy could be applied to other problems.
+
+George Pólya's problem-solving strategy remains a cornerstone of mathematical education. By providing a clear, step-by-step method for approaching problems, Polya empowers students to develop their analytical skills and confidence in their mathematical abilities. His emphasis on understanding, planning, executing, and reflecting offers a comprehensive framework that is as applicable today as it was when he first introduced it. Polya’s legacy endures in classrooms around the world, where his strategies continue to inspire and guide students in their mathematical journeys.
+
+-------------------------------------------------------------

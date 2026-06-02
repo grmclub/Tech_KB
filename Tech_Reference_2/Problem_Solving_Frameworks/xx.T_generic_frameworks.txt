@@ -1,0 +1,12 @@
+
+--frameworks
+-problem_solving
+-learning_and_skill_aquisition
+-productivity_frameworks
+-communication_frameworks
+-task_prioritization
+-manufacturing_process_operations
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+-------------------------------------------------------------
