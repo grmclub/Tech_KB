@@ -1,0 +1,106 @@
+-------------------------------------------------------------
+https://github.com/vishalmusale/Grokking-Modern-System-Design-Interview
+grokking software architecture pdf
+
+https://www.youtube.com/@DavesGarage/videos
+https://bytebytego.com/
+https://www.youtube.com/@BeyondCoding
+
+-------------------------------------------------------------
+https://www.youtube.com/@Computerphile/videos
+https://www.youtube.com/@veritasium/videos 
+https://www.youtube.com/@jonhoo/videos
+
+-------------------------------------------------------------
+Computerphile
+/list channels with similar content and a quick summary 
+/list channels that offer a similar experience of expert-led deep-dive in the format of Computerphile
+ 
+-------------------------------------------------------------
+ByteByteGo: Perfect for understanding large-scale system design and how massive internet infrastructure (like how Netflix or Discord works) is architected.  
+
+Two Minute Papers: If you want to keep up with the latest AI research, this channel summarizes dense, complex academic papers into quick, visually-driven explainers.  
+
+Technology Connections: While less about raw code, it provides fascinating "historical engineering" deep dives, explaining the technical history of consumer technology (like why CDs work the way they do or how color TV was invented).
+
+mCoding: Excellent for "unintuitive" programming concepts. It goes deep into the weird, fascinating corners of Python and C++, perfect for someone who already knows how to code but wants to understand the language internals better.
+
+Do you have a particular area of computer science (like cryptography, AI, hardware, or systems design) that you want to dive deeper into next?
+
+particular area of computer science (HFT systems design) that you want to dive deeper into next 
+-------------------------------------------------------------
+/list channels which deep dive into system programming 
+
+Systems programming is a demanding field that requires an understanding of how hardware, operating systems, and high-level languages interface. If you are looking to move beyond surface-level tutorials, here are some of the best YouTube channels that offer deep dives into systems programming, 
+OS internals, and low-level architecture.
+
+Recommended Channels for Systems Programming
+
+Channel	Focus & Content Style
+Andreas Kling	Founder of the SerenityOS project. His videos feature raw, unedited "vlog-style" deep dives where he writes and debugs a full-featured hobbyist operating system from scratch in C++.
+
+Ben Eater	The gold standard for understanding the "why" of computer hardware. His series on building an 8-bit computer from scratch on breadboards explains logic gates, bus architecture, and clock signals in extreme detail.
+
+Nanobyte	Focuses on low-level systems programming, OS development, and hardware. His content is excellent for understanding how to bootstrap an OS and interact with hardware.
+
+Gamozolabs	Features intense, high-level reverse engineering and systems research. You will see him tackle complex topics like CPU cache side-channel attacks, hypervisors, and kernel-level debugging.
+
+Jon Gjengset	While focused on Rust, his "Crust of Rust" series provides some of the most thorough, deep-dive explanations of systems concepts like concurrency, memory safety, and networking sockets available today.
+
+Low Level Learning	Provides accessible but informative deep dives into the "lowest level" of programming, including memory management, assembly, and C-based system interaction.
+
+##Additional Learning Resources
+YouTube is a great companion, but for deep systems work, you will eventually need to reference classic literature and course materials. These are the "industry-standard" starting points:
+
+ • Operating Systems: Three Easy Pieces (OSTEP): An industry-standard, free, and accessible book on OS internals. It is arguably the most recommended resource for moving from "using" an OS to "understanding" one.
+ 
+ • The OSDEV Wiki: If you are serious about writing your own kernel or OS, this is the definitive repository of technical information and community knowledge.
+ 
+ • University Lectures: Many top-tier universities (like MIT's 6.828 or Harvard's CS61) publish their course materials and full lecture recordings online. These often include labs where you implement your own simple file systems or memory allocators. 
+	
+ • The Linux Programming Interface: Often called "the bible" of Linux systems programming, this book covers almost everything you need to know about the POSIX API and Linux-specific interfaces.
+For a great example of the practical, "from-scratch" approach to building an operating system, you may find this series helpful: SerenityOS Build Process.
+This video provides a look into the real-world development process of a custom OS by Andreas Kling, demonstrating how a professional approaches systems architecture and kernel-level programming.
+
+-------------------------------------------------------------
+/list channels which deep dive into linux or unix internals 
+
+For a deep dive into the guts of Linux and Unix-like systems, you need creators who operate at the kernel and syscall level. These channels go beyond "how to use" the system and focus on "how it works."
+
+Recommended Channels for Linux/Unix Internals
+
+Channel	Why it's a "Deep Dive"
+
+Andreas Kling	His work on SerenityOS is the definitive "from-scratch" resource. Watching him build a kernel, window manager, and C++ library from the ground up provides unparalleled insight into how Unix-like systems are actually put together.
+
+The Linux Foundation	Regularly uploads talks from Linux Plumbers Conference and Open Source Summits. These are often presented by kernel maintainers and cover bleeding-edge topics in kernel development, memory management, and scheduler optimization.
+
+Brennan's Guide	While less frequent, the content here is hyper-focused on the technical hurdles of kernel development, specifically for x86 architecture.
+
+Arjan van de Ven	Featuring talks from engineers at Intel and elsewhere, these videos often cover low-level kernel performance, power management, and how the Linux kernel interacts with modern CPU hardware features.
+
+Computerphile	While broader in scope, their specific videos on Unix Pipes, Memory Management, and Kernel Architecture are excellent, featuring experts who explain the historical and functional design of POSIX systems.
+
+Low Level Learning	Frequently breaks down the Linux source code, explaining how basic utilities (ls, ps, kill) work at the syscall level, which is the perfect bridge between writing code and understanding the OS.
+
+
+Where to Find the "Real" Technical Details
+YouTube is excellent for architectural overviews, but for true mastery of Linux/Unix internals, professionals supplement video learning with these resources:
+    1. LWN.net (Linux Weekly News): The most authoritative source on what is actually happening in the Linux kernel development cycle. Their "Kernel Page" is essential reading for anyone serious about the internals.
+	
+    2. The "Bootlin" Presentations: If you search for "Bootlin" (an embedded Linux engineering firm) on YouTube, you will find incredibly dense, high-quality training slides and talks on the kernel, drivers, and the Yocto Project. These are arguably the best technical workshops available publicly.
+	
+    3. Kernelnewbies.org: This is the community hub for those learning Linux kernel development. They maintain excellent documentation on how to navigate the kernel source tree and how to submit your first patch.
+	
+    4. "Understanding the Linux Kernel" (O'Reilly): While the book is older, it remains the gold standard for understanding the internal data structures (like task structs, page tables, and memory zones) that underpin everything else.
+	
+Pro-Tip for exploring: If you want to see how the system behaves in real-time, get comfortable with strace (to see syscalls) and perf (to see kernel-level CPU profiling). Watching how these tools interact with your code is the fastest way to "see" the Linux kernel in action.
+Would you like to focus on a specific subsystem, such as the VFS (Virtual File System), the memory manager, or the process scheduler?
+
+
+------------------------------------------------------------- 
+------------------------------------------------------------- 
+-------------------------------------------------------------
+------------------------------------------------------------- 
+------------------------------------------------------------- 
+-------------------------------------------------------------
