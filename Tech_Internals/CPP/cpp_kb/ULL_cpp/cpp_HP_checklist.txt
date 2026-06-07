@@ -46,7 +46,7 @@ https://github.com/lyndskg/networking-sans-latency
 https://github.com/0burak/imperial_hft
 C++ Design Patterns for Low-latency Applications Including High-frequency Trading - Cornell
 https://arxiv.org/abs/2309.04259
-https://arxiv.org/pdf/2309.04259
+
 
 https://github.com/kungfu-origin/kungfu
 https://roq-trading.com/
@@ -55,8 +55,95 @@ https://hackaday.com/2024/07/13/c-design-patterns-for-low-latency-applications/
 
 
 -------------------------------------------------------------
+--Trading 
+
+/list top technology companies in HFT
+/list youtube channels of tier1 hft firms 
+
+https://www.youtube.com/@citadelsecurities/videos
+https://www.youtube.com/@janestreet/videos
+https://www.youtube.com/@optiverglobal/videos
+https://www.youtube.com/@Hudson-River-Trading/videos
+
+The "Tier 1" HFT & Market Making Firms
+These firms are recognized for their massive scale, advanced technology stacks, and dominance in global electronic trading:
+    • Citadel Securities: One of the world’s largest market makers, responsible for a significant percentage of U.S. equity volume. They are known for extreme focus on low-latency infrastructure and massive data scale. 
+	
+    • Hudson River Trading (HRT): Highly respected for their sophisticated "World Simulation" models and a culture that is deeply rooted in rigorous software engineering and math. 
+	
+    • Jump Trading: Renowned for their "secretive" and highly technical approach. They are pioneers in hardware-centric trading, including custom FPGA development and massive investments in private microwave networks. 
+	
+    • Jane Street: While they operate with slightly longer time horizons than pure HFT firms, they are a dominant force in ETFs and global derivatives. They are famous in the engineering community for their heavy, highly successful use of OCaml for their core infrastructure. 
+	
+    • Virtu Financial: A public company and a titan of electronic market making. They are experts in managing execution latency across thousands of global symbols and venues. 
+	
+    • Optiver: A legendary Dutch firm with a global footprint. They are widely considered to have one of the best training programs in the industry, focusing heavily on options market making and derivatives. 
+	
+    • Tower Research Capital: Known for its decentralized, "pod-based" structure and a powerful C++ systems culture. They are a staple of the global HFT landscape.
+
+Other Major Global Players
+    • IMC Trading: A global market maker with significant emphasis on high-performance infrastructure and automated trading technology.
+	
+    • XTX Markets: A London-based giant, particularly dominant in the FX (Foreign Exchange) and fixed-income spaces, known for its purely electronic, algorithmic approach.
+	
+    • DRW Trading: A highly diversified firm that trades everything from crypto to real estate, with a robust proprietary trading infrastructure.
+	
+    • Susquehanna International Group (SIG): One of the largest quantitative trading firms in the world, with a massive focus on options and derivatives, often characterized by a strong game-theory-driven culture. 
+	
+    • Akuna Capital: A growing player in the derivatives space, known for a strong focus on both quantitative research and high-performance engineering.
+	
+Why These Firms Are "Tech Companies"
+To understand why these specific firms are grouped together, consider the common engineering challenges they all share:
+    1. Hardware Acceleration: They employ engineers who work directly in VHDL/Verilog to program FPGAs, moving trading logic from software into physical silicon to gain nanosecond advantages.
+	
+    2. Kernel Bypass: They avoid the standard operating system network stack, writing custom drivers to pull data directly from network interface cards (NICs) into user space.
+	
+    3. Compiler & Language Optimization: They often push the boundaries of C++, Rust, or OCaml to ensure the compiler generates the most cache-friendly, branch-prediction-optimized machine code possible.
+	
+    4. Network Physics: They lease/build proprietary fiber and microwave networks to shave microseconds off the physical travel time of data between financial centers (e.g., Chicago to New York, or London to Frankfurt).
+	
+If you are evaluating these firms for a career in systems engineering or systems programming, firms like Jump Trading, HRT, and Citadel Securities are often cited for having the most challenging and rewarding technical environments.
+
 -------------------------------------------------------------
+/list community and third party channels
+https://www.youtube.com/@AlgoTradingQuant/videos
+https://www.youtube.com/@CodingJesus/videos
+https://www.youtube.com/@FIXProtocol/videos
+https://www.youtube.com/@TradeCraftStudio/videos
+
+
+For a realistic and often more candid perspective on the HFT industry—beyond the polished marketing videos of the firms themselves—the following third-party and community-driven channels are highly regarded. They are run by industry practitioners, ex-quant traders, or technical analysts who offer genuine insight into the world of electronic trading.
+
+Recommended Community & Third-Party Channels
+Channel	Why it's useful
+
+Coding Jesus	Run by a former HFT software engineer. It provides arguably the best "no-nonsense" advice on breaking into the industry, the reality of C++ development in trading, and technical interview preparation.
+
+QuantInsti	A professional learning platform. Their channel is packed with webinars and discussions on quantitative finance, market microstructure, and trading systems design from an academic and practical standpoint.
+
+FIX Protocol	The official channel for the Financial Information eXchange (FIX) protocol. While technical and dry, this is the place to understand the standard messaging language used by the entire global financial ecosystem.
+
+QuantConnect	Focuses on open-source algorithmic trading. They provide extensive technical workshops on how to build, test, and deploy trading strategies, which is great for understanding the "lifecycle" of a trade.
+
+Top-tier Tech Podcasts	Channels like Lex Fridman or Software Engineering Daily frequently host engineers and founders from the quant world. Look for episodes specifically featuring guests from Jane Street, Citadel, or Two Sigma.
+
+Key Topics to Search for on These Channels
+Because many of these channels are vast, you will find the most value by searching for specific industry terminology rather than browsing general videos:
+    • "Market Microstructure": Search this to understand how limit order books work, the importance of "tick" data, and why order execution is so complex.
+    • "Latency Arbitrage": This explains the core mechanism that often drives HFT profitability—the ability to act on information faster than the competition.
+    • "Order Execution Algorithms": Look for content on TWAP, VWAP, and Implementation Shortfall models; these are standard tools used by institutional traders.
+    • "Kernel Bypass Explained": Many technical creators provide breakdowns of how to move data from a NIC (Network Interface Card) to the application with zero copy.
+
+A Note on "Trading Content"
+Be careful when searching. YouTube is saturated with "Day Trading" channels promising get-rich-quick schemes. You can differentiate high-quality HFT industry channels by looking for:
+    1. Professionalism: They discuss infrastructure, C++, data structures, and computer architecture rather than "trading signals" or "technical analysis chart patterns."
+    2. Focus on Firm Culture: They discuss the realities of engineering at scale, rather than speculating on individual stock movements.
+
+If you are serious about the systems programming side, I strongly recommend prioritizing Coding Jesus for its blend of practical engineering advice and industry career navigation.
+
+
 -------------------------------------------------------------
+
 -------------------------------------------------------------
 -------------------------------------------------------------
 -------------------------------------------------------------
