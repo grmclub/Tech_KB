@@ -80,6 +80,26 @@ Recommended Path for Further Learning
 
 Does this provide a helpful foundation for your dive into HFT systems, or would you like to explore a specific part of the stack (like the difference between FPGA and CPU-based execution) in more detail?
 --------------------------------------------------------------------------------------
+The Cost of Concurrency Coordination with Jon Gjengset 
+https://www.youtube.com/watch?v=tND-wBBZ8RY
+
+In this talk, Jon Gjengset explores the performance costs associated with concurrency coordination in multi-threaded software. He moves beyond the basic notion that mutexes are simply "slow," instead diving deep into the hardware-level mechanics that impact performance, specifically focusing on CPU caches and the MESI cache coherence protocol.
+
+Key concepts covered include:
+ • Why coordination is expensive: The talk explains how data structures like mutexes and reader-writer locks suffer as core counts increase because of cache line contention and cross-core communication (the "ping-pong" effect) (7:46-15:40). 
+
+ • The problem with Reader-Writer locks: While often recommended for read-heavy workloads, Gjengset demonstrates that they can actually perform worse than mutexes at high concurrency due to the overhead of updating the reader count on a shared cache line (11:45-16:20). 
+
+ • Alternative approaches: He introduces the left-right data structure as a specialized alternative for read-heavy workloads, which allows for lock-free and even weight-free reads by giving each reader its own cache line, effectively avoiding cross-core contention (18:18-23:14). 
+ 
+ • The pitfall of False Sharing: He shares a personal debugging story where a lack of proper memory alignment caused performance drops, illustrating the importance of cache line alignment (64-byte boundaries) to prevent threads from inadvertently contending on the same cache line (26:06-28:16). 
+
+Main Takeaways:
+    • Measure first: Always benchmark your specific workload, as there is no "one-size-fits-all" concurrency primitive (33:01-34:35). 
+	
+    • Understand your data access: Choose algorithms that align with your program's specific ratio of reads to writes and your consistency requirements (e.g., linearizability vs. eventual consistency) (32:42-34:24). 
+	
+    • Locks are interfaces: Remember that the bottleneck is usually the underlying cache coherence protocol of the CPU, not necessarily the lock itself (34:39-35:03). 
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
