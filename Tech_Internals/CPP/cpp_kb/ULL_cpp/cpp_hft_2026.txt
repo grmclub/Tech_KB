@@ -2,6 +2,14 @@
 
 https://deepengineering.substack.com/p/from-nic-to-p99-engineering-low-latency
 
+https://onepagecode.substack.com/p/unpacking-the-lightning-speed-the
+https://www.quantvps.com/blog/ultra-low-latency-in-high-frequency-trading
+https://medium.com/@gwrx2005/design-and-implementation-of-a-low-latency-high-frequency-trading-system-for-cryptocurrency-markets-a1034fe33d97
+https://org.tezo.com/blog/real-time-architecture-for-high-frequency-trading-hft/
+
+https://b2broker.com/news/high-frequency-trading-infrastructure/
+https://b2broker.com/news/why-low-latency-matters-in-hft-trading/
+
 --------------------------------------------------------------------------------------
 P:
 Research [C++ for HFT], found: [paste notes]. Synthesize: 1) Overall themes, 2) Conflicts, 3) Knowledge gaps, 4) Next steps for deeper understanding Cite every source. Flag any claim you are not confident about with [VERIFY]. Do not send or post anything. 
