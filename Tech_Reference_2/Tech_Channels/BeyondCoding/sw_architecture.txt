@@ -1,0 +1,172 @@
+-------------------------------------------------------------
+Google & AWS Veteran: What Top Tier Software Architects Do Differently 
+https://www.youtube.com/watch?v=F8X9_Dp3ZUk
+
+This video features Patrick Akil interviewing Gregor Hohpe, a former Google and AWS veteran, about the transition from software engineer to architect and the nuances of high-level system design. The core theme is that a great architect acts as an amplifier, making everyone else smarter rather than trying to be the "smartest person in the room."
+Key Takeaways for Software Architects:
+
+    -Architects as Risk Managers (0:03:44-0:05:50): Architecture is essentially a risk management function. Rather than just following a plan, an architect helps the team understand, anticipate, and mitigate risks, such as scalability, security, and whether the software actually delivers business value.
+    
+	-Embracing Complexity (0:06:13-0:08:07): Good design doesn't mean ignoring complexity; it means making it intuitive. Distributed systems have inherent complexity (timeouts, retries, etc.) that cannot be hidden, so architects should strive to make these systems manageable rather than deceptively simple.
+    
+	-The "Phantom Sketch Artist" Technique (0:25:41-0:29:12): A powerful metaphor for architects. Just as a police sketch artist translates a witness's mental image into a visual, an architect extracts technical knowledge from the team and translates it into a shared visual model to ensure everyone is aligned.
+    
+	-The "Architect Elevator" (0:20:42-0:22:52): The ability to move between the "engine room" (code, technical implementation) and the "penthouse" (business strategy, stakeholders). The best architects possess both technical depth and the ability to tell a compelling story about how architecture drives business outcomes.
+    
+	-Navigating Office Politics (0:44:37-0:50:28): Using the "Court Jester" strategy—being a trusted advisor who tells the truth because they have no ulterior motive (like chasing budget or headcount). This builds the political capital necessary to challenge bad decisions effectively.
+    
+	-Handling AI Tools (1:00:00-1:01:21): AI is a dangerous trap if treated as a substitute. The architect must remain "on top" of the tool, using it as an amplifier for their own reasoning rather than simply pasting LLM-generated output into design documents.
+
+Practical Mindsets:
+
+    -Stop being a Cartographer, be a Scout: Instead of maintaining a static, perfect map of a system (which is often impossible), be a scout who creates purpose-driven, timely maps to solve specific problems (0:30:37-0:34:00).
+	
+    -Don't stumble on the finish line: If you've done your job well by cutting through complexity, the final solution should feel obvious. Do not doubt yourself just because the answer seems simple—you’ve likely done a fantastic job (1:01:42-1:04:23).
+
+
+-------------------------------------------------------------
+How The Best Software Engineers Approach System Design 
+https://www.youtube.com/watch?v=LeUUxLRdvho
+
+This video features a conversation with Bassem Dghaidi, a Senior Software Engineer at GitHub, who shares his practical, real-world approach to system design and engineering. The discussion centers on moving away from theoretical, complex architectures in favor of simple, effective solutions that prioritize business impact.
+Key Takeaways from the Discussion:
+
+    -Simple is Complicated Enough: Bassem emphasizes that many engineers suffer from "status chasing" by overengineering with complex technologies like Kubernetes when not needed. He argues for starting with simple architectures and only scaling when data proves it necessary (0:02:06-0:04:06).
+	
+    -The "Order of Magnitude" Rule: Instead of designing for hypothetical massive scale, focus on designing for the next order of magnitude (e.g., if at 10x, design for 100x). This avoids premature scaling and allows software to evolve organically (0:11:53-0:14:17).
+    
+	-Vertical Scaling: Often underestimated, vertical scaling—simply upgrading the resources of a single server—can take systems very far, sometimes handling millions of requests per second with minimal infrastructure (0:05:20-0:07:10).
+    
+	-Business-Centric Engineering: Engineers should learn to translate technical problems into business risks. Understanding the financial and operational impact of software is crucial for gaining stakeholder buy-in and justifying technical investments (0:21:29-0:25:28).
+    
+	-The Role of AI in Coding: Bassem reveals that 90% of his code is now written by AI agents. He views this as a shift in the engineer's role: rather than manually typing code, engineers focus on defining the problem, benchmarking, verifying output, and ensuring operational reliability (0:37:30-0:39:03).
+    
+	-The "Professional vs. Hobby" Mindset: While coding has an aesthetic, craftsmanship-driven appeal, professional engineering is about delivering business value. Sometimes, creating "good enough" code is the most responsible choice for the business (0:31:00-0:32:19).
+
+Advice for Growth: To become a great engineer, focus on increasing your breadth of knowledge and your ability to learn quickly. Developing the ability to synthesize information from different disciplines, combined with a willingness to be "uncomfortable" while learning, is key for the future of the industry (0:41:04-0:44:12)
+
+
+-------------------------------------------------------------
+What World Class Software Engineers Do That You Don't
+https://www.youtube.com/watch?v=OkXuLNAjrSg
+
+This video features a deep dive into the qualities that define world-class software engineers in 2026, featuring insights from Patrick Akil and various guests from the Beyond Coding podcast. The conversation centers on shifting away from chasing trends toward building lasting, adaptable engineering habits.
+Key Takeaways for Software Engineers:
+
+    -The Power of Perpetual Learning: The most critical skill in the tech industry is not mastery of a specific tool, but the ability to learn effectively and rapidly (0:02:16). Technologies and languages change constantly, so engineers must focus on methods of learning rather than static techniques.
+    
+	-Simplification as a Strategy: A hallmark of a great engineer is using "boring" technology—proven and reliable stacks—rather than adopting new tools for the sake of novelty (0:08:50). The video argues that "simple is complicated enough" at scale and warns against over-engineering or building for 100x scale on day one (0:13:13-0:15:15).
+    
+	-The Architect as a Scout: Modern architecture has moved away from the "cartographer" role—drawing massive, static maps of IT landscapes. Instead, architects should act like "scouts," operating with a specific, purpose-driven objective to navigate systems that are constantly evolving (0:22:11-0:25:18).
+    
+	-Bridging Business and Tech: Great engineers distinguish themselves by understanding the business constraints behind the code (0:19:30). By truly listening to stakeholders (like the $50,000-per-hour container terminal example), engineers can better align their technical solutions with the actual needs of the business (0:21:10).
+    
+	-Navigating the AI Age: While AI agents can help with boilerplate tasks, they should be used for validation rather than pure generation (0:30:38). Juniors are encouraged to use these tools to build foundational knowledge rather than bypassing the hard work of understanding the underlying systems (0:26:49-0:32:46).
+
+
+-------------------------------------------------------------
+The Skills That Matter When AI Writes Your Code
+https://www.youtube.com/watch?v=B9zi-DAasaE
+
+This Q&A session with Patrick Akil covers essential career advice for software engineers, emphasizing how to thrive in an era where AI is transforming the development landscape. Akil argues that while coding syntax is becoming less critical, skills like system design, communication, and leveraging AI tools are increasingly vital.
+Key Takeaways:
+
+    -Handling "Brilliant Jerks": (1:06 - 3:58) Toxic behavior, even from high performers, can destroy team culture. Akil advises that while it is best to avoid hiring them, he believes in using patience and feedback to steer behavior if they are already on the team.
+    
+	-Leveraging AI as a Junior: (4:13 - 11:20) Juniors should embrace AI tools like Cursor and Claude Code to reach senior-level output faster. The playing field is leveling, and mastering these tools can be a strategic advantage over more experienced developers who may resist them.
+    
+	-The Future of Interviews: (7:10 - 10:00) Interviews are shifting away from syntax-heavy coding tests toward system design, orchestration, and problem-solving. Candidates should demonstrate how they explore codebases and interact with AI to find solutions.
+    
+	-Salary Negotiation: (15:58 - 23:20) Always negotiate. Research the market value of the role and, if a salary increase isn't possible immediately, ask for a concrete timeline for future reviews—Akil shares how this tactic helped him secure two raises in a single year.
+    
+	-Career Growth & Networking: (32:25 - 34:50) Networking is more effective than job boards. Akil suggests attending meetups and building direct relationships on platforms like LinkedIn to get noticed.
+    
+	-Skill Diversification: (35:16 - 37:08) Don't stay siloed. Front-end developers should learn basic back-end concepts (like API design and database interactions) to improve their overall value and ability to collaborate.
+    
+	-Soft Skills & Training: (39:07 - 41:10) Both formal training and on-the-job experience are essential. Use your training budget, but prioritize real-world experience through difficult conversations and project management to truly master soft skills.
+
+
+-------------------------------------------------------------
+What Elite Engineers Do Best 
+https://www.youtube.com/watch?v=NIqw1WUIDdE
+
+This video features a conversation with Sander Mak, Director of Technology at Picnic, exploring the training methods and mindsets that help engineers transition from 'good' to 'world-class.'
+
+Key themes discussed:
+
+    -Picnic’s Tech Academy: To support rapid scaling, Picnic developed an internal academy for early-career engineers (0:30-4:37). Instead of traditional, siloed training, juniors join product teams immediately, paired with mentors and a structured curriculum that balances theory and practical application (2:48-4:14).
+    
+	-The Power of Fundamentals: A key focus is teaching engineers to look 'under the hood' (14:10-17:41). By understanding the JVM, garbage collection, and core framework mechanics, engineers avoid the trap of simply copying code without comprehension, allowing them to make better long-term architectural decisions (8:01-11:13).
+    
+	-Value of 'Boring' Technology: Sander advocates for using proven, stable technologies over chasing the latest 'bandwagon' trends (17:41-19:50). 
+	
+	-Great engineers exercise judgment to stick with what is operable and maintainable rather than adding unnecessary complexity.
+    
+	-The Transition to Product Engineering: Moving beyond being a 'coder' requires shifting to a product-focused mindset (30:02-31:44). This involves solving problems end-to-end, considering the long-term impact on operations and system stability rather than just executing tickets (31:15-32:25).
+
+-------------------------------------------------------------
+How to Master Software Engineering (From Junior to Architect)
+https://www.youtube.com/watch?v=pNtkOZuWetg
+
+This video features Joris Kuipers, a CTO with over 25 years of industry experience, providing a pragmatic roadmap for software engineers—from juniors to seasoned architects—to achieve mastery in their craft.
+Key Takeaways for Career Mastery:
+
+    -Driven Learning: Instead of feeling overwhelmed by the infinite range of new technologies, Kuipers suggests letting real-world project requirements guide your professional development (0:02:39). This helps you gain deep, usable knowledge rather than just broad, superficial familiarity.
+    
+	-Mastering the Basics: For junior developers, the priority should be mastering the basics of their programming language and reading the code of established open-source frameworks to understand industry-standard patterns (0:08:49).
+    
+	-The Power of Feedback Loops: Kuipers emphasizes that the most effective way to learn and stay motivated is to see your code running in production and be involved in its maintenance (0:35:34). He highlights that frequent, small deployments are significantly safer and provide better feedback than slow, careful, and infrequent releases (0:41:38).
+    
+	-Engineering Culture: He argues for a partnership-driven approach with clients, moving away from rigid processes like traditional 
+	
+	-Scrum/story-point estimation, which he views as often producing "waste" (0:22:42).
+    
+	-Professional Growth: The environment you work in is critical. If your current organization lacks technical depth or restricts you from seeing your code in production, Kuipers suggests that switching jobs is often the most effective path to continued growth (0:49:09).
+
+On Evolving in the Industry:
+
+While the path to mastery is long and challenging, Kuipers shares the encouraging news that learning gets easier over time (0:52:10). As you move beyond the basics, you begin to recognize underlying patterns and abstractions, which makes learning new technologies and languages significantly more intuitive.
+
+-------------------------------------------------------------
+How We Get More Done with Fewer Engineers
+https://www.youtube.com/watch?v=gqt-leFkuqE
+
+This video features Engineering Manager Michiel Overeem from AFAS, a software company generating hundreds of millions in revenue with a lean engineering team of only 70 people (roughly 10% of their total workforce). The discussion focuses on how they achieve high productivity and efficiency through unconventional strategies.
+Key Takeaways from the Discussion:
+
+    Standardization as Strategy (03:20-04:26): AFAS avoids the overhead of managing diverse technologies by enforcing strict standards for databases, frameworks, and architecture. This limits unnecessary decision-making and allows engineers to focus on business value rather than infrastructure maintenance.
+
+    Two Types of Engineers (04:27-05:40): The company categorizes engineers into two groups:
+        Technical/Craftsmanship-focused: Handle core architecture, patterns, and infrastructure frameworks.
+        Product-focused: Embedded in product teams, directly connected to customer requirements and outcomes.
+
+    Responsibility vs. End-to-End Ownership (06:46-08:18): While teams may not be responsible for every single piece of the stack, they are kept extremely close to customers, fostering a powerful sense of personal accountability and urgency to solve problems.
+
+    Rethinking Agile and Scrum (19:33-21:16): AFAS moved away from traditional Scrum ceremonies because they didn't align with their twice-a-year release cycle. They prefer simple, team-level autonomy where developers collaborate directly on projects rather than following rigid stand-up rituals.
+
+    The 4-Day Work Week (24:13-26:48): To support well-being and professional growth, AFAS implemented a 4-day work week (paid for 5). This is positioned as a "self-development day," allowing engineers to explore new interests, learn, or manage personal tasks, with the expectation that they remain responsive if critical customer issues arise.
+
+    Culture of Learning (14:22-17:09): When hiring, AFAS prioritizes passion and a hunger for learning over specific tool expertise. A major red flag during interviews is candidates who insist on imposing "Scrum" or other specific methodologies before understanding the company's existing context and culture.
+
+
+-------------------------------------------------------------
+Software Architect: This Is How You Design Systems That Survive
+https://www.youtube.com/watch?v=jfEiNTbaVOI
+
+This video features a conversation between host Patrick Akil and software architect Nico Krijnen, who shares his insights from 30 years of experience on building sustainable, evolvable software systems. The discussion centers on the philosophy that software development is a socio-technical endeavor where human knowledge and team dynamics are just as critical as the code itself.
+
+Key themes include:
+
+    The Reality of Production: Nico argues that shipping to production is not the finish line, but the starting line. True learning begins when code meets real data and user feedback (0:08:04).
+    
+	The Importance of Team Composition: Successful projects require a diverse mix of disciplines. Nico highlights that some of his best work came from teams combining engineers and designers to solve complex problems creatively (0:11:28).
+    
+	Theory Building (Peter Naur): A core takeaway is the concept of Theory Building, which posits that documentation is insufficient for maintaining complex systems. The true understanding of a system lives in the team's collective knowledge. When that knowledge leaves (e.g., via team turnover), the system effectively becomes "legacy" and difficult to change (0:36:06 - 0:40:06).
+   
+   Designing for Evolvability: Nico emphasizes building the minimal amount necessary and ensuring the code remains easy to change. By assuming that initial designs might be wrong, teams can optimize for feedback loops and iterative learning rather than over-engineering for a future that may never arrive (0:48:14 - 0:51:31).
+    
+   The Role of AI: While agentic tools are powerful, they present a risk to long-term sustainability if they bypass the human process of building tacit knowledge and understanding the system's consequences in production (0:42:42).
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
