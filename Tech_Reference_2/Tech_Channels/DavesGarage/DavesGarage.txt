@@ -25,9 +25,13 @@ In this video, Dave from Dave's Garage explains that the C function fopen is muc
 Key takeaways from the video include:
 
     The Power of Abstraction: While fopen appears to be mere "plumbing," it provides a consistent interface for the OS to provide a stream of bytes. Whether the data comes from a disk file, a keyboard, a network connection, or a kernel pseudo-file (like those in /proc), the programmer can use the same simple commands (0:50 - 1:42).
+	
     Unix Philosophy: The standard design of stdin, stdout, and stderr (file descriptors 0, 1, and 2) allows for incredible composability. Programs don't need to know if they are reading from a file or a pipe; they just read from a stream (2:14 - 3:55).
+	
     Buffering and Efficiency: fopen provides a FILE pointer, which acts as a "clerk" to manage buffers. This prevents the performance-heavy cost of constant system calls for every individual byte, batching operations instead for efficiency (4:22 - 6:40).
+	
     Special Devices: Dave highlights that in Unix, a path name isn't limited to disk files. Opening /dev/null acts as a "bit bucket," /dev/zero provides an infinite stream of zeros, and /proc allows live access to kernel state, all using the same fopen interface (10:06 - 11:32).
+	
     Advanced Relatives: Dave briefly mentions related functions that offer even more control, such as fdopen, fileno, freopen, and popen, which enable deeper integration with system descriptors and process handling (12:54 - 14:06).
 
 Ultimately, Dave argues that this "brutally simple" design is a masterclass in software engineering, allowing modern C programmers to compose programs in ways that original developers never even imagined (14:16 - 15:30).
