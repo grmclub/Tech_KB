@@ -24,6 +24,19 @@ cppstories                     : https://www.cppstories.com/
 learncpp                       : https://learncpp.com/
 
 https://cppcast.com/episodes/
+
+##Top 5 hidden C++ learning resources: five underrated resources for learning C++:
+
+    Global C++ User Group: A Discord community that hosts weekly meetups with industry experts. These meetings are also recorded and posted to their YouTube channel.
+
+    CPPStories.com: A blog that breaks down the latest changes in C++ into bite-sized, weekly newsletter updates.
+
+    LearnCPP.com: A foundational, go-to classic resource for those starting to learn C++ from scratch.
+
+    GetCracked.io: A platform that complements foundational learning with extensive roadmaps, coding challenges, and questions modeled after real-world technical interviews.
+
+    Bo Chen: A YouTube channel featuring a former Apple engineer who provides concise, fundamental tutorials on core C++ concepts.
+
 -------------------------------------------------------------
 ##My favourite cpp design books -CJ
 The creator highlights seven specific books throughout the video:
