@@ -1,0 +1,37 @@
+
+-------------------------------------------------
+This Windows 10 & 11 Parasite Eats Up Your RAM and Slows Down Your PC — Turn It Off!
+
+1. Disable Telemetry Services (0:28 - 1:33)
+
+To stop the system from sending user data to manufacturers and save system resources, the creator recommends disabling the Connected User Experiences and Telemetry service:
+
+    Press Win + R, type services.msc, and press Enter.
+    Locate Connected User Experiences and Telemetry in the list.
+    Right-click, stop the service, then open Properties.
+    Change the Startup type to Disabled and apply the changes.
+
+2. Turn off Delivery Optimization (1:34 - 2:48)
+
+This feature allows your PC to upload Windows updates to other devices, which can consume internet bandwidth and slow down your machine.
+
+    Windows 10: Right-click Start > Settings > Update & Security > Delivery Optimization > Turn off Allow downloads from other PCs.
+    Windows 11: Right-click Start > Settings > Windows Update > Advanced options > Delivery Optimization > Turn off Allow downloads from other devices.
+
+3. Clear RAM Cache with RAMMap (2:49 - 3:51)
+
+To manually free up cached RAM that is not actively in use:
+
+    Download the official RAMMap application from the Microsoft website.
+    Open the application.
+    Click the Empty menu and select Empty Standby List.
+    This action clears cached memory, making it immediately available for other applications.
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
