@@ -13,6 +13,7 @@ https://github.com/tsoding
 https://www.youtube.com/@hnasr/videos
 https://music.youtube.com/playlist?list=PLQnljOFTspQU0ICDe-cL1EwXC4GDSayKY
 https://dev.to/saad_ali_21c328f1cb588b4d/backend-engineering-fundamentals-and-concepts-1f53
+https://hnasr.substack.com/p/how-to-become-a-good-backend-engineer
 
 -------------------------------------------------
 ## Mapping Channels to Low-Level Disciplines
