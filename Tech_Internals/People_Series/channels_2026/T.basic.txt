@@ -5,7 +5,23 @@ https://www.youtube.com/@CodeSource/videos
 
 
 -------------------------------------------------
+https://github.com/plummersSoftwareLLC/TinyRetroPad
+
+https://www.youtube.com/@TsodingDaily/videos
+https://github.com/tsoding
+https://www.youtube.com/@hnasr/videos
+
 -------------------------------------------------
+## Mapping Channels to Low-Level Disciplines
+
+----------------------------------------------------------------------------------------
+Area of Interest             |Recommended Channels           |Primary Focus
+----------------------------------------------------------------------------------------
+OS Kernels & Memory          |SerenityOS, Low Level Learning |Task switching, virtual memory allocations, pointers
+Compilers & Toolchains       |Tsoding Daily, Creel           |Code generation, parsing, hardware execution
+Network & Database Internals |Hussein Nasser                 |Epoll, socket descriptors, serialization overhead
+
+----------------------------------------------------------------------------------------
 -------------------------------------------------
 -------------------------------------------------
 -------------------------------------------------
