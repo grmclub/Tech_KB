@@ -1,0 +1,170 @@
+
+-------------------------------------------------
+##7 Enterprise Architect Skills You Must Master in 2026 
+
+In this video, Mike Gibbs outlines the seven critical skill sets required to succeed as an Enterprise Architect in 2026. He emphasizes that the role is primarily about making strategic business decisions rather than just technical deployments or creating diagrams.
+The 7 Essential Enterprise Architect Skills:
+
+    Technical Knowledge (0:30 - 3:53): Serving as a foundation, this is not about deep engineering, but about understanding how different domains (networking, security, AI, cloud) fit together to support business outcomes.
+    Business Acumen (3:54 - 6:44): Architects must understand the organization’s operating models and value streams to align technology with business goals like revenue growth and cost reduction.
+    Executive Presence and Relevance (6:45 - 9:33): The ability to communicate in a way that builds trust with leadership and focuses on business value rather than just technical features.
+    Sales Skills (9:34 - 12:24): Essential for persuading stakeholders, building a business case, and securing the necessary funding for architectural initiatives.
+    Leadership Skills (12:25 - 14:55): Guiding cross-functional teams and navigating organizational transformation, often without having formal authority over all involved parties.
+    Communication Skills (14:56 - 17:27): The ability to translate complex technical concepts into clear business language to ensure alignment across the organization.
+    Stakeholder Management (17:28 - 19:41): Successfully managing relationships, expectations, and conflicting priorities among various business and technical teams.
+
+Conclusion:
+Mike Gibbs concludes that these skills are interconnected (19:42 - 22:28). While technical knowledge is the starting point, the ultimate value of an Enterprise Architect lies in their ability to lead, influence, and align technology strategy with the needs of the business.
+
+-------------------------------------------------
+##Enterprise Architecture Fundamentals Bootcamp: What Enterprise Architects Actually Do Day 1 
+
+This video serves as the first session of a 12-hour Enterprise Architecture (EA) Fundamentals Bootcamp, hosted by Mike Gibbs. The core mission of the bootcamp is to teach participants how to align business strategy with technical execution, moving beyond mere diagramming to provide tangible business value.
+
+Key Takeaways:
+
+    Defining Enterprise Architecture: EA is defined as the discipline of aligning an organization's business strategy with its execution across the entire enterprise (13:10 - 13:33). It is not about creating bureaucracy or acting as a "ticket approval" office; rather, it is about facilitating speed, consistency, and risk reduction (51:40 - 52:13).
+    The Four Domains of EA:
+        -Business Architecture: Focuses on value streams, capabilities, and the operating model (15:05 - 18:02).
+        -Application Architecture: Managing the application portfolio and lifecycle (18:37 - 21:28).
+        -Data Architecture: Defining data domains, ownership, and quality standards (21:28 - 25:17).
+        -Technology Architecture: The platform, infrastructure, and cloud foundation (25:17 - 26:41).
+    The Role of an Enterprise Architect: The architect acts as a strategist who helps organizations move from a "current state" to a "target state" using roadmaps and capability mapping (38:52 - 41:05). Success is measured by business outcomes—such as revenue growth or reduced time-to-market—rather than just the delivery of technical artifacts (1:30:24 - 1:33:00).
+    Practical Application: The latter portion of the video features an Architecture Lab (2:30:15 - 3:12:31), where Mike Gibbs uses a healthcare/hospital scenario to demonstrate how to map business capabilities (like triage and patient tracking) to specific technology requirements, illustrating the complexity and strategic thinking required for the role.
+
+Common Misconceptions:
+
+    EA is not just about drawing technology diagrams (14:03).
+    EA is not a project management role; it focuses on high-level organizational strategy rather than the day-to-day management of individual projects (29:40 - 30:24).
+    EA should not act as a blocker; if the practice slows down delivery without adding value, it is not being done correctly (51:40 - 52:13).
+
+
+
+
+-------------------------------------------------
+How to become an Enterprise Architect
+
+This video serves as a comprehensive guide for professionals looking to transition into an Enterprise Architect (EA) role. Hosted by Nilotpal Das, the discussion covers the motivation, mindset, and practical steps required for this career shift.
+Why Become an Enterprise Architect?
+
+    Leadership & Strategic Influence: It is a strategic role that provides direct access to senior leadership (1:09 - 1:49).
+    Systems Thinking: You should enjoy looking at the "big picture"—how systems interact, depend on one another, and impact the organization (1:55 - 2:51).
+    The EA vs. Solution Architect: A Solution Architect acts like a construction architect (deep expertise in specific builds), whereas an Enterprise Architect acts like a town planner (wide-angle view of the entire organization) (3:17 - 5:08).
+
+Changing Your Mindset
+
+    Conway's Law: Organizations design systems that mirror their communication structures. Use this as a diagnostic tool to analyze how teams and systems are built (8:25 - 10:22).
+    Reverse Conway Maneuver: A "scalpel" to help design team structures that align with the desired quality of technical deliverables (10:55 - 12:05).
+    Continuous Learning: EA is a reading-heavy career. Nilotpal recommends reading 50–60 books a year to keep up with industry concepts (12:41 - 13:56).
+
+Recommended Learning & Tools
+
+    Foundational Reading: Enterprise Architecture as a Strategy by Jeanne W. Ross, Peter Weill, and David C. Robertson is described as the "bible" for new EAs (14:02 - 14:17).
+    Key Certifications:
+        TOGAF 10: The most comprehensive framework for EAs (20:07 - 20:54).
+        Zachman Framework: Highly recommended to learn directly from John Zachman if possible (21:31 - 22:15).
+        Agile/Scaled Agile (SAFe): Essential for understanding modern delivery models (22:45 - 23:20).
+        Modeling: Study ArchiMate and BPMN (Business Process Modeling Notation) for effective documentation (23:30 - 23:55).
+
+Tactical Career Advice
+
+    Build a Portfolio: Showcase "strategic wins" rather than just technical code or infrastructure implementations (18:32 - 19:08).
+    Apply, Don't Just Certify: Certification is only the beginning; real learning happens when you implement EA principles in your work (24:02 - 24:20).
+    Network: Join communities like the Enterprise Architecture Radio Discord and Telegram groups to learn from peers (26:32 - 27:33).
+
+
+
+
+
+-------------------------------------------------
+##Enterprise Architect vs Platform Architect vs Solutions Architect (Explained Clearly) 
+
+This video clarifies the distinctions between Enterprise Architect, Platform Architect, and Solutions Architect roles, explaining that confusing these positions can hinder career advancement and promotion (0:23–0:52).
+
+1. Enterprise Architect (1:11–4:13):
+
+    Focus: The entire business, including strategy, operating models, capabilities, and governance.
+    Goal: Aligning business needs with technology strategies to drive revenue and resilience.
+    Measurement: Success is based on reducing technology sprawl, minimizing risk, and providing clear roadmaps for executive-level decision-making.
+
+2. Platform Architect (4:14–6:48):
+
+    Focus: The foundations upon which the business runs, such as cloud infrastructure, networking, or security (acting as a subject matter expert).
+    Goal: Creating guardrails, standards, and reusable architecture patterns to enable scale.
+    Measurement: Success is seen in faster onboarding, consistent architectures, fewer security exceptions, and reduced operational friction.
+
+3. Solutions Architect (6:50–8:57):
+
+    Focus: A specific workload or architecture pattern (the most tactical role).
+    Goal: Delivery, balancing cost, performance, and risk for individual applications.
+    Measurement: Success is measured by on-time delivery, whether the system meets functional requirements, and the absence of technical debt.
+
+Common Pitfall (8:58–9:47): A frequent career mistake is performing work in a lower-level architecture category after being promoted (e.g., an Enterprise Architect doing Solutions Architect work), which prevents the architect from focusing on the strategic, big-picture responsibilities required for their new role.
+
+
+
+
+-------------------------------------------------
+4 Types of Solution Architects | SA Job Function Breakdowns 
+
+In this video, Trevor Spires demystifies the role of a Solution Architect (SA) by breaking it down into four distinct job functions. He notes that while the title is often used broadly, the day-to-day responsibilities can vary significantly depending on the focus and the company.
+
+The four types of Solution Architects are:
+
+    Pre-Sales Solution Architect (1:19 - 4:02): These professionals engage with customers before a purchase decision is made. They act as technical advocates, helping to educate clients, conduct proof-of-concepts, and build roadmaps. They often partner closely with sales teams but prioritize technical enablement and value communication.
+
+    Post-Sales Solution Architect (4:02 - 5:45): Also known as delivery or consulting architects, their role begins after the customer has committed to a solution. They focus on successful adoption, technical integration, and ensuring the customer realizes the value promised during the pre-sales phase. This role is highly hands-on and often involves working directly in client environments.
+
+    Business Solution Architect / Enterprise Architect (5:45 - 7:38): These individuals tend to be less focused on deep-dive technical implementation and more focused on the big picture. They communicate with executive leadership (C-suite/VPs) to bridge the gap between complex business problems and technical solutions. They are often highly relationship-focused.
+
+    Internal Solution Architect (7:38 - 8:56): Unlike the others, these architects are hired directly by large organizations to work on internal teams rather than for a technology vendor or service provider. Their goal is to solve the company’s specific business challenges with technical architecture, serving as a dedicated resource to that single organization.
+
+Trevor emphasizes that within these four categories, architects can either be generalists (covering a broad range of technologies) or specialists (focusing on specific areas like security, networking, or machine learning).
+
+
+
+-------------------------------------------------
+Enterprise Architecture Principles Every Architect Must Know
+
+In this video, Mike Gibbs outlines 12 core principles of enterprise architecture, explaining how these guidelines help organizations align technology with business goals to ensure long-term success and efficiency.
+Key Enterprise Architecture Principles:
+
+    Business Alignment & Value Delivery (0:26): Ensuring people, processes, and technology work together to achieve specific business goals and deliver measurable value.
+    Standardization & Simplification (1:19): Reducing complexity by adopting common standards and platforms, which lowers maintenance costs and overhead.
+    Modularity & Reusability (2:02): Designing systems with reusable components to increase agility and minimize duplicated effort.
+    Scalability & Flexibility (2:39): Creating architectures that adapt to changing business conditions and handle fluctuating loads effectively.
+    Integration & Interoperability (3:24): Utilizing non-proprietary formats and APIs to ensure systems can communicate easily, especially in multi-cloud environments.
+    Security & Risk Management (4:21): Embedding security and risk controls into the very fabric of the architecture (security by design).
+    Data as a Strategic Asset (5:02): Treating data as a core organization asset, supported by strong governance and analytics.
+    Agility & Responsiveness (5:31): Architecting systems to allow for rapid responses to market changes and regulatory shifts.
+    Cost Effectiveness & Efficiency (6:31): Balancing quality, performance, and cost through careful total cost of ownership analysis.
+    Governance & Compliance (7:26): Establishing robust frameworks to oversee decisions and ensure alignment with policies and regulations.
+    Innovation & Continuous Improvement (8:10): Encouraging experimentation and adopting emerging technologies only when they add real business value.
+    Technology Agnostic/Avoiding Vendor Lock-in (8:41): Selecting solutions based on functionality and business requirements rather than brand preference.
+
+These principles are intended to guide architects in breaking down silos and driving competitive advantage through better organizational alignment 
+
+-------------------------------------------------
+Can You Be an Enterprise Architect Without a Technical Background? 
+
+This video, presented by Mike Gibbs, explores the common myth that one must have an engineering background to become an Enterprise Architect. In reality, approximately 50% of working enterprise architects come from non-technical backgrounds, drawing instead on experience in business, management consulting, and leadership.
+
+Key takeaways include:
+
+    Architect vs. Engineer: While engineers focus on the technical 'how-to'—building, fixing, and troubleshooting—the architect's role is akin to a management consultant (1:16). Architects are concerned with high-level design, business outcomes, and organizational transformation (1:03-1:10).
+    The Required Skill Set: Success in enterprise architecture relies on business acumen, including an understanding of finance, risk management, operations, and customer impact (2:06-2:27).
+    Executive Presence: Because architects often act as advisors to boards and CIOs, they require strong storytelling, negotiation, and stakeholder management skills (2:44-3:00).
+    Core Deliverables: Instead of technical configurations, architects produce strategic artifacts such as capability maps, value stream maps, governance models, and organizational roadmaps (4:21-4:40).
+    The Path Forward: The video emphasizes that anyone can transition into this role by acquiring the right skills. It highlights that the role acts as an 'executive track,' making it excellent preparation for future CIO positions (5:50-5:53).
+
+Mike Gibbs encourages viewers to focus on their potential rather than their current background, offering free resources and webinars to help professionals transition into architecture careers (6:48-7:15).
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
