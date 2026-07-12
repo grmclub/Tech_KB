@@ -17,6 +17,8 @@ https://www.opensourceforu.com/2011/01/understanding-a-kernel-oops/
 https://www.opensourceforu.com/2016/07/boost-system-performance-linux-kernel-recompilationoptimisation/
 https://www.opensourceforu.com/2016/06/quick-look-integer-promotion-c/
 
+https://www.opensourceforu.com/2026/07/algorithmic-trading-automating-financial-investment-decisions/
+
 -------------------------------------------------
 https://www.tutorialspoint.com/python/index.htm
 https://www.w3schools.com/python/
