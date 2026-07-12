@@ -2,6 +2,7 @@
 
 -------------------------------------------------
 https://www.phoronix.com/
+https://linux.slashdot.org/
 https://spectrum.ieee.org/
 https://queue.acm.org/topics.cfm
 
@@ -11,11 +12,17 @@ https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
 https://www.netbsd.org/docs/internals/en/index.html
 https://nicoleorchard.com/blog/compilers/
 https://www.kernel.org/doc/
+https://www.opensourceforu.com/tag/linux-device-drivers-series/
+https://www.opensourceforu.com/2011/01/understanding-a-kernel-oops/
+https://www.opensourceforu.com/2016/07/boost-system-performance-linux-kernel-recompilationoptimisation/
+https://www.opensourceforu.com/2016/06/quick-look-integer-promotion-c/
 
 -------------------------------------------------
 https://www.tutorialspoint.com/python/index.htm
 https://www.w3schools.com/python/
 https://beej.us/guide/
+
+https://developer.ibm.com/tutorials/python-beginners-guide/
 
 -------------------------------------------------
 ------------------------------------------------- 
