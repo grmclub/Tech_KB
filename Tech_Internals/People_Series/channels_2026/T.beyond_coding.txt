@@ -1,0 +1,23 @@
+Beyond Coding
+https://www.youtube.com/channel/UCdMz6KKEDW_1Qqas-ya7S6w
+-------------------------------------------------
+This video features a conversation with Lindsey Simon, VP of Engineering at Vercel, discussing how the role of software engineering is evolving in the age of AI. He argues that seniority today is defined less by raw output and more by one's ability to navigate ambiguity, unblock others, and drive business impact.
+Key Themes and Takeaways:
+
+    -The Consolidation of Roles (0:01:52 - 0:03:33): Specialized roles are flattening into a broader "Member of Technical Staff" title. Modern engineers are expected to be multi-disciplinary, leveraging AI agents to bridge gaps in areas like design or backend development.
+    
+	-The "Junior" Mindset (0:04:33 - 0:06:10): Simon highlights how new graduates, often "AI-native" and trained in hackathon cultures, can be highly effective. They are less burdened by the "need to know everything" and more comfortable using tools to learn on the fly.
+    
+	-Leveraging AI Agents (0:06:10 - 0:08:01): Best-practice engineering now involves consulting AI agents before asking a human. This allows engineers to frame more intelligent, grounded questions when they do reach out for help.
+    
+	-Redefining Seniority (0:12:04 - 0:13:11, 0:20:33 - 0:21:30): PR throughput is no longer the primary lever for seniority. Instead, the best engineers focus on systematizing their impact—turning their own solutions into reusable knowledge or "skills" that help the entire team move faster.
+    
+	-The Importance of Feedback (0:16:11 - 0:18:12, 0:27:03 - 0:28:10): Simon emphasizes that great work happens through early, continuous feedback loops. He suggests that "hiding in the cave" is a trap; the most successful engineers are those who observe how users struggle with their products and iterate based on that signal.
+    
+	-Foundational Skills: Throughout the discussion, Simon reinforces the value of learning how to learn and the power of clear writing. He argues that the ability to distill complex information concisely is a crucial differentiator in an era of abundant AI-generated content.
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
