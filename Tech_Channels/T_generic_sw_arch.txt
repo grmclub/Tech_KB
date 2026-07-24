@@ -4,7 +4,10 @@ grokking software architecture pdf
 
 https://www.youtube.com/@DavesGarage/videos
 https://bytebytego.com/
+
+--SW Engineering
 https://www.youtube.com/@BeyondCoding
+https://www.youtube.com/@ModernSoftwareEngineeringYT/videos
 
 -------------------------------------------------------------
 https://www.youtube.com/@Computerphile/videos
@@ -14,9 +17,34 @@ https://www.youtube.com/@jonhoo/videos
 https://www.youtube.com/@lexfridman/videos
 
 -------------------------------------------------------------
-Computerphile
+##Computerphile
 /list channels with similar content and a quick summary 
 /list channels that offer a similar experience of expert-led deep-dive in the format of Computerphile
+
+--objectives
+-Linux internals 
+Performance Troubleshooting
+Automation scripts
+
+--orderflow analytics
+order types /per client
+-latency analytics
+-fr analytics
+
+--transaction processing engines
+
+--web app
+-infra monitoring
+-config search /CRUD
+
+-FKM real time monitoring
+-tnx engines
+-downstream 
+-mkt data
+-packet capture
+
+-client files
+
  
 -------------------------------------------------------------
 ByteByteGo: Perfect for understanding large-scale system design and how massive internet infrastructure (like how Netflix or Discord works) is architected.  
