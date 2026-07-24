@@ -1,0 +1,22 @@
+
+https://www.youtube.com/@ModernSoftwareEngineeringYT/videos
+-------------------------------------------------
+Why Companies Are Quietly Rehiring Software Engineers
+https://www.youtube.com/watch?v=VGE84CeeaMo
+
+Programming vs. Software Engineering: Farley emphasizes that "programming" (typing code) is not the same as "software engineering" (design, judgment, security, and long-term maintenance). AI excels at the former but struggles with the complex, invisible work that defines engineering (4:16–5:53, 12:45–13:06).
+
+The Technical Debt Trap: Measurements indicate that reliance on AI can lead to increased code duplication (up 50%) and critical security vulnerabilities (up to 40% after iterative AI refinement). AI acts as an amplifier: it makes good engineering teams better but can degrade systems with weak practices (6:24–9:54).
+
+Conclusion
+
+Farley concludes that the job market is repricing the industry rather than eliminating it. The demand for simple "typing" is dropping, while the value of true "engineering"—judgment, system design, and responsibility for the outcome—is increasing. To stay valuable, developers should focus on the aspects of the craft that AI cannot replicate.
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
