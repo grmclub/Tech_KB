@@ -37,6 +37,100 @@ Key Takeaways:
 
 
 -------------------------------------------------
+Why The "10x Engineer" Is A Dangerous Myth
+
+This video features a discussion between Dave Farley and Charity Majors about the controversial "10x engineer" trope and the broader meaning of software engineering.
+
+Key takeaways from the discussion:
+
+    The Myth of the "10x Engineer": Both participants agree that while highly prolific engineers exist, chasing the label of a "10x engineer" is a "dumb target" (0:48). Charity Majors notes that individuals obsessed with this title often neglect the technical debt they leave for others (0:30-0:38).
+    Defining Excellence: True excellence isn't just about output volume. Charity Majors shares an example of a level seven engineer who wrote very little code but saved their company $50 million (1:38-1:48). Different teams require different types of excellence.
+    What Software Engineering Really Is: Dave Farley argues that writing code is the easy part (2:16). He defines software engineering as a discipline focused on understanding, maintaining, extending, scaling, and refactoring systems (2:18-2:28).
+    Engineering as a Discipline: Dave Farley emphasizes that engineering is about solving problems nobody knows how to solve in a way that is practical and functional (3:14-3:25). He suggests that the term has been devalued, becoming a synonym for bureaucracy in some places and just "writing code" in others (2:41-3:05).
+
+===========
+How should we define engineering?
+
+In the video, Dave Farley offers a nuanced definition of engineering, viewing it as a discipline that extends far beyond just writing code. Here is how he defines it:
+
+    The Height of Human Creativity: He considers engineering—not just in software, but as a broad discipline—to be one of the most creative human endeavors (3:08-3:14).
+    Solving Unknown Problems: Engineering is defined by the act of solving problems that no one yet knows how to solve (3:14-3:20).
+    Practical and Economic Target: It is not purely theoretical; successful engineering must be practical, functional, and aligned with an economic target (3:20-3:26).
+    Continuous Improvement: Engineering involves an ongoing cycle of optimizing, tuning, learning, and control (3:34-3:40).
+    Steering Toward Success: Crucially, he argues that if a process does not effectively steer the team toward success, it cannot be called engineering. By definition, engineering is the application of what we know to work best at a given moment (3:42-3:56).
+
+Farley notes that the term has been devalued in recent years, often becoming a synonym for "writing code" in the U.S. or a "bureaucratic approach" in parts of the U.K., both of which he argues miss the true essence of the discipline (2:41-3:05).
+===========
+
+
+-------------------------------------------------
+##Why Distributed Systems Are Fascinating
+
+This video features a conversation between the host and Dave Farley discussing the realities of distributed systems and microservices. Key highlights include:
+
+    The Case Against Distribution: The speakers argue that much of the drive toward microservices is an attempt to achieve independent deployability (0:09-0:14) because most current software runtimes do not support effective hot-swapping of modules (0:23-0:27). They suggest that if runtimes were better, we might not need as much system distribution (0:33-0:39).
+	
+    The "Distributed Monolith" Trap: A common pitfall is described where teams aim for microservices but fail to achieve true independence, resulting in a "distributed monolith" (1:40-1:44). This often leads to increased organizational overhead, such as the need for release managers to coordinate dependencies, ultimately slowing down development (1:56-2:10).
+	
+    The Benefits of Distribution: Despite the complexity, distribution offers advantages such as the ability to scale development across teams (2:19-2:25) and the freedom to experiment with different technologies, runtimes, or hardware within the same system (3:43-4:05).
+	
+    Three Rules of Distributed Systems: The video outlines three fundamental challenges that define the complexity of distributed systems (5:26-5:41):
+        Time: Information cannot be beamed instantaneously; latency is a physical reality (5:48-5:55).
+        Availability: Sometimes the target service is unreachable (6:02-6:05).
+        Resource Constraints: Resource pools are not infinite (6:10-6:14).
+
+The speakers conclude by emphasizing that while these concepts are simple to state, they are profoundly difficult to master, and they advocate for thinking from first principles—starting with basics like timeouts—when building resilient software (6:56-7:26).
+
+-------------------------------------------------
+How to Make the Best of AI Programming Assistants 
+
+This video, presented by Dave Farley, addresses the engineering challenge of maintaining code quality when using AI programming assistants. As these tools enable developers to generate code at a much faster rate, traditional manual review processes are no longer sufficient, leading to an under-sampling of the code, which violates the Nyquist-Shannon sampling theorem.
+Key Takeaways:
+
+    The Feedback Gap (0:57 - 2:56): When AI generates code in large volumes, manual review cannot keep up. This creates a vulnerability where subtle, critical errors are missed because the feedback frequency is too low compared to the production frequency.
+    Continuous Integration (CI) as a Sampling Strategy (3:39 - 4:10): CI should not be viewed merely as a pipeline to run tests, but as the primary mechanism for sampling code quality at the correct frequency.
+
+Five Rules for AI-Assisted Development (6:22 - 8:00):
+
+    Avoid Large Batches: Work in small chunks to ensure feedback is frequent and meaningful.
+    Fast Pipelines: You must know within seconds if AI-generated changes are correct; slow pipelines create dangerous latency.
+    Tests as Source of Truth: Rely on automated tests (behavioral and unit) rather than manual code review for verification.
+    Avoid Long-Lived Branches: Integrate frequently to maintain a high sampling rate and team synchronization.
+    Invest in Deployment Pipelines: Real-world feedback in production is the ultimate signal for system health.
+
+Ultimately, Farley argues that Continuous Integration is not just an optional practice but a fundamental requirement for modern AI-assisted development to ensure the reliability and correctness of software.
+
+-------------------------------------------------
+What Is The True Cost Of Cognitive Load In Software Engineering?
+
+This video features a conversation between host Dave Farley and guest Manuel Pais (co-author of Team Topologies) on the impact and cost of cognitive load in software engineering teams. Key takeaways include:
+
+    Defining the Challenge: Software development is inherently complex. Managing this complexity—both technical and human/organizational—is the core task of engineering leadership (0:21 - 1:00).
+    Drivers of Cognitive Load: Beyond the complexity of the work itself, cognitive load is influenced by team composition, team size, role clarity, work environment, and the need to manage external dependencies or approvals (1:32 - 4:12).
+    Organizational Strategies: Team Topologies serves as a model to help structure organizations for better flow by creating autonomous teams, using clear abstractions, and minimizing unnecessary coupling. The "Platform as a Product" pattern is highlighted as a way to provide "golden paths" that reduce the cognitive burden on product teams (4:24 - 8:02).
+    The True Cost: When cognitive load is unmanaged, teams often suffer from lower productivity, higher error rates, increased incident frequency, and, critically, higher rates of burnout and anxiety among team members. This results in building "worse software slower" (10:05 - 12:28, 21:13 - 22:32).
+    Managing, Not Eliminating: The goal is not to eliminate all cognitive load (as challenging work can be motivating), but to manage it to an appropriate level by removing unnecessary obstacles and allowing teams to focus on the work that actually requires their attention (13:17 - 14:09).
+    The Role of AI: While AI offers potential productivity gains, it can also increase cognitive load if it creates context switching, adds complex new toolsets, or disrupts team collaboration workflows (18:21 - 20:54).
+
+Manuel also introduces a free course titled 'Flow by Design: CI/CD' aimed at helping teams empower their members and reduce cognitive load through better platform design (22:33 - 23:44).
+
+-------------------------------------------------
+Software Design Is NOT Software Architecture (& That’s A Good Thing!)
+
+In this video, Emily Bache explores the distinction between software design and software architecture, arguing that they represent a continuum of decision-making rather than opposing disciplines.
+Key Concepts:
+
+    Definition of Architecture: Drawing on Grady Booch, the video defines architecture as significant design decisions that are expensive to change (1:20-1:30). Conversely, design involves decisions that are generally cheaper and easier to reverse (3:09-3:16).
+    The Continuum: Both design and architecture involve mapping business needs to software and making trade-offs; they differ primarily in the scale of impact and the context of the decisions (2:27-2:56).
+    Managing Complexity: Emily highlights three factors to keep design decisions reversible and cheap:
+        Modularity: Using good abstractions, APIs, and separation of concerns to minimize the "blast radius" of changes (4:05-4:57).
+        Automated Testing: Essential for understanding the impact of changes and ensuring behavior remains consistent (4:57-5:32).
+        Refactoring Skills: The ability to safely change existing code is crucial for maintaining flexibility, especially when dealing with legacy systems or unexpected business requirements (5:32-8:50).
+
+Conclusion:
+
+Emily emphasizes that design is not architecture, and that is a good thing because it allows for agile, reversible decisions. Developing expertise in refactoring is the key to keeping systems flexible, enabling developers to respond to new business needs without incurring the high costs associated with rigid architecture (8:50-9:18).
+
 -------------------------------------------------
 -------------------------------------------------
 -------------------------------------------------
@@ -44,3 +138,15 @@ Key Takeaways:
 -------------------------------------------------
 -------------------------------------------------
 -------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+
+
+
+
+
+
+
