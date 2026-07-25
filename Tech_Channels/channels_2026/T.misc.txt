@@ -1,0 +1,32 @@
+-------------------------------------------------
+https://www.youtube.com/@GregIsenberg/videos
+
+FDE: The $1M/Year AI Job Explained
+https://www.youtube.com/watch?v=zXysLUTLjw4
+
+This video features a discussion between Greg Isenberg and Vas from Varick Agents regarding the role of AI Forward Deployed Engineers (FDEs), a profession where individuals earn significant compensation (up to $1M/year) by bridging the gap between frontier AI models and specific business needs (0:00-2:03).
+
+Key takeaways from the discussion:
+
+    Intelligence is Commoditized: Since most companies now have access to the same powerful AI models, the competitive advantage has shifted from owning the intelligence to how it is deployed within a business (2:03-4:09).
+    The FDE Origin: The role draws inspiration from Palantir, where engineers are embedded on-site to understand client workflows, customize ontologies, and build tailored agents that solve actual problems (4:09-6:16).
+    The FDE Loop: The work follows a strict cycle:
+        Audit (6:16-27:36): Understanding the real-world business process and the exceptions that occur, often by observing work on-site rather than just relying on documentation.
+        Evals (31:47-32:57): Turning non-deterministic outcomes into measurable evidence and data-driven feedback.
+        Deployment (32:57-38:59): Building on top of existing enterprise systems (like NetSuite or Salesforce) rather than forcing migrations, ensuring the solution is integrated into the client's existing workflow.
+
+30-Day FDE Blueprint (38:59-49:13):
+
+    Week 1: Build an agent that completes a real workflow loop with tools, guardrails, and audit trails.
+    Week 2: Harden the system by implementing schema validation, error handling, and solving for "unhappy paths."
+    Week 3: Make the agent measurable by tracking revenue uplift, risk mitigation, and cost savings, while optimizing for cost-effective models.
+    Week 4: Defend the system like both an engineer and a VP, focusing on clear communication of business value and architecture to stakeholders.
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
