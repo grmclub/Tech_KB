@@ -1,0 +1,35 @@
+
+https://www.youtube.com/@LennysPodcast/videos
+https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&e=2&st=ahz0fj11&dl=0
+-------------------------------------------------
+Why Netflix is betting on systems thinkers—not specialists—in the AI era | Elizabeth Stone (CPTO)
+
+In this episode of Lenny's Podcast, Elizabeth Stone, Chief Product and Technology Officer at Netflix, discusses the transformative impact of AI on work and the company's evolving culture. Key highlights include:
+
+    Systems Thinking and AI: Stone emphasizes that in an era where AI enables everyone to be a "builder," the most vital skill for employees is systems thinking—the ability to zoom out and understand how individual tasks connect to broader business objectives and consumer problems (17:22).
+
+    The Evolution of Roles: While AI tools (like Claude) have made functional lines more fluid, Stone maintains that craft excellence in engineering, data science, and design remains scarce and critical. She notes that the current phase of AI adoption is a "storming phase" characterized by role confusion, which requires strong leadership to establish guardrails and maintain high quality (02:25, 11:55).
+
+    Excellence as an Operating System: Netflix’s culture centers on maintaining talent density and resisting the urge to implement heavy processes in response to errors. Instead, the company focuses on giving employees high agency and autonomy, conducting blameless retrospectives, and using the "Keeper Test" as a tool for both honest feedback and positive reinforcement of high performance (38:36, 46:41).
+ 
+     AI Use Cases at Netflix: Beyond coding and prototyping, AI is being utilized for data analysis, information distillation, and creative production, including previsualization and post-production techniques (such as those from the recent acquisition InterPositive). This supports Netflix's position as a creator-enablement platform that supports diverse filmmaking styles (31:00, 33:00, 01:02:18).
+
+    Future of Entertainment: Stone outlines a vision where entertainment transcends traditional film and TV to include gaming, live events, and podcasts. The challenge—and the opportunity—lies in personalizing these diverse offerings so that discovery feels seamless for the end user (59:45, 01:01:11).
+
+=====================
+Elizabeth Stone is the Chief Product and Technology Officer (CPTO) at Netflix, where she oversees Engineering, Product, and Design. Since her first appearance on the podcast two years ago—which remained my second-most-popular episode for more than a year—she has expanded her role to lead product, in addition to engineering. Before Netflix, Elizabeth was VP of Science at Lyft, Chief Operating Officer at Nuna, an economist at Analysis Group, and a trader at Merrill Lynch.
+
+In our in-depth conversation, we discuss:
+1. Why “systems thinking” is now the most important skill she looks for
+2. How to manage the flood of AI-generated output without losing quality or signal
+3. How Netflix thinks about AI fluency as a universal expectation rather than a level-specific skill
+4. What “excellence as an operating system” means
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
