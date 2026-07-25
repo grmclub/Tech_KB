@@ -12,6 +12,30 @@ Conclusion
 
 Farley concludes that the job market is repricing the industry rather than eliminating it. The demand for simple "typing" is dropping, while the value of true "engineering"—judgment, system design, and responsibility for the outcome—is increasing. To stay valuable, developers should focus on the aspects of the craft that AI cannot replicate.
 -------------------------------------------------
+Top AI Trends From 100 Interviews | AI Briefings: nWave
+https://www.youtube.com/watch?v=8WJ1XVBh8NA
+
+
+This video features Dave Farley discussing the impact of artificial intelligence on software engineering, specifically through an interview with Mike and Alessandro, the creators of an AI development system called nWave.
+Key Takeaways:
+
+    -The Changing Role of Developers: Dave emphasizes that AI is disrupting the industry, moving the core skill of developers away from the mechanical act of coding—which AI can now do faster and more cheaply—toward a deeper understanding of the problem space (0:00 - 1:14).
+    
+	-The nWave Philosophy: nWave is an opinionated framework built on Anthropic's Claude that treats 23+ specialized AI agents as professional team members. It focuses on behavioral engineering, ensuring AI operates within boundaries that respect modern software principles like SOLID, Hexagonal Architecture, and TDD (2:45 - 3:30, 13:20 - 14:35).
+    
+	-Beyond "Vibe Coding": The creators distinguish their approach from "vibe coding"—which they note is fine for simple, single-user projects—but insufficient for professional, large-scale systems where safety, architecture, and context are paramount (6:28 - 8:10).
+    
+	-The Importance of Small Steps: A major theme is the necessity of "fine-grained iterative specification." Instead of "big design up front," developers should use small, iterative steps to discover the problem, test it, and maintain human control over the solution (9:45 - 10:20, 12:10 - 12:40).
+    
+	-Human-in-the-Loop: Despite the high level of automation, Dave and the creators stress that humans must remain at the center. Developers are responsible for providing the broad context, ensuring observability, and reviewing the code before production deployment (10:50 - 11:20, 15:58 - 17:20).
+
+	-Beyond "Vibe Coding": The creators distinguish their approach from "vibe coding"—which they note is fine for simple, single-user projects—but insufficient for professional, large-scale systems where safety, architecture, and context are paramount (6:28 - 8:10).
+
+	-The Importance of Small Steps: A major theme is the necessity of "fine-grained iterative specification." Instead of "big design up front," developers should use small, iterative steps to discover the problem, test it, and maintain human control over the solution (9:45 - 10:20, 12:10 - 12:40).
+	
+	-Human-in-the-Loop: Despite the high level of automation, Dave and the creators stress that humans must remain at the center. Developers are responsible for providing the broad context, ensuring observability, and reviewing the code before production deployment (10:50 - 11:20, 15:58 - 17:20).
+
+
 -------------------------------------------------
 -------------------------------------------------
 -------------------------------------------------
