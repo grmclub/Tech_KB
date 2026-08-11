@@ -1,0 +1,141 @@
+
+-------------------------------------------------
+## Linux Performance Tuning Basics:
+
+1. Monitoring & Baseline Identification
+Before tuning any system, you must identify bottlenecks across the four major resources: CPU, Memory, Disk I/O, and Network.
+    • System Overview: uptime, top, htop, or glances to check load averages and active processes.
+    • CPU & Memory: vmstat 1 to monitor process queue (r), memory paging, and CPU utilization (us, sy, id, wa).
+    • Disk I/O: iostat -xz 1 to view device utilization (%util), average await time (await), and throughput.
+    • Network: sar -n DEV 1, ss -s, or iftop to inspect network interfaces and connection state counts.
+
+2. Memory & Virtual Memory Tuning (sysctl)
+Memory tuning focuses on reducing unnecessary disk swapping and optimizing how the kernel manages page caches.
+    • Swappiness (vm.swappiness):
+      Controls how aggressively the kernel swaps memory pages to disk.
+        ◦ Default: 60
+        ◦ Tuning: Set to 10 or 1 for database or low-latency application servers to keep workloads in RAM.
+    • Dirty Pages & Buffers:
+        ◦ vm.dirty_background_ratio: Percentage of system memory that can be filled with dirty (unwritten) pages before background processes start writing to disk.
+        ◦ vm.dirty_ratio: Maximum percentage of dirty pages before all write operations are forced to wait for disk flushing.
+        ◦ Tuning: Lower these values on high-I/O memory systems to prevent sudden disk write spikes.
+
+3. CPU Tuning & Scheduling
+CPU performance tuning balances latency against throughput.
+    • CPU Frequency Scaling Governor:
+        ◦ Switch from powersave or ondemand to performance for low-latency workloads:
+          Bash
+          cpupower frequency-set -g performance
+    • Process Priority & Affinity:
+        ◦ Use nice / renice to adjust process scheduling priority (-20 is highest priority, 19 is lowest).
+        ◦ Use taskset or numactl to pin critical processes to specific CPU cores and maintain NUMA memory locality.
+
+4. Disk I/O Optimization
+Storage bottlenecks significantly reduce overall application responsiveness.
+    • I/O Schedulers:
+        ◦ NVMe SSDs: none / passthrough (lets the drive hardware handle scheduling).
+        ◦ SATA SSDs: mq-deadline or kyber.
+        ◦ HDD: bfq or mq-deadline.
+    • Mount Flags (/etc/fstab):
+        ◦ Use noatime or nodiratime on filesystems to prevent Linux from writing access timestamps every time a file is read, saving significant read/write overhead.
+
+5. Network Stack Tuning
+For high-concurrency applications (web servers, proxies, microservices), default network limits often restrict connection throughput.
+    • Connection Backlog:
+        ◦ net.core.somaxconn: Increase max socket listen backlog (e.g., set to 1024 or 4096 from the default 128).
+        ◦ net.ipv4.tcp_max_syn_backlog: Increase SYN queue size to handle connection bursts.
+    • Buffer Sizes:
+        ◦ net.core.rmem_max and net.core.wmem_max: Increase maximum TCP read/write buffer sizes for high-bandwidth interfaces.
+    • Port Exhaustion:
+        ◦ net.ipv4.ip_local_port_range: Expand local port range (e.g., 1024 65535).
+        ◦ net.ipv4.tcp_tw_reuse: Allow re-using TIME_WAIT sockets for new outgoing connections.
+
+6. Persistence
+System parameter changes made via sysctl -w or /proc are temporary. To make them persistent across reboots, add them to /etc/sysctl.conf or a dedicated file in /etc/sysctl.d/99-performance.conf and run:
+Bash
+sudo sysctl -p
+
+-------------------------------------------------
+## Linux Performance Tuning: Optimize Your System Without Sudo
+
+1. Monitor System Performance
+Before tuning, identify bottlenecks using built-in tools. 
+
+Check CPU Usage
+top        # Live process monitoring
+htop       # More interactive alternative (if installed)
+ps aux --sort=-%cpu | head -10   # Top CPU-consuming processes        
+
+Analyze Memory Usage
+free -h     # Check RAM usage
+vmstat 1 5  # CPU & memory trends over 5 seconds
+ps aux --sort=-%mem | head -10  # Find memory-hungry processes        
+
+Check Disk & I/O Performance
+iostat -xm 1 5    # Disk read/write stats (requires `sysstat` package)
+df -h             # Disk usage per partition
+du -sh ~/*        # Check folder sizes in home directory        
+
+Monitor Network Performance
+ifstat       # Live network stats (if installed)
+ss -tup      # Active connections and listening ports        
+
+2. Speed Up File & Process Handling
+
+Faster File Searches
+Instead of find, use locate (if available): 
+locate filename   # Much faster than `find`        
+If unavailable, optimize find: 
+find . -type f -name "*.log" -mtime -7  # Find log files modified in the last 7 days        
+
+More Efficient grep Searches
+Use ripgrep (rg) if installed: 
+rg "pattern" -l ./   # Faster than `grep -r`        
+If using standard grep, optimize it: 
+grep -rn --color=auto "pattern" ./  # Recursive search with highlighting        
+
+Improve Process Management
+    • Lower priority: 
+    • Limit CPU usage: 
+    • Find and kill resource-heavy processes: 
+
+3. Optimize Memory Usage
+Check Swappiness (Needs Sudo, But Good to Know)
+cat /proc/sys/vm/swappiness        
+
+Lowering swappiness can reduce unnecessary swapping: 
+echo 10 > /proc/sys/vm/swappiness  # Needs sudo        
+Clear Cached RAM Without Affecting Running Processes
+sync; echo 1 > /proc/sys/vm/drop_caches  # Needs sudo        
+Without sudo, manage memory manually by stopping heavy processes (kill, pkill). 
+
+4. Reduce Startup Load
+Disable Unnecessary Background Processes
+Check what’s running: 
+ps -ef | grep -E 'yourusername|session'        
+Prevent unwanted scripts from loading in .bashrc or .profile: 
+# Comment out unneeded startup services
+# eval $(ssh-agent -s)  # Uncomment only when needed        
+
+5. Optimize Disk Usage
+Find & Remove Large Files
+du -sh ~/* | sort -hr | head -10   # Find largest files
+rm -rf ~/old-backups/  # Remove large, unnecessary folders        
+Use /dev/shm/ for Faster File Access
+/dev/shm/ is a default RAM disk that can be used without sudo: 
+cp bigfile /dev/shm/  # Store temporary files in RAM for faster access        
+
+6. Advanced: Compile Custom Performance Tools
+If you lack sudo, you can build performance tools from source: 
+    • Custom htop, iotop, or btop in ~/local/bin/ 
+    • Use Python for profiling: 
+    • Keep long processes running with nohup or tmux: 
+
+Conclusion
+Even without root access, you can monitor, troubleshoot, and optimize your Linux system using built-in tools, efficient search methods, and process management techniques. By implementing these strategies, you can significantly improve your system’s responsiveness and efficiency. 
+
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
