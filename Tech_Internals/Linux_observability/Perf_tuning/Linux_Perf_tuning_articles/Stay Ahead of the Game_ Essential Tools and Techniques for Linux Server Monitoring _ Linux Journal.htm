@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class="no-js wf-loading">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/linuxjournal/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://www.linuxjournal.com/content/stay-ahead-game-essential-tools-and-techniques-linux-server-monitoring" />
+<link rel="shortlink" href="https://www.linuxjournal.com/node/1341299" />
+
+    <title>Stay Ahead of the Game: Essential Tools and Techniques for Linux Server Monitoring | Linux Journal</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/modules/contrib/poll/css/poll.base.css?snzigw" />
+<link rel="stylesheet" media="all" href="/modules/contrib/poll/css/poll.theme.css?snzigw" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?snzigw" />
+<link rel="stylesheet" media="all" href="/libraries/shariff/shariff.complete.css?snzigw" />
+<link rel="stylesheet" media="all" href="/modules/contrib/webform/modules/webform_bootstrap/css/webform_bootstrap.css?snzigw" />
+<link rel="stylesheet" media="all" href="/themes/linuxjournal/css/style.css?snzigw" />
+<link rel="stylesheet" media="all" href="/themes/linuxjournal/css/fonts.css?snzigw" />
+
+      <!--   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>-->
+
+    <script>
+      // Non-blocking webfonts.
+      (function iife() {
+        'use strict';
+
+        // JS is able to start executing.
+        document.documentElement.classList.remove('no-js');
+
+        // Optimization for Repeat Views
+        // Stop early for repeat views that have already cached fonts.
+        if (sessionStorage.fontsLoadedLateef && sessionStorage.fontsLoadedOpensans /* && sessionStorage.fontsLoadedNEWFONT */) {
+          document.documentElement.classList.remove('wf-loading');
+          document.documentElement.classList.add('wf-opensans');
+          document.documentElement.classList.add('wf-lateef');
+          // document.documentElement.classList.add('wf-NEWFONT');
+          return;
+        }
+
+        // Inlined Font Face Observer script + Promise polyfill.
+        /*! Font Face Observer v2.0.13 - © Bram Stein. License: BSD-3-Clause */
+        (function(){'use strict';var f,g=[];function l(a){g.push(a);1==g.length&&f()}function m(){for(;g.length;)g[0](),g.shift()}f=function(){setTimeout(m)};function n(a){this.a=p;this.b=void 0;this.f=[];var b=this;try{a(function(a){q(b,a)},function(a){r(b,a)})}catch(c){r(b,c)}}var p=2;function t(a){return new n(function(b,c){c(a)})}function u(a){return new n(function(b){b(a)})}function q(a,b){if(a.a==p){if(b==a)throw new TypeError;var c=!1;try{var d=b&&b.then;if(null!=b&&"object"==typeof b&&"function"==typeof d){d.call(b,function(b){c||q(a,b);c=!0},function(b){c||r(a,b);c=!0});return}}catch(e){c||r(a,e);return}a.a=0;a.b=b;v(a)}}
+        function r(a,b){if(a.a==p){if(b==a)throw new TypeError;a.a=1;a.b=b;v(a)}}function v(a){l(function(){if(a.a!=p)for(;a.f.length;){var b=a.f.shift(),c=b[0],d=b[1],e=b[2],b=b[3];try{0==a.a?"function"==typeof c?e(c.call(void 0,a.b)):e(a.b):1==a.a&&("function"==typeof d?e(d.call(void 0,a.b)):b(a.b))}catch(h){b(h)}}})}n.prototype.g=function(a){return this.c(void 0,a)};n.prototype.c=function(a,b){var c=this;return new n(function(d,e){c.f.push([a,b,d,e]);v(c)})};
+        function w(a){return new n(function(b,c){function d(c){return function(d){h[c]=d;e+=1;e==a.length&&b(h)}}var e=0,h=[];0==a.length&&b(h);for(var k=0;k<a.length;k+=1)u(a[k]).c(d(k),c)})}function x(a){return new n(function(b,c){for(var d=0;d<a.length;d+=1)u(a[d]).c(b,c)})};window.Promise||(window.Promise=n,window.Promise.resolve=u,window.Promise.reject=t,window.Promise.race=x,window.Promise.all=w,window.Promise.prototype.then=n.prototype.c,window.Promise.prototype["catch"]=n.prototype.g);}());
+
+        (function(){function l(a,b){document.addEventListener?a.addEventListener("scroll",b,!1):a.attachEvent("scroll",b)}function m(a){document.body?a():document.addEventListener?document.addEventListener("DOMContentLoaded",function c(){document.removeEventListener("DOMContentLoaded",c);a()}):document.attachEvent("onreadystatechange",function k(){if("interactive"==document.readyState||"complete"==document.readyState)document.detachEvent("onreadystatechange",k),a()})};function r(a){this.a=document.createElement("div");this.a.setAttribute("aria-hidden","true");this.a.appendChild(document.createTextNode(a));this.b=document.createElement("span");this.c=document.createElement("span");this.h=document.createElement("span");this.f=document.createElement("span");this.g=-1;this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";
+        this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;";this.b.appendChild(this.h);this.c.appendChild(this.f);this.a.appendChild(this.b);this.a.appendChild(this.c)}
+        function t(a,b){a.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;white-space:nowrap;font-synthesis:none;font:"+b+";"}function y(a){var b=a.a.offsetWidth,c=b+100;a.f.style.width=c+"px";a.c.scrollLeft=c;a.b.scrollLeft=a.b.scrollWidth+100;return a.g!==b?(a.g=b,!0):!1}function z(a,b){function c(){var a=k;y(a)&&a.a.parentNode&&b(a.g)}var k=a;l(a.b,c);l(a.c,c);y(a)};function A(a,b){var c=b||{};this.family=a;this.style=c.style||"normal";this.weight=c.weight||"normal";this.stretch=c.stretch||"normal"}var B=null,C=null,E=null,F=null;function G(){if(null===C)if(J()&&/Apple/.test(window.navigator.vendor)){var a=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/.exec(window.navigator.userAgent);C=!!a&&603>parseInt(a[1],10)}else C=!1;return C}function J(){null===F&&(F=!!document.fonts);return F}
+        function K(){if(null===E){var a=document.createElement("div");try{a.style.font="condensed 100px sans-serif"}catch(b){}E=""!==a.style.font}return E}function L(a,b){return[a.style,a.weight,K()?a.stretch:"","100px",b].join(" ")}
+        A.prototype.load=function(a,b){var c=this,k=a||"BESbswy",q=0,D=b||3E3,H=(new Date).getTime();return new Promise(function(a,b){if(J()&&!G()){var M=new Promise(function(a,b){function e(){(new Date).getTime()-H>=D?b():document.fonts.load(L(c,'"'+c.family+'"'),k).then(function(c){1<=c.length?a():setTimeout(e,25)},function(){b()})}e()}),N=new Promise(function(a,c){q=setTimeout(c,D)});Promise.race([N,M]).then(function(){clearTimeout(q);a(c)},function(){b(c)})}else m(function(){function u(){var b;if(b=-1!=
+        f&&-1!=g||-1!=f&&-1!=h||-1!=g&&-1!=h)(b=f!=g&&f!=h&&g!=h)||(null===B&&(b=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),B=!!b&&(536>parseInt(b[1],10)||536===parseInt(b[1],10)&&11>=parseInt(b[2],10))),b=B&&(f==v&&g==v&&h==v||f==w&&g==w&&h==w||f==x&&g==x&&h==x)),b=!b;b&&(d.parentNode&&d.parentNode.removeChild(d),clearTimeout(q),a(c))}function I(){if((new Date).getTime()-H>=D)d.parentNode&&d.parentNode.removeChild(d),b(c);else{var a=document.hidden;if(!0===a||void 0===a)f=e.a.offsetWidth,
+        g=n.a.offsetWidth,h=p.a.offsetWidth,u();q=setTimeout(I,50)}}var e=new r(k),n=new r(k),p=new r(k),f=-1,g=-1,h=-1,v=-1,w=-1,x=-1,d=document.createElement("div");d.dir="ltr";t(e,L(c,"sans-serif"));t(n,L(c,"serif"));t(p,L(c,"monospace"));d.appendChild(e.a);d.appendChild(n.a);d.appendChild(p.a);document.body.appendChild(d);v=e.a.offsetWidth;w=n.a.offsetWidth;x=p.a.offsetWidth;I();z(e,function(a){f=a;u()});t(e,L(c,'"'+c.family+'",sans-serif'));z(n,function(a){g=a;u()});t(n,L(c,'"'+c.family+'",serif'));
+        z(p,function(a){h=a;u()});t(p,L(c,'"'+c.family+'",monospace'))})})};"object"===typeof module?module.exports=A:(window.FontFaceObserver=A,window.FontFaceObserver.prototype.load=A.prototype.load);}());
+
+        // Load and observe Lateef
+        var Lateef = new FontFaceObserver('Lateef', {weight: 400});
+        Promise.all([Lateef.load()]).then(function() {
+          document.documentElement.classList.remove('wf-loading');
+          document.documentElement.classList.add('wf-lateef');
+
+          // Optimization for Repeat Views
+          // Set a flag in localstorage so repeat views can skip processing FFO.
+          sessionStorage.fontsLoadedLateef = true;
+        });
+
+        // Load and observe Open Sans
+        var os300 = new FontFaceObserver('Open Sans', {weight: 300});
+        var os400 = new FontFaceObserver('Open Sans', {weight: 400});
+        Promise.all([os300.load(), os400.load()]).then(function() {
+          document.documentElement.classList.remove('wf-loading');
+          document.documentElement.classList.add('wf-opensans');
+
+          // Optimization for Repeat Views
+          // Set a flag in localstorage so repeat views can skip processing FFO.
+          sessionStorage.fontsLoadedOpensans = true;
+        });
+
+        // Load and observe NEWFONT
+        /*
+        var NEWFONT = new FontFaceObserver('NEWFONT', {weight: 400});
+        Promise.all([NEWFONT.load()]).then(function() {
+          document.documentElement.classList.remove('wf-loading');
+          document.documentElement.classList.add('wf-NEWFONT');
+
+          // Optimization for Repeat Views
+          // Set a flag in localstorage so repeat views can skip processing FFO.
+          sessionStorage.fontsLoadedNEWFONT = true;
+        });
+        */
+      })();
+    </script>
+    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src=https://slashdot.org/country.js></script>
+    <script src="/themes/linuxjournal/js/ada.js"></script>
+    <script src="/themes/linuxjournal/js/accessibility.js"></script>
+    <script>window.addEventListener('load', function() { new Accessibility(); });</script>
+    <script src="//a.fsdn.com/con/js/sftheme/cmp2.js"></script>
+    <link rel="stylesheet" href="//a.fsdn.com/con/css/sftheme/sandiego/cmp.css" type="text/css">
+    <link rel="stylesheet" href="/themes/linuxjournal/css/ccpa.css" type="text/css">
+    <script>window.bizx.cmp.init({ geo: window });</script>
+    <script>
+    function bm_trace() {
+        (function (w,d,t) {
+          _ml = w._ml || {};
+          _ml.eid = '771';
+          var s, cd, tag; s = d.getElementsByTagName(t)[0]; cd = new Date();
+          tag = d.createElement(t); tag.async = 1;
+          tag.src = 'https://ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth();
+          s.parentNode.insertBefore(tag, s);
+        })(window,document,'script');
+    }
+    bizx.cmp.ifConsent('', ['all', 'bombora'],bm_trace);
+    </script>
+
+  </head>
+  <body class="path-node page-node-type-story has-glyphicons">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="wrap">
+<div class="leader-wrapper" id="leader-wrapper">
+</div>
+
+<div class="brand-wrapper" id="brand-wrapper">
+  <div class="brand container">
+    <div class="region region-brand">
+          <a class="logo navbar-btn" href="/" title="Home" rel="home">
+      <h1><img src="/themes/linuxjournal/images/ljlogo.png" alt="Linux Journal" /></h1>
+    </a>
+      <section id="block-topbannernearlogo" class="block block-block-content block-block-contenta8e75a3d-967c-416d-8944-4015d1f90a84 clearfix">
+  
+    
+
+      
+  </section>
+
+
+  </div>
+
+  </div>
+
+          <div class="header-wrapper">
+    <header class="navbar navbar-default container" id="navbar" role="banner">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+            <div class="region region-navigation-collapsible">
+    <section id="block-linuxjournal-main-menu" class="block block-system block-system-menu-blockmain clearfix navbar__menu col-xs-12 col-sm-8">
+  
+    
+
+      
+      <ul class="menu menu--main nav navbar-nav">
+                      <li class="expanded dropdown first">
+                                                                    <a href="/" class="dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="&lt;front&gt;">Topics+ <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/tag/cloud">Cloud</a>
+              </li>
+                      <li>
+                                        <a href="/tag/containers" data-drupal-link-system-path="taxonomy/term/978">Containers</a>
+              </li>
+                      <li>
+                                        <a href="/tag/desktop">Desktop</a>
+              </li>
+                      <li>
+                                        <a href="/tag/kernel" data-drupal-link-system-path="taxonomy/term/662">Kernel</a>
+              </li>
+                      <li>
+                                        <a href="/tag/mobile">Mobile</a>
+              </li>
+                      <li>
+                                        <a href="/tag/networking">Networking</a>
+              </li>
+                      <li>
+                                        <a href="/tag/privacy">Privacy</a>
+              </li>
+                      <li>
+                                        <a href="/tag/programming">Programming</a>
+              </li>
+                      <li>
+                                        <a href="/tag/security" data-drupal-link-system-path="taxonomy/term/31">Security</a>
+              </li>
+                      <li>
+                                        <a href="/tag/servers">Servers</a>
+              </li>
+                      <li class="last">
+                                        <a href="/tag/sysadmin" data-drupal-link-system-path="taxonomy/term/21">SysAdmin</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li>
+                                        <a href="/news" data-drupal-link-system-path="news">News</a>
+              </li>
+                      <li class="last">
+                                        <a href="/books" data-drupal-link-system-path="books">eBooks</a>
+              </li>
+        </ul>
+  
+
+  </section>
+
+<section class="search-block-form block block-search block-search-form-block clearfix navbar__search col-xs-12 col-sm-4 col-md-4 col-md-offset-0" data-drupal-selector="search-block-form" id="block-linuxjournal-search" role="search">
+  
+      <h2 class="block-title sr-only">Search</h2>
+    
+
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+      <label for="edit-keys" class="control-label sr-only">Search</label>
+  
+  
+  <div class="input-group"><input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" class="form-search form-control" placeholder="Search" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name=""><span class="sr-only">Search</span><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button></span></div>
+
+  
+  
+      <div id="edit-keys--description" class="description help-block">
+      Enter the terms you wish to search for.
+    </div>
+  </div>
+<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+
+</form>
+
+  </section>
+
+
+  </div>
+
+        </div>
+            <div class="navbar-header">
+          <div class="region region-navigation">
+    <section id="block-mobilenavigation" class="block block-system block-system-menu-blockmenu-mobile-navbar clearfix col-xs-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-0 navbar__menu navbar__mobilenavigation">
+  
+    
+
+      
+      <ul class="menu menu--menu-mobile-navbar nav">
+                      <li class="first">
+                                        <a href="/news" data-drupal-link-system-path="news">News</a>
+              </li>
+                      <li>
+                                        <a href="/popular" data-drupal-link-system-path="popular">Popular</a>
+              </li>
+                      <li class="last">
+                                        <a href="/recent" data-drupal-link-system-path="recent">Recent</a>
+              </li>
+        </ul>
+  
+
+  </section>
+
+  </div>
+
+      </div>
+          </header>
+    </div>
+  
+</div>
+  <div role="main" class="main-container container js-quickedit-main-content" id="main">
+    <div class="row">
+
+            
+            
+                  <section class="col-sm-12">
+
+                                      <div class="highlighted">  <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+</div>
+                  
+                
+                
+                
+                          <a id="main-content"></a>
+            <div class="region region-content">
+      <article data-history-node-id="1341299" class="row bs-2col-stacked node node--type-story node--view-mode-full">
+  
+
+    <div class="col-sm-12 bs-region bs-region--top">
+    
+      <div class="field field--name-field-tags field--type-entity-reference field--label-hidden field--items">
+              <div class="field--item"><div about="/tag/linux-0" typeof="schema:Thing">
+  
+      <h2><a href="/tag/linux-0">
+            <div property="schema:name" class="field field--name-name field--type-string field--label-hidden field--item">#Linux</div>
+      </a></h2>
+      <span property="schema:name" content="#Linux" class="hidden"></span>
+
+  
+</div>
+</div>
+              <div class="field--item"><div about="/tag/servermonitoring" typeof="schema:Thing">
+  
+      <h2><a href="/tag/servermonitoring">
+            <div property="schema:name" class="field field--name-name field--type-string field--label-hidden field--item">#ServerMonitoring</div>
+      </a></h2>
+      <span property="schema:name" content="#ServerMonitoring" class="hidden"></span>
+
+  
+</div>
+</div>
+              <div class="field--item"><div about="/tag/how-tos-0" typeof="schema:Thing">
+  
+      <h2><a href="/tag/how-tos-0">
+            <div property="schema:name" class="field field--name-name field--type-string field--label-hidden field--item">#HOW-TOs</div>
+      </a></h2>
+      <span property="schema:name" content="#HOW-TOs" class="hidden"></span>
+
+  
+</div>
+</div>
+          </div>
+  
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h1>
+  Stay Ahead of the Game: Essential Tools and Techniques for Linux Server Monitoring
+</h1>
+</div>
+      
+            <div class="field field--name-node-author field--type-ds field--label-hidden field--item">by <a title="View user profile." href="/users/george-whittaker" lang="" about="/users/george-whittaker" typeof="schema:Person" property="schema:name" datatype="">George Whittaker</a></div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">on February 27, 2025</div>
+      
+  </div>
+  
+    <div class="col-sm-9 bs-region bs-region--left">
+    
+            <div class="field field--name-field-node-image field--type-image field--label-hidden field--item">    <picture>
+                  <source srcset="/sites/default/files/styles/850x500/public/nodeimage/story/stay-ahead-of-the-game-essential-tools-and-techniques-for-linux-server-monitoring.jpg?itok=488WsVPt 1x, /sites/default/files/styles/1700x1000/public/nodeimage/story/stay-ahead-of-the-game-essential-tools-and-techniques-for-linux-server-monitoring.jpg?itok=z1opGAcR 2x" media="all and (min-width: 768px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/360_250/public/nodeimage/story/stay-ahead-of-the-game-essential-tools-and-techniques-for-linux-server-monitoring.jpg?itok=y8iRlBe6 1x, /sites/default/files/styles/720x500/public/nodeimage/story/stay-ahead-of-the-game-essential-tools-and-techniques-for-linux-server-monitoring.jpg?itok=2LdmYugU 2x" media="all and (max-width: 767px)" type="image/jpeg"/>
+                  <img src="/sites/default/files/styles/360_250/public/nodeimage/story/stay-ahead-of-the-game-essential-tools-and-techniques-for-linux-server-monitoring.jpg?itok=y8iRlBe6" alt="Stay Ahead of the Game: Essential Tools and Techniques for Linux Server Monitoring" typeof="foaf:Image" class="img-responsive" />
+
+  </picture>
+
+</div>
+      <div class="shariff"   data-services="[&quot;twitter&quot;,&quot;facebook&quot;,&quot;linkedin&quot;,&quot;reddit&quot;,&quot;mail&quot;]" data-theme="white" data-css="complete" data-orientation="horizontal" data-twitter-via="linuxjournal" data-mail-url="mailto:" data-lang="en">
+    
+        
+</div>
+
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><h2><strong>Introduction</strong></h2>
+
+<p>In the ever-evolving digital world, Linux servers form the backbone of enterprises, web applications, and cloud infrastructure. Whether hosting websites, databases, or critical applications, ensuring the smooth operation of Linux servers is crucial. Effective monitoring and alerting help system administrators maintain performance, security, and uptime while proactively identifying potential issues before they escalate into major outages.</p>
+
+<p>This guide explores essential Linux server monitoring tools, key performance metrics, and alerting techniques to keep your systems running optimally.</p>
+
+<h2><strong>Understanding Linux Server Monitoring</strong></h2>
+
+<span class="h3-replacement"><strong>Why is Monitoring Important?</strong></span>
+
+<p>Monitoring Linux servers is not just about tracking resource usage; it plays a crucial role in:</p>
+
+<ul><li>
+	<p><strong>Performance Optimization</strong>: Identifying bottlenecks in CPU, memory, disk, or network usage.</p>
+	</li>
+	<li>
+	<p><strong>Security Enhancement</strong>: Detecting unauthorized access attempts, abnormal activities, or potential vulnerabilities.</p>
+	</li>
+	<li>
+	<p><strong>Resource Management</strong>: Ensuring efficient use of hardware and system resources.</p>
+	</li>
+	<li>
+	<p><strong>Preventing Downtime</strong>: Alerting administrators before issues become critical failures.</p>
+	</li>
+	<li>
+	<p><strong>Compliance &amp; Auditing</strong>: Maintaining logs and metrics for regulatory or internal auditing.</p>
+	</li>
+</ul><span class="h3-replacement"><strong>Key Metrics to Monitor</strong></span>
+
+<ol start="1"><li>
+	<p><strong>System Performance Metrics</strong>:</p>
+
+	<ul><li>
+		<p><strong>CPU Usage</strong>: Load percentage, idle time, and context switching.</p>
+		</li>
+		<li>
+		<p><strong>Memory Usage</strong>: RAM consumption, swap utilization, and buffer/cache metrics.</p>
+		</li>
+		<li>
+		<p><strong>Disk I/O</strong>: Read/write speeds, latency, and disk queue length.</p>
+		</li>
+	</ul></li>
+	<li>
+	<p><strong>Network Metrics</strong>:</p>
+
+	<ul><li>
+		<p><strong>Bandwidth Usage</strong>: Incoming and outgoing traffic statistics.</p>
+		</li>
+		<li>
+		<p><strong>Latency &amp; Packet Loss</strong>: Connectivity health and round-trip time.</p>
+		</li>
+		<li>
+		<p><strong>Open Ports &amp; Connections</strong>: Identifying unauthorized or excessive connections.</p>
+		</li>
+	</ul></li>
+	<li>
+	<p><strong>System Health Metrics</strong>:</p>
+
+	<ul><li>
+		<p><strong>Load Average</strong>: A measure of CPU demand over time.</p>
+		</li>
+		<li>
+		<p><strong>Disk Space Usage</strong>: Preventing full partitions that could disrupt services.</p>
+		</li>
+		<li>
+		<p><strong>System Temperature</strong>: Avoiding hardware failures due to overheating.</p>
+		</li>
+	</ul></li>
+	<li>
+	<p><strong>Security Metrics</strong>:</p>
+
+	<ul><li>
+		<p><strong>Failed Login Attempts</strong>: Signs of brute-force attacks.</p>
+		</li>
+		<li>
+		<p><strong>Process Anomalies</strong>: Detecting rogue or compromised processes.</p>
+		</li>
+		<li>
+		<p><strong>Firewall Logs</strong>: Monitoring for unauthorized access attempts.</p>
+		</li>
+	</ul></li>
+</ol><h2><strong>Essential Linux Monitoring Tools</strong></h2>
+
+<span class="h3-replacement"><strong>Command-Line Monitoring Tools (Built-in)</strong></span>
+
+<ol start="1"><li>
+	<p><code><strong>top</strong></code><strong> / </strong><code><strong>htop</strong></code> – Monitor running processes, CPU, and memory usage.</p>
+	</li>
+	<li>
+	<p><code><strong>vmstat</strong></code> – View real-time system performance statistics.</p>
+	</li>
+	<li>
+	<p><code><strong>iostat</strong></code> – Analyze disk I/O and CPU load.</p>
+	</li>
+	<li>
+	<p><code><strong>netstat</strong></code><strong> / </strong><code><strong>ss</strong></code> – Check active network connections and open ports.</p>
+	</li>
+	<li>
+	<p><code><strong>df</strong></code><strong> / </strong><code><strong>du</strong></code> – View disk usage and free space details.</p>
+	</li>
+</ol><span class="h3-replacement"><strong>Open-Source Monitoring Solutions</strong></span>
+
+<h4><strong>1. Nagios</strong></h4>
+
+<ul><li>
+	<p>One of the most widely used monitoring tools for servers and applications.</p>
+	</li>
+	<li>
+	<p>Provides comprehensive alerting and logging capabilities.</p>
+	</li>
+	<li>
+	<p>Supports plugins to extend functionality.</p>
+	</li>
+</ul><h4><strong>2. Zabbix</strong></h4>
+
+<ul><li>
+	<p>Enterprise-grade monitoring tool with automatic detection of network devices.</p>
+	</li>
+	<li>
+	<p>Offers visualization with dashboards and graphs.</p>
+	</li>
+	<li>
+	<p>Supports distributed monitoring for large-scale environments.</p>
+	</li>
+</ul><h4><strong>3. Prometheus &amp; Grafana</strong></h4>
+
+<ul><li>
+	<p><strong>Prometheus</strong>: Time-series database for collecting real-time metrics.</p>
+	</li>
+	<li>
+	<p><strong>Grafana</strong>: Visualization tool that integrates with Prometheus for creating dashboards.</p>
+	</li>
+	<li>
+	<p>Highly scalable and commonly used for cloud monitoring.</p>
+	</li>
+</ul><h4><strong>4. Netdata</strong></h4>
+
+<ul><li>
+	<p>Lightweight monitoring tool for real-time performance tracking.</p>
+	</li>
+	<li>
+	<p>User-friendly web-based interface with detailed system insights.</p>
+	</li>
+</ul><h4><strong>5. Monit</strong></h4>
+
+<ul><li>
+	<p>Focuses on process and service monitoring.</p>
+	</li>
+	<li>
+	<p>Can automatically restart failed services and send alerts.</p>
+	</li>
+</ul><span class="h3-replacement"><strong>Log Management &amp; Analysis Tools</strong></span>
+
+<h4><strong>1. </strong><code><strong>journalctl</strong></code> – Systemd logs viewer for debugging issues.</h4>
+
+<h4><strong>2. </strong><code><strong>logwatch</strong></code> – Analyzes system logs and summarizes important events.</h4>
+
+<h4><strong>3. Graylog</strong> – Centralized log management and analysis.</h4>
+
+<h4><strong>4. ELK Stack (Elasticsearch, Logstash, Kibana)</strong></h4>
+
+<ul><li>
+	<p>Elasticsearch: Stores and indexes logs.</p>
+	</li>
+	<li>
+	<p>Logstash: Collects and processes logs from different sources.</p>
+	</li>
+	<li>
+	<p>Kibana: Provides visualization and dashboard capabilities.</p>
+	</li>
+</ul><h2><strong>Setting Up Alerts and Notifications</strong></h2>
+
+<span class="h3-replacement"><strong>1. Configuring Alerts in Monitoring Tools</strong></span>
+
+<ul><li>
+	<p>Most tools (Nagios, Zabbix, Prometheus) support customizable alert thresholds.</p>
+	</li>
+	<li>
+	<p>Alerts can be sent via Email, SMS, Slack, or webhook integrations.</p>
+	</li>
+	<li>
+	<p>Example: Trigger an alert if CPU usage exceeds 90% for more than 5 minutes.</p>
+	</li>
+</ul><span class="h3-replacement"><strong>2. Using Shell Scripts for Custom Alerts</strong></span>
+
+<p>A simple script to monitor disk space and send email alerts:</p>
+
+<pre>
+<code>#!/bin/bash
+THRESHOLD=80
+USAGE=$(df / | grep / | awk '{print $5}' | sed 's/%//g')
+if [ "$USAGE" -gt "$THRESHOLD" ]; then
+  echo "Disk usage is above $THRESHOLD%" | mail -s "Disk Space Alert" admin@example.com
+fi</code></pre>
+
+<ul><li>
+	<p>This script checks if disk usage exceeds 80% and sends an email alert.</p>
+	</li>
+</ul><span class="h3-replacement"><strong>3. Automating Monitoring with Cron Jobs</strong></span>
+
+<ul><li>
+	<p>Use <code>crontab</code> to schedule monitoring scripts.</p>
+	</li>
+	<li>
+	<p>Example: Run the disk monitoring script every hour:</p>
+
+	<pre>
+<code>0 * * * * /path/to/disk_monitor.sh</code></pre>
+	</li>
+</ul><span class="h3-replacement"><strong>4. Integrating with Incident Management Systems</strong></span>
+
+<ul><li>
+	<p><strong>PagerDuty</strong>, <strong>Opsgenie</strong>, or <strong>ServiceNow</strong> can automate alert escalations.</p>
+	</li>
+	<li>
+	<p>Ensures critical alerts reach the right team for immediate action.</p>
+	</li>
+</ul><h2><strong>Best Practices for Linux Server Monitoring</strong></h2>
+
+<span class="h3-replacement"><strong>Implement Proactive Monitoring</strong></span>
+
+<ul><li>
+	<p>Set up alerts before problems impact users.</p>
+	</li>
+	<li>
+	<p>Regularly review logs and performance trends.</p>
+	</li>
+</ul><span class="h3-replacement"><strong>Use Multi-Layered Monitoring</strong></span>
+
+<ul><li>
+	<p>Monitor servers, applications, and networks together.</p>
+	</li>
+	<li>
+	<p>Utilize both agent-based and agentless monitoring tools.</p>
+	</li>
+</ul><span class="h3-replacement"><strong>Avoid False Positives</strong></span>
+
+<ul><li>
+	<p>Fine-tune alert thresholds to prevent unnecessary notifications.</p>
+	</li>
+	<li>
+	<p>Use anomaly detection instead of static thresholds where possible.</p>
+	</li>
+</ul><span class="h3-replacement"><strong>Ensure Regular Log Rotation and Analysis</strong></span>
+
+<ul><li>
+	<p>Prevent log files from consuming excessive disk space.</p>
+	</li>
+	<li>
+	<p>Automate log retention policies with tools like <code>logrotate</code>.</p>
+	</li>
+</ul><span class="h3-replacement"><strong>Keep Monitoring Tools and Scripts Updated</strong></span>
+
+<ul><li>
+	<p>Regularly update monitoring software to avoid vulnerabilities.</p>
+	</li>
+	<li>
+	<p>Test alerts periodically to ensure they are functioning correctly.</p>
+	</li>
+</ul><h2><strong>Conclusion</strong></h2>
+
+<p>Effective Linux server monitoring and alerting are vital for system stability, security, and performance. By leveraging a combination of built-in Linux utilities, open-source monitoring solutions, and automated alerting mechanisms, administrators can ensure proactive management of their infrastructure.</p>
+
+<p>By implementing best practices and choosing the right monitoring tools, you can prevent downtime, optimize resources, and improve overall system reliability. Start monitoring your Linux servers today and stay ahead of potential issues before they turn into major incidents!</p></div>
+      
+            <div class="field field--name-dynamic-token-fieldnode-author field--type-ds field--label-hidden field--item"><div>  <img loading="lazy" src="/sites/default/files/pictures/george-whittaker-linuxjournal%20%281%29%20%281%29.jpeg" width="85" height="85" alt="" typeof="foaf:Image" class="img-responsive" />
+
+</div>
+<p>George Whittaker is the editor of Linux Journal, and also a regular contributor. George has been writing about technology for two decades, and has been a Linux user for over 15 years. In his free time he enjoys programming, reading, and gaming.</p>
+</div>
+      
+    <section class="section--disqus">
+    <a id="comments-link" class="btn btn-default" href="https://www.linuxjournal.com/content/stay-ahead-game-essential-tools-and-techniques-linux-server-monitoring#disqus_thread">Load Disqus comments</a>
+
+    <div id="disqus_thread"></div>
+  <noscript>Our discussions are <a href="https://disqus.com/?ref_noscript" rel="nofollow">powered by Disqus</a>, which require JavaScript.</noscript>
+
+    
+</section>
+  </div>
+  
+    <div class="col-sm-3 bs-region bs-region--right">
+    
+            <div class="field field--name-dynamic-block-fieldnode-sidebar-image field--type-ds field--label-hidden field--item"><div class="views-element-container form-group"><div class="view view-sidebar-image view-id-sidebar_image view-display-id-block_1 js-view-dom-id-9eb53f40a4b554ca4bf30a481d5dfedf6c54b9df896f7f95d07849217ac4d0bd">
+  
+    
+      
+  
+          </div>
+</div>
+</div>
+      
+            <div class="field field--name-dynamic-block-fieldnode-recent-content field--type-ds field--label-hidden field--item"><div class="views-element-container form-group"><div class="view view-related-content view-id-related_content view-display-id-block_2 js-view-dom-id-d39ef39c279aca0aedfe5860306e342071a06b7473d0fa142bac90c53d758b94">
+  
+    
+      <div class="view-header">
+      <h2 class="block-title">Recent Articles</h2>
+    </div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-node-image"><div class="field-content">  <a href="/content/exploring-hybrid-debian-gnukfreebsd-distribution" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/75x75_square/public/nodeimage/story/exploring-the-hybrid-debian-gnukfreebsd-distribution.jpg?itok=8TJL9pWI" width="75" height="75" alt="Exploring the Hybrid Debian GNU/kFreeBSD Distribution" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/content/exploring-hybrid-debian-gnukfreebsd-distribution" hreflang="en">Exploring the Hybrid Debian GNU/kFreeBSD Distribution</a></span></div><div class="views-field views-field-uid"><span class="field-content"><a href="/users/george-whittaker" hreflang="en">George Whittaker</a></span></div></div>
+    <div class="views-row"><div class="views-field views-field-field-node-image"><div class="field-content">  <a href="/content/linux-system-performance-tuning-optimizing-cpu-memory-and-disk" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/75x75_square/public/nodeimage/story/linux-system-performance-tuning-optimizing-cpu-memory-and-disk.jpg?itok=MF19xa6q" width="75" height="75" alt="Linux System Performance Tuning: Optimizing CPU, Memory, and Disk" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/content/linux-system-performance-tuning-optimizing-cpu-memory-and-disk" hreflang="en">Linux System Performance Tuning: Optimizing CPU, Memory, and Disk</a></span></div><div class="views-field views-field-uid"><span class="field-content"><a href="/users/george-whittaker" hreflang="en">George Whittaker</a></span></div></div>
+    <div class="views-row"><div class="views-field views-field-field-node-image"><div class="field-content">  <a href="/content/stay-ahead-game-essential-tools-and-techniques-linux-server-monitoring" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/75x75_square/public/nodeimage/story/stay-ahead-of-the-game-essential-tools-and-techniques-for-linux-server-monitoring.jpg?itok=ErZvl4cf" width="75" height="75" alt="Stay Ahead of the Game: Essential Tools and Techniques for Linux Server Monitoring" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/content/stay-ahead-game-essential-tools-and-techniques-linux-server-monitoring" hreflang="en">Stay Ahead of the Game: Essential Tools and Techniques for Linux Server Monitoring</a></span></div><div class="views-field views-field-uid"><span class="field-content"><a href="/users/george-whittaker" hreflang="en">George Whittaker</a></span></div></div>
+    <div class="views-row"><div class="views-field views-field-field-node-image"><div class="field-content">  <a href="/content/linux-meets-ai-top-machine-learning-frameworks-you-need-know" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/75x75_square/public/nodeimage/story/linux-meets-ai-top-machine-learning-frameworks-you-need-to-know.jpg?itok=58-9NVXO" width="75" height="75" alt="Linux Meets AI: Top Machine Learning Frameworks You Need to Know" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/content/linux-meets-ai-top-machine-learning-frameworks-you-need-know" hreflang="en">Linux Meets AI: Top Machine Learning Frameworks You Need to Know</a></span></div><div class="views-field views-field-uid"><span class="field-content"><a href="/users/george-whittaker" hreflang="en">George Whittaker</a></span></div></div>
+    <div class="views-row"><div class="views-field views-field-field-node-image"><div class="field-content">  <a href="/content/linux-memory-management-understanding-page-tables-swapping-and-memory-allocation" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/75x75_square/public/nodeimage/story/linux-memory-management-understanding-page-tables-swapping-and-memory-allocation.jpg?itok=SbPuaYNX" width="75" height="75" alt="Linux Memory Management: Understanding Page Tables, Swapping, and Memory Allocation" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/content/linux-memory-management-understanding-page-tables-swapping-and-memory-allocation" hreflang="en">Linux Memory Management: Understanding Page Tables, Swapping, and Memory Allocation</a></span></div><div class="views-field views-field-uid"><span class="field-content"><a href="/users/george-whittaker" hreflang="en">George Whittaker</a></span></div></div>
+    <div class="views-row"><div class="views-field views-field-field-node-image"><div class="field-content">  <a href="/content/mastering-software-package-management-yum-and-dnf-centos-and-rhel" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/75x75_square/public/nodeimage/story/mastering-software-package-management-with-yum-and-dnf-on-centos-and-rhel.jpg?itok=cNyN0XMK" width="75" height="75" alt="Mastering Software Package Management with Yum and DNF on CentOS and RHEL" typeof="foaf:Image" class="img-responsive" />
+
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/content/mastering-software-package-management-yum-and-dnf-centos-and-rhel" hreflang="en">Mastering Software Package Management with Yum and DNF on CentOS and RHEL</a></span></div><div class="views-field views-field-uid"><span class="field-content"><a href="/users/george-whittaker" hreflang="en">George Whittaker</a></span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+      
+            <div class="field field--name-dynamic-block-fieldnode-sponsors field--type-ds field--label-hidden field--item"><div class="views-element-container form-group"><div class="view view-latest-sponsor-block view-id-latest_sponsor_block view-display-id-block_1 js-view-dom-id-b37f6ca6881a31878edf4db5d1a91cbbc14e1a010edf2f63e8c8acc980cf20fa">
+  
+    
+      <div class="view-header">
+      
+    </div>
+      
+      <div class="view-content">
+          <div class="views-row">
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">
+</div>
+      </div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+      
+  </div>
+  
+  
+</article>
+
+
+
+  </div>
+
+              </section>
+
+                </div>
+  </div>
+
+      <footer class="footer container" role="contentinfo">
+        <div class="region region-footer">
+    <section class="views-element-container block block-views block-views-blocknewsletter-promo-block-block-1 clearfix" id="block-views-block-newsletter-promo-block-block-1">
+  
+    
+
+      <div class="form-group"><div class="view view-newsletter-promo-block view-id-newsletter_promo_block view-display-id-block_1 js-view-dom-id-35ee85b0546b0d324c000a9a5f8a3b442b19b69cff820c8c08fb00e45479f6f1">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="newsletter-bottom">
+<div class="col-md-9 col-sm-12 signup-form">
+<!--<h3>Linux Journal Week in Review</h3>
+<p>Sign up to get all the good stuff delivered to your inbox every week.</p>
+
+
+<form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="A61C50BEC994754B1D79C5819EC1255CDBC34DDF3E170B13E2BAC2D68C42BF424F853383C84F5BAE38EAB4CFA5C73907CAC074FF8192503AF80F3699F7FE5CE1">	
+<div class="flexform">-->
+    <!--<label for="fieldEmail">Email</label>
+    <br />-->
+    <!--<input id="fieldEmail" name="cm-gjjtdh-gjjtdh" type="email" class="js-cm-email-input" placeholder="Enter your email. Get the newsletter." 
+    required />
+
+    <button class="js-cm-submit-button" type="submit">Sign Up</button>
+</div>
+<div>
+    <input id="cm-privacy-consent" name="cm-privacy-consent" required type="checkbox"
+    />
+    <label for="cm-privacy-consent">I give my consent to be emailed</label>
+    <input id="cm-privacy-consent-hidden"
+    name="cm-privacy-consent-hidden" type="hidden" value="true" />
+</div>
+
+</form>
+<script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+</div>-->
+<!--<div class="col-md-3 col-sm-12 subs-callout">
+<img src="/sites/default/files/styles/large/public/2019-01/LJ294-Jan2019-Cover_0.jpg" width="100px" />
+
+<h3>The Value of Open Source Journalism</h3>
+<p>
+Subscribe and support our coverage for technology's biggest thinkers – with up to 52% savings.
+</p>
+<strong><a href="https://www.linuxjournal.com/subscribe">Subscribe <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> 
+</strong>
+
+
+
+</div>-->
+</div>
+
+</div>
+      </div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+      		<div class="footer-blocks col-sm-12">
+                <div class="col-md-6 col-sm-12 footer-left">
+                        <div class="region region-footer-left">
+    <section id="block-connectwithusfooter" class="block block-block-content block-block-content5e722bd4-5e08-454b-8507-956089bfa661 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="footer-heading">Connect With Us <span class="social-media sm-a-no-underline"><a href="https://youtube.com/linuxjournalonline"  alt="Linux Journal on YouTube" aria-label="YouTube"><i class="fa fa-youtube fa-2x"></i></a><a href="https://www.facebook.com/linuxjournal/" alt="Linux Journal on Facebook" aria-label="Facebook"><i class="fa fa-facebook-f fa-2x"></i><a href="https://twitter.com/linuxjournal" alt="Linux Journal on Twitter" aria-label="Twitter"><i class="fa fa-twitter fa-2x"></i></a></span></div>
+
+<p>Linux Journal, representing 25+ years of publication, is the original magazine of the global Open Source community.</p></div>
+      
+  </section>
+
+<section id="block-linuxjournal-block-9" class="block block-block-content block-block-content8669793b-e217-4426-a79e-eb3c21ede127 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div id="copyright">© 2025 Slashdot Media, LLC. All rights reserved.</div>
+</div>
+      
+  </section>
+
+<section id="block-privacyterms" class="block block-block-content block-block-contenta203b8bd-80ef-4982-bf6e-784dd7b44120 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><ul class="menu menu--footer-submenu nav" id="terms-nav">
+	<li><a href="https://slashdotmedia.com/privacy-statement/" rel="nofollow" target="_blank">PRIVACY POLICY</a></li>
+	<li><a href="https://slashdotmedia.com/terms-of-use/" rel="nofollow" target="_blank">TERMS OF SERVICE</a></li>
+	<li><a href="/sponsors">ADVERTISE</a></li>
+</ul></div>
+      
+  </section>
+
+
+  </div>
+
+                  </div>
+        
+        		<div class="col-md-4 col-sm-8 footer-middle">
+                        <div class="region region-footer-middle">
+    <nav role="navigation" aria-labelledby="block-footermenucolumn2-menu" id="block-footermenucolumn2">
+            
+  <h2 class="visually-hidden" id="block-footermenucolumn2-menu">Footer Menu Column 2</h2>
+  
+
+        
+      <ul class="menu menu--footer-menu-column-2 nav">
+                      <li class="first">
+                                        <a href="/content/masthead" data-drupal-link-system-path="node/1007727">Masthead</a>
+              </li>
+                      <li>
+                                        <a href="/author" data-drupal-link-system-path="node/1009249">Authors</a>
+              </li>
+                      <li class="last">
+                                        <a href="/form/contact" data-drupal-link-system-path="webform/contact">Contact Us</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footermenucolumn3-menu" id="block-footermenucolumn3">
+            
+  <h2 class="visually-hidden" id="block-footermenucolumn3-menu">Footer Menu Column 3</h2>
+  
+
+        
+      <ul class="menu menu--footer-menu-column-3 nav">
+                      <li class="first">
+                                        <a href="/rss_feeds" data-drupal-link-system-path="node/1000457">RSS Feeds</a>
+              </li>
+                      <li class="last">
+                                        <a href="/aboutus" data-drupal-link-system-path="node/1000267">About Us</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </div>
+
+                  </div>
+        
+                </div>
+    </footer>
+  
+</div> 
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/1341299","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"bootstrap":{"forms_has_error_value_toggle":1,"popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click"},"linuxjournal":{"disqus":{"origin":"https:\/\/www.linuxjournal.com","prettyUrl":"\/content\/stay-ahead-game-essential-tools-and-techniques-linux-server-monitoring","fullUrl":"https:\/\/www.linuxjournal.com\/content\/stay-ahead-game-essential-tools-and-techniques-linux-server-monitoring","embedUrl":"https:\/\/linuxjournal.disqus.com\/embed.js","shortname":"linuxjournal"}},"statistics":{"data":{"nid":"1341299"},"url":"\/core\/modules\/statistics\/statistics.php"},"ajaxTrustedUrl":{"\/search\/node":true},"user":{"uid":0,"permissionsHash":"a7b3a803411eb9cbd5d7d374ffb326721ee8274ab5a665df8f38311e3aad858c"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.6"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.5.9"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.5.9"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=9.5.9"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.9"></script>
+<script src="/core/misc/drupal.js?v=9.5.9"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.9"></script>
+<script src="/core/assets/vendor/picturefill/picturefill.min.js?v=3.0.3"></script>
+<script src="/themes/contrib/bootstrap/js/drupal.bootstrap.js?snzigw"></script>
+<script src="/themes/contrib/bootstrap/js/attributes.js?snzigw"></script>
+<script src="/themes/contrib/bootstrap/js/theme.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/affix.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/alert.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/button.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/carousel.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/collapse.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/dropdown.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/modal.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/tooltip.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/popover.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/scrollspy.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/tab.js?snzigw"></script>
+<script src="/themes/linuxjournal/bootstrap/assets/javascripts/bootstrap/transition.js?snzigw"></script>
+<script src="/themes/linuxjournal/js/lj-consentmanager.js?snzigw"></script>
+<script src="/modules/contrib/webform/js/webform.behaviors.js?v=9.5.9"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.5.9"></script>
+<script src="/core/misc/states.js?v=9.5.9"></script>
+<script src="/themes/contrib/bootstrap/js/misc/states.js?snzigw"></script>
+<script src="/modules/contrib/webform/js/webform.states.js?v=9.5.9"></script>
+<script src="/modules/contrib/webform/modules/webform_bootstrap/js/webform_bootstrap.states.js?v=9.5.9"></script>
+<script src="/themes/contrib/bootstrap/js/popover.js?snzigw"></script>
+<script src="/core/modules/statistics/statistics.js?v=9.5.9"></script>
+<script src="/themes/linuxjournal/js/lj-disqus.js?snzigw"></script>
+<script src="/libraries/shariff/shariff.complete.js?v=9.5.9"></script>
+
+    <!-- START EMBED -->
+    <noscript><img src="https://api.b2c.com/api/noscript-448i7exgpyqpr9c144q.gif"></noscript>
+<!-- END EMBED -->
+<!-- Matomo -->
+<script type="text/javascript">
+var _paq = _paq || [];
+function initPiwik() {
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.linuxjournal.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '50']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+}
+</script>
+<noscript><p><img src="https://analytics.linuxjournal.com/piwik.php?idsite=50&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+<div class="modal-custom overlay-custom" id="ccpa-modal" style="margin-left: 0; display: none; max-width: 100%; width: 100%">
+    <div id="modal-content" class="modal-content">
+        <div class="modal-header" id="ccpa-modal-content-destination"></div>
+        <span class="close" id="modal-close">&times;</span>
+    </div>
+</div>
+  </body>
+</html>
