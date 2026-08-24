@@ -1,0 +1,35 @@
+
+-------------------------------------------------
+## 11 States of TCP
+
+Let’s look more in detail about each of the connection states. 
+
+LISTEN – LISTEN is state I and it represents waiting for a connection request from any remote TCP host.
+
+SYN-SENT – SYN-SENT is state II and it represents waiting for a machine connection request after sending a connecting request.
+
+SYN-RECEIVED – SYN-RECEIVED is state III and it represents waiting for confirmation of connection acknowledgement after both sender and receiver has sent / received connection request.
+
+ESTABLISHED – It is state IV and represents an open connection, data received to be delivered to the user. 
+
+FIN-WAIT 1 – FIN-WAIT 1 is state V and it represents waiting for a connection termination request from remote TCP host or acknowledgment of connection termination request sent previously.
+
+FIN-WAIT 2 – It is state VI and represents waiting for connection termination request from remote TCP host.
+
+CLOSE-WAIT – CLOSE-WAIT  is state VII and it represents waiting for a connection termination request from local user.
+
+CLOSING – It is state VIII that represents waiting for a connection termination request acknowledgement from remote TCP host.
+
+LAST-ACK – LAST-ACK is state IX of TCP, which represents waiting for connection termination request acknowledgement previously sent to remote TCP host including its acknowledgement of connection termination request.
+
+TIME-WAIT – It is state X and represents waiting sufficient time to pass to ensure remote TCP host received acknowledgement of its request for connection termination.
+
+CLOSED – CLOSED is state XI. It is a fictional state and represents no connection state
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
