@@ -1,0 +1,60 @@
+
+-------------------------------------------------
+"Tune Up: Tools and techniques for optimizing performance" by Marcin Gąstół.
+
+Executive Summary Default Linux kernel configurations are rarely optimized out of the box for high-performance enterprise workloads. To maximize throughput, reduce latency, and ensure efficiency across cloud and data center infrastructures, system administrators must actively profile system resources, trace kernel functions, and tune key TCP/IP and memory subsystem parameters.
+
+1. Profiling and Benchmarking Tools
+    • perf (CPU, Memory, & I/O Profiling):
+        ◦ Taps into kernel performance counters to identify CPU bottlenecks and hot code paths.
+        ◦ Sampling Mode: sudo perf record -F 99 -a --call-graph dwarf sleep 30 captures call stack traces across all CPUs at 99 Hz.
+        ◦ Analysis: sudo perf report --stdio displays CPU cycle distribution and call graphs (flamegraphs) to pinpoint inefficient functions.
+        ◦ Hardware Events: sudo perf stat -e cycles,instructions,cache-misses,branches,branch-misses <app> measures low-level CPU metrics. High cycles per instruction (CPI) or frequent cache misses indicate CPU-bound performance issues or code inefficiencies.
+    • ftrace (Low-Level Kernel Function Tracing):
+        ◦ Measures execution time and traces individual kernel function calls to diagnose low-level delays (e.g., I/O write latency via sys_enter_write).
+        ◦ Configured via debugfs interface (/sys/kernel/debug/tracing/) and monitored real-time via trace_pipe.
+    • bpftrace (Programmable eBPF Tracing):
+        ◦ Built on the eBPF framework to trace custom kernel and user-space events dynamically.
+        ◦ Useful for tracking kernel memory allocations in real time (e.g., attaches to tracepoint:kmem:kmalloc to monitor allocated byte sizes and detect leaks or fragmentation).
+    • valgrind / massif (Memory Profiling):
+        ◦ Tracks application memory allocation over time.
+        ◦ Command: valgrind --tool=massif --time-unit=B ./app formatted with ms_print highlights allocation peaks and prevents Out of Memory (OOM) crashes in memory-constrained environments.
+    • iostat (I/O Bottleneck Diagnostics):
+        ◦ Command: iostat -dx 5 tracks extended disk performance.
+        ◦ Key Metrics: await (average time requests wait in queue) vs. svctm (average service time). If await is significantly higher than svctm, disk queues are overwhelmed.
+
+2. Networking Stack Optimization
+    • TCP Connection Queue Tuning:
+        ◦ net.ipv4.tcp_max_syn_backlog: Controls maximum queued pending SYN requests. Default limits (128–256) lead to dropped connections under heavy burst traffic; raising this (e.g., to 4096) prevents packet drops on high-concurrency web servers.
+    • Dynamic TCP Buffer Allocation:
+        ◦ net.ipv4.tcp_rmem & net.ipv4.tcp_wmem: Adjusts minimum, default, and maximum memory buffer limits (in bytes) allocated per socket for receiving and sending data.
+        ◦ Example configuration: "4096 87380 6291456" (rmem) and "4096 65536 6291456" (wmem) allows TCP to scale up buffer space for high-bandwidth data transfers while conserving memory on small idle connections.
+    • Latency and Congestion Control:
+        ◦ BBR Congestion Control: Switching from default cubic to net.ipv4.tcp_congestion_control=bbr adjusts sending speed based on estimated bottleneck bandwidth and Round-Trip Time (RTT) instead of packet loss, minimizing network latency and retransmissions.
+    • Bufferbloat & Jitter Reduction:
+        ◦ net.core.rmem_max: Caps maximum network receive buffer space (e.g., 262144) to eliminate excessive buffering (bufferbloat) and stabilize jitter in real-time workloads like online gaming or financial trading.
+
+3. NUMA-Aware System Tuning
+    • IRQ Affinity:
+        ◦ Non-Uniform Memory Access (NUMA) systems experience high cross-node memory access latency when NICs processing traffic are bound to remote CPUs.
+        ◦ Setting /proc/irq/<IRQ_NUMBER>/smp_affinity pins NIC hardware interrupts to CPU cores on the local NUMA node.
+
+    • Receive Side Scaling (RSS):
+        ◦ Distributes incoming packet processing across multiple CPU queues using ethtool -L eth0 combined <num_queues>. Ensuring these target cores reside on the NIC's local NUMA node optimizes throughput and reduces cross-socket latency.
+
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
