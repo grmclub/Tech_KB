@@ -1,0 +1,60 @@
+
+-------------------------------------------------------------
+https://www.brendangregg.com/linuxperf.html
+https://www.brendangregg.com/systems-performance-2nd-edition-book.html
+http://dtrace.org/blogs/brendan/page/9/
+
+https://www.brendangregg.com/usemethod.html
+https://github.com/brendangregg/perf-tools#contents
+
+-------------------------------------------------------------
+https://www.ibm.com/garage/method/practices/manage/golden-signals/
+https://www.ibm.com/garage/method/practices/manage/service-level-objective
+https://www.ibm.com/garage/method/practices/code/practice_performance_testing
+https://kadiska.com/measure-network-latency/
+https://kadiska.com/what-is-network-latency-how-it-works-and-how-to-reduce-it/
+https://obkio.com/blog/how-to-measure-latency/
+https://grafana.com/blog/2018/08/02/the-red-method-how-to-instrument-your-services/
+
+Google's four golden signals1. The golden signals are latency, traffic, errors, and saturation. 
+USE Method2: utilization, saturation, and errors
+RED Method3: rate, errors, and duration
+
+
+For transaction services, these SLIs1 are common:
+
+    Availability: Were you able respond to the request?
+    Latency: How long did it take to respond?
+    Throughput: How many requests were you able to handle?
+    Error rate: How many errors were generated for the request that was handled?
+
+For storage services, a common SLI is durability, which measures the likelihood that data can be kept over a long period.
+
+-------------------------------------------------------------
+https://sysdig.com/blog/golden-signals-kubernetes/
+https://cloud.google.com/spanner/docs/latency-metrics
+https://sre.google/sre-book/monitoring-distributed-systems/
+https://sre.google/sre-book/table-of-contents/
+
+
+Google introduced the term "Golden Signals" to refer to the essential metrics that you need to measure in your applications. 
+They are the following:
+
+    Errors – rate of requests that fail.
+    Saturation – consumption of your system resources.
+    Traffic – amount of use of your service per time unit. (msg rate)
+    Latency – the time it takes to serve a request.
+
+
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+
+-------------------------------------------------------------
+
+
+
+
+
