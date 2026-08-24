@@ -26,6 +26,10 @@ TIME-WAIT – It is state X and represents waiting sufficient time to pass to en
 
 CLOSED – CLOSED is state XI. It is a fictional state and represents no connection state
 -------------------------------------------------
+
+https://dev.to/amrelhusseiny/linux-networking-part-1-kernel-net-stack-180l
+https://blog.packagecloud.io/illustrated-guide-monitoring-tuning-linux-networking-stack-receiving-data
+
 -------------------------------------------------
 -------------------------------------------------
 -------------------------------------------------
