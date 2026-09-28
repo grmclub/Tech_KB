@@ -1,0 +1,462 @@
+
+-------------------------------------------------
+generate the full coded solutions with comments for FIX message throttling algorithm
+
+
+-------------------------------------------------
+FIX throttling is a must-have for any FIX engine — exchange will disconnect you if you burst. Here are 3 production patterns used by most brokers, full code with comments.
+
+All Python, thread-safe, ready to drop in front of your send_fix().
+
+1. Token Bucket — The Standard for FIX (Recommended)
+Best for FIX because it allows bursts but enforces average rate. Like: 100 msgs/sec with burst 20.
+
+import time
+import threading
+from collections import deque
+
+class FixTokenBucketThrottler:
+    """
+    Token Bucket for FIX message throttling.
+    rate: allowed messages per second (e.g. 50 msg/sec)
+    burst: max burst size (how many you can send instantly)
+    """
+    def __init__(self, rate: float, burst: int):
+        self.rate = rate # tokens added per second
+        self.burst = burst # max tokens
+        self.tokens = burst # start full
+        self.last_refill = time.monotonic()
+        self.lock = threading.Lock()
+
+    def _refill(self):
+        now = time.monotonic()
+        elapsed = now - self.last_refill
+        # add tokens based on time passed
+        added = elapsed * self.rate
+        if added > 0:
+            self.tokens = min(self.burst, self.tokens + added)
+            self.last_refill = now
+
+    def acquire(self, tokens=1) -> bool:
+        """Try to consume tokens. Returns True if allowed."""
+        with self.lock:
+            self._refill()
+            if self.tokens >= tokens:
+                self.tokens -= tokens
+                return True
+            return False
+
+    def acquire_blocking(self, tokens=1):
+        """Block until tokens available - use for order sender thread"""
+        while True:
+            with self.lock:
+                self._refill()
+                if self.tokens >= tokens:
+                    self.tokens -= tokens
+                    return
+                # time to wait for 1 token
+                needed = tokens - self.tokens
+                wait_time = needed / self.rate
+
+            time.sleep(wait_time)
+
+    def get_wait_time(self):
+        """How long to wait before next message allowed"""
+        with self.lock:
+            self._refill()
+            if self.tokens >= 1:
+                return 0.0
+            return (1 - self.tokens) / self.rate
+
+# Usage in FIX engine
+throttler = FixTokenBucketThrottler(rate=50, burst=10) # 50 msg/sec
+
+def send_fix_message(fix_string: str):
+    throttler.acquire_blocking() # will sleep if over limit
+    # socket.send(fix_string)
+    print(f"Sent at {time.time()}: {fix_string[:30]}")
+
+
+-------------------------------------------------
+2. Leaky Bucket with Queue — For Exchange Compliance
+Exchange says: "Never more than X per second, queue the rest". No drop.
+
+class FixLeakyBucketQueue:
+    """
+    Leaky bucket that queues FIX messages and drains at fixed rate.
+    Good when you must not drop NewOrderSingle but delay it.
+    """
+    def __init__(self, rate_per_sec: int):
+        self.rate = rate_per_sec
+        self.interval = 1.0 / rate_per_sec # time between sends
+        self.queue = deque()
+        self.lock = threading.Lock()
+        self.running = False
+
+    def submit(self, fix_msg: str):
+        """Submit FIX msg to queue - non-blocking"""
+        with self.lock:
+            self.queue.append((time.monotonic(), fix_msg))
+
+    def start(self, send_callback):
+        """Background thread that drains queue at throttled rate"""
+        self.running = True
+        def drain_loop():
+            while self.running:
+                msg_to_send = None
+                with self.lock:
+                    if self.queue:
+                        msg_to_send = self.queue.popleft()
+
+                if msg_to_send:
+                    _, fix_str = msg_to_send
+                    send_callback(fix_str) # your actual socket send
+                    time.sleep(self.interval) # enforce rate
+                else:
+                    time.sleep(0.001) # avoid busy spin
+
+        t = threading.Thread(target=drain_loop, daemon=True)
+        t.start()
+        return t
+
+    def qsize(self):
+        with self.lock:
+            return len(self.queue)
+
+# Usage
+# def my_socket_send(msg): socket.send(msg.encode())
+# throttler = FixLeakyBucketQueue(rate_per_sec=20)
+# throttler.start(my_socket_send)
+# throttler.submit("8=FIX.4.4|35=D|...")
+
+
+
+-------------------------------------------------
+3. Sliding Window Log - What Exchanges Actually Check
+Exact count in last 1000ms. No burst cheating. This is what you need for FIX throttling.
+
+from collections import deque
+import time
+import threading
+
+class FixSlidingWindowLog:
+    """
+    Sliding Window Log: Keeps timestamp of every message in last window.
+    Most accurate, used when exchange says "100 msgs in any 1 second window"
+    O(1) amortized per message.
+    """
+    def __init__(self, max_messages: int, window_sec: float = 1.0):
+        self.max_messages = max_messages
+        self.window_sec = window_sec
+        self.timestamps = deque() # stores send times
+        self.lock = threading.Lock()
+
+    def _evict_old(self, now):
+        # remove timestamps outside window [now - window, now]
+        cutoff = now - self.window_sec
+        while self.timestamps and self.timestamps[0] <= cutoff:
+            self.timestamps.popleft()
+
+    def is_allowed(self) -> bool:
+        now = time.monotonic()
+        with self.lock:
+            self._evict_old(now)
+            return len(self.timestamps) < self.max_messages
+
+    def acquire(self) -> bool:
+        now = time.monotonic()
+        with self.lock:
+            self._evict_old(now)
+            if len(self.timestamps) < self.max_messages:
+                self.timestamps.append(now)
+                return True
+            return False
+
+    def acquire_blocking(self):
+        while True:
+            if self.acquire():
+                return
+            # sleep until oldest entry expires
+            with self.lock:
+                if not self.timestamps:
+                    return
+                oldest = self.timestamps[0]
+                sleep_for = (oldest + self.window_sec) - time.monotonic()
+            if sleep_for > 0:
+                time.sleep(sleep_for)
+            else:
+                time.sleep(0.001)
+
+    def get_wait_time_ms(self) -> float:
+        with self.lock:
+            self._evict_old(time.monotonic())
+            if len(self.timestamps) < self.max_messages:
+                return 0
+            oldest = self.timestamps[0]
+            wait = (oldest + self.window_sec - time.monotonic()) * 1000
+            return max(0, wait)
+
+# Usage: 20 NewOrderSingle per second per session
+fix_throttler = FixSlidingWindowLog(max_messages=20, window_sec=1.0)
+
+def send_new_order_single(cl_ord_id, symbol, qty):
+    fix_str = f"8=FIX.4.4|35=D|11={cl_ord_id}|55={symbol}|38={qty}|"
+    fix_throttler.acquire_blocking()
+    # quickfix.Session.sendToTarget(message)
+    print(f"Sent {cl_ord_id} at {time.time()}")
+-------------------------------------------------
+1. Token Bucket - Best for general FIX 4.4 / 5.0
+Allows burst + average. Example: 50 msgs/sec, burst 10.
+
+import time
+import threading
+
+class FixTokenBucket:
+    """
+    rate: msgs per second sustained
+    burst: max msgs you can send instantly
+    """
+    def __init__(self, rate: float, burst: int):
+        self.rate = rate
+        self.burst = burst
+        self.tokens = float(burst) # start full
+        self.last_refill = time.monotonic()
+        self.lock = threading.Lock()
+
+    def _refill(self):
+        now = time.monotonic()
+        elapsed = now - self.last_refill
+        # add tokens proportional to time passed
+        self.tokens = min(self.burst, self.tokens + elapsed * self.rate)
+        self.last_refill = now
+
+    def try_acquire(self, n=1) -> bool:
+        """Non-blocking check. Returns True if allowed."""
+        with self.lock:
+            self._refill()
+            if self.tokens >= n:
+                self.tokens -= n
+                return True
+            return False
+
+    def acquire_blocking(self, n=1):
+        """Blocking version - use before socket.send()"""
+        while True:
+            with self.lock:
+                self._refill()
+                if self.tokens >= n:
+                    self.tokens -= n
+                    return
+                # calculate sleep time for 1 token
+                wait = (n - self.tokens) / self.rate
+            time.sleep(wait)
+
+# --- Integration with FIX ---
+bucket = FixTokenBucket(rate=50, burst=10)
+
+def toApp(fix_msg, msg_type):
+    # Don't throttle cancels - critical for risk
+    if msg_type in ('F', 'G'): # Cancel, Replace
+        send_raw(fix_msg)
+        return
+
+    bucket.acquire_blocking()
+    send_raw(fix_msg)
+
+2. Sliding Window Log - What Exchanges Actually Check
+Exact count in last 1000ms. No burst cheating. This is what you need for FIX throttling.
+
+from collections import deque
+import time
+import threading
+
+class FixSlidingWindowLog:
+    """
+    Sliding Window Log: Keeps timestamp of every message in last window.
+    Most accurate, used when exchange says "100 msgs in any 1 second window"
+    O(1) amortized per message.
+    """
+    def __init__(self, max_messages: int, window_sec: float = 1.0):
+        self.max_messages = max_messages
+        self.window_sec = window_sec
+        self.timestamps = deque() # stores send times
+        self.lock = threading.Lock()
+
+    def _evict_old(self, now):
+        # remove timestamps outside window [now - window, now]
+        cutoff = now - self.window_sec
+        while self.timestamps and self.timestamps[0] <= cutoff:
+            self.timestamps.popleft()
+
+    def is_allowed(self) -> bool:
+        now = time.monotonic()
+        with self.lock:
+            self._evict_old(now)
+            return len(self.timestamps) < self.max_messages
+
+    def acquire(self) -> bool:
+        now = time.monotonic()
+        with self.lock:
+            self._evict_old(now)
+            if len(self.timestamps) < self.max_messages:
+                self.timestamps.append(now)
+                return True
+            return False
+
+    def acquire_blocking(self):
+        while True:
+            if self.acquire():
+                return
+            # sleep until oldest entry expires
+            with self.lock:
+                if not self.timestamps:
+                    return
+                oldest = self.timestamps[0]
+                sleep_for = (oldest + self.window_sec) - time.monotonic()
+            if sleep_for > 0:
+                time.sleep(sleep_for)
+            else:
+                time.sleep(0.001)
+
+    def get_wait_time_ms(self) -> float:
+        with self.lock:
+            self._evict_old(time.monotonic())
+            if len(self.timestamps) < self.max_messages:
+                return 0
+            oldest = self.timestamps[0]
+            wait = (oldest + self.window_sec - time.monotonic()) * 1000
+            return max(0, wait)
+
+# Usage: 20 NewOrderSingle per second per session
+fix_throttler = FixSlidingWindowLog(max_messages=20, window_sec=1.0)
+
+def send_new_order_single(cl_ord_id, symbol, qty):
+    fix_str = f"8=FIX.4.4|35=D|11={cl_ord_id}|55={symbol}|38={qty}|"
+    fix_throttler.acquire_blocking()
+    # quickfix.Session.sendToTarget(message)
+    print(f"Sent {cl_ord_id} at {time.time()}")
+
+3. Sliding Window Counter - Fast + Memory Efficient (Production Choice)
+Hybrid of fixed window + sliding. Used by CME, Eurex.
+
+import time
+import threading
+import math
+
+class FixSlidingWindowCounter:
+    """
+    Fixed windows, but weighted by overlap.
+    Less memory than Log, more accurate than Fixed Window.
+    """
+    def __init__(self, max_messages: int, window_sec: float = 1.0):
+        self.max_messages = max_messages
+        self.window_sec = window_sec
+        self.current_window = 0
+        self.current_count = 0
+        self.prev_count = 0
+        self.lock = threading.Lock()
+
+    def _get_window_id(self, now):
+        return int(now // self.window_sec)
+
+    def is_allowed(self) -> bool:
+        now = time.time()
+        window_id = self._get_window_id(now)
+
+        with self.lock:
+            if window_id!= self.current_window:
+                # window rolled
+                if window_id == self.current_window + 1:
+                    self.prev_count = self.current_count
+                else:
+                    self.prev_count = 0 # gap > 1 window
+                self.current_window = window_id
+                self.current_count = 0
+
+            # calculate weighted count from previous window
+            # how much of previous window still overlaps?
+            window_start = window_id * self.window_sec
+            elapsed_in_current = now - window_start
+            overlap_ratio = 1 - (elapsed_in_current / self.window_sec)
+
+            weighted = self.prev_count * overlap_ratio + self.current_count
+
+            return weighted < self.max_messages
+
+    def acquire(self) -> bool:
+        if self.is_allowed():
+            with self.lock:
+                self.current_count += 1
+            return True
+        return False
+
+
+4. Per-Message-Type + Per-Session Throttler - Complete FIX Gateway Solution
+This is what you actually deploy.
+
+from collections import defaultdict
+
+class FixGatewayThrottler:
+    """
+    Real FIX gateway throttling:
+    - Per SenderCompID limit
+    - Per MsgType limit (D=NewOrder limited, F=Cancel bypass)
+    - Global limit
+    """
+    def __init__(self):
+        # Global: 100 msgs/sec total
+        self.global_throttler = FixSlidingWindowLog(100, 1.0)
+        # Per session
+        self.session_throttlers = defaultdict(lambda: FixSlidingWindowLog(50, 1.0))
+        # Per msg type limits
+        self.msg_type_limits = {
+            'D': 20, # NewOrderSingle strict
+            'G': 100, # Replace more relaxed
+            'F': 9999, # Cancel never throttle - risk!
+        }
+        self.msg_type_throttlers = {
+            k: FixSlidingWindowLog(v, 1.0) for k, v in self.msg_type_limits.items()
+        }
+
+    def can_send(self, sender_comp_id: str, msg_type: str) -> bool:
+        # 1. Global check
+        if not self.global_throttler.is_allowed():
+            return False
+        # 2. Session check
+        if not self.session_throttlers[sender_comp_id].is_allowed():
+            return False
+        # 3. MsgType check
+        if msg_type in self.msg_type_throttlers:
+            if not self.msg_type_throttlers[msg_type].is_allowed():
+                return False
+        return True
+
+    def send(self, sender_comp_id: str, msg_type: str, fix_string: str, send_fn):
+        # F = Cancel, bypass but still count global
+        is_bypass = msg_type == 'F'
+
+        # blocking acquire in order
+        if not is_bypass:
+            self.msg_type_throttlers[msg_type].acquire_blocking()
+            self.session_throttlers[sender_comp_id].acquire_blocking()
+
+        self.global_throttler.acquire_blocking()
+        send_fn(fix_string)
+
+# --- QuickFIX/n integration example (C# / Python port) ---
+# In your Application.toApp override:
+# throttler = FixGatewayThrottler()
+# def toApp(self, message, sessionID):
+# msg_type = message.getHeader().getField(35)
+# sender = sessionID.getSenderCompID()
+# if not throttler.can_send(sender, msg_type):
+# raise quickfix.DoNotSend() # or queue
+
+Exchange says 50/sec hard limit: Use #2 Sliding Window Log - exact.
+You want burst at market open: Use #1 Token Bucket
+High throughput + low memory: Use #3 Sliding Window Counter
+Production gateway with multiple clients: Use #4 Combined
+Want me to port this to QuickFIX/J Java or QuickFIX/n C# toApp() method with your exact limits? Tell me: exchange + rate + burst like CME 100/sec burst 10 and I'll generate the exact class.
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
