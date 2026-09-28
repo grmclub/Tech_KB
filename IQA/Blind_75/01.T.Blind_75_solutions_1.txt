@@ -1,0 +1,564 @@
+
+-------------------------------------------------
+The 6 Patterns That Cover 60 of the 75
+
+1. ARRAY / HASHMAP - The Foundation
+Pattern: Trade space for time.
+Core Problems:
+
+Two Sum → HashMap {value: index}. O(n)
+Best Time to Buy/Sell Stock → Keep min price, track max profit in one pass. O(n)
+Contains Duplicate → Set.
+Product Except Self → Prefix + Suffix array, no division. O(n)
+Maximum Subarray → Kadane's: curr = max(num, curr+num)
+Maximum Product Subarray → Track both max and min (negative flip).
+Find Min in Rotated Sorted Array → Binary search, check mid vs right.
+Search in Rotated Sorted Array → Same, decide which half is sorted.
+3Sum → Sort + Two Pointers. Skip duplicates.
+Container With Most Water → Two pointers from ends, move shorter height.
+Solution mindset: If you need O(n) lookup, use a Map/Set.
+
+2. BINARY - Bit Manipulation + Binary Search
+Pattern: Halve the search space.
+
+Sum of Two Integers → Use XOR for sum, AND+shift for carry. No + operator.
+Number of 1 Bits → n & (n-1) removes one 1 each time. Count iterations.
+Counting Bits → DP: dp[i] = dp[i>>1] + (i & 1)
+Missing Number → XOR all indices vs nums, or sum formula.
+
+3. DYNAMIC PROGRAMMING - Decision + Memory
+Pattern: Brute force recursion + memoization. Ask: Can I reuse subproblem?
+
+Climbing Stairs → dp[i] = dp[i-1] + dp[i-2]. Fibonacci.
+Coin Change → dp[amount] = min(dp[amount], dp[amount-coin]+1)
+Longest Increasing Subsequence → O(n log n) with patience sorting + binary search.
+Longest Common Subsequence → 2D grid, if match dp[i][j]=dp[i-1][j-1]+1 else max(top, left)
+Word Break → dp[i]=True if dp[j] and s[j:i] in wordSet
+Combination Sum IV → Permutation DP, loop amount outer.
+House Robber 1 & 2 → Rob or skip. For 2, run twice (include first, exclude last).
+Decode Ways → Like climbing stairs but check valid 1-digit and 2-digit (10-26).
+Unique Paths → dp[i][j]=dp[i-1][j]+dp[i][j-1]
+DP cheat: Draw a small table by hand first.
+
+4. GRAPH / INTERVALS / MATRIX
+Graph Pattern: BFS for shortest path, DFS for connectivity.
+
+Clone Graph → HashMap {old: new} + DFS/BFS
+Course Schedule → Topological sort, detect cycle with indegree (Kahn's) or DFS colors
+Number of Islands / Pacific Atlantic / Graph Valid Tree → DFS/BFS with visited set
+Alien Dictionary → Build graph from word order → Topological sort
+Interval Pattern: Sort by start.
+
+Insert Interval / Merge Intervals / Non-overlapping Intervals → Sort, then compare current.end >= next.start
+Matrix Pattern:
+
+Set Matrix Zeroes → Use first row/col as markers, O(1) space
+Spiral Matrix → 4 boundaries: top, bottom, left, right
+Rotate Image → Transpose + Reverse rows
+Word Search → Backtracking DFS, mark visited with '#'
+
+5. LINKED LIST / TREE / HEAP
+Linked List - Always use dummy node:
+
+Reverse List → prev, curr pointers
+Detect Cycle → Floyd: slow & fast pointers
+Merge Two Sorted Lists → Dummy + two pointers
+Merge K Sorted Lists → Min-Heap O(n log k) - this is the only way
+Remove Nth From End → Fast moves n steps ahead, then both move
+Tree - Recursion is your friend:
+
+Invert Tree → Swap left/right recursively
+Max Depth / Same Tree / Subtree of Another → Simple recursion
+Lowest Common Ancestor BST → If both < root go left, both > go right, else root
+Validate BST → Recursion with min/max bounds, not just left<root<right
+Kth Smallest in BST → Inorder traversal = sorted
+Construct Tree from Pre+Inorder → Pre gives root, inorder splits left/right
+Heap:
+
+Top K Frequent / Kth Largest → Min-Heap of size k. O(n log k)
+Find Median from Data Stream → Two heaps: max-heap for lower half, min-heap for upper half
+
+6. STRING
+Longest Substring Without Repeat → Sliding window + Set/Map. Move left when duplicate.
+Longest Repeating Char Replacement → Sliding window + keep max freq char count
+Minimum Window Substring → Sliding window + need/window counts + formed counter
+Valid Anagram / Group Anagrams / Valid Parentheses → Map or Stack. Stack for parentheses: push opener, pop on closer.
+Valid Palindrome → Two pointers, skip non-alnum
+Longest Palindromic Substring → Expand Around Center for each index
+Encode/Decode Strings → len + "#" + str trick, not comma join.
+How to Actually Solve Blind 75 in 3 Weeks
+Week 1: Pattern Recognition - Do 25 Array + Binary. Don't code 30 mins. Just write pattern name.
+
+Week 2: The Hard Ones - DP + Graph + Intervals. Draw table/graph on paper before coding.
+
+Week 3: Speed - Linked List + Tree + Heap + String. Time yourself: 20 min per problem.
+
+Use this loop for every problem: U.P.E.R + B.O.T I gave you before.
+
+-------------------------------------------------
+Here are 10 that cover 90% of the patterns in Blind 75. Full Python, commented, interview-ready. These are the ones you should be able to whiteboard cold.
+
+1. Two Sum — Pattern: HashMap
+def twoSum(nums, target):
+    # map: value -> index
+    # O(n) time, O(n) space
+    seen = {}
+    for i, num in enumerate(nums):
+        complement = target - num
+        if complement in seen:
+            return [seen[complement], i]
+        seen[num] = i
+    return []
+# Idea: Trade space for time. For each num, check if we already saw target-num.
+
+2. Best Time to Buy and Sell Stock — Pattern: One Pass Min
+def maxProfit(prices):
+    # O(n) time, O(1) space
+    min_price = float('inf')
+    max_profit = 0
+    for price in prices:
+        # cheapest price so far
+        if price < min_price:
+            min_price = price
+        # profit if we sell today
+        profit = price - min_price
+        if profit > max_profit:
+            max_profit = profit
+    return max_profit
+# Idea: Keep running min. Max profit is always price - min_so_far.
+
+3. Product of Array Except Self — Pattern: Prefix/Suffix
+def productExceptSelf(nums):
+    # O(n) time, O(1) extra space (output not counted)
+    # No division allowed
+    n = len(nums)
+    res = [1] * n
+
+    # prefix: res[i] = product of all left of i
+    prefix = 1
+    for i in range(n):
+        res[i] = prefix
+        prefix *= nums[i]
+
+    # suffix: multiply by product of all right of i
+    suffix = 1
+    for i in range(n-1, -1, -1):
+        res[i] *= suffix
+        suffix *= nums[i]
+
+    return res
+# Idea: Result[i] = product_left[i] * product_right[i]
+
+4. Maximum Subarray — Pattern: Kadane's Algorithm
+def maxSubArray(nums):
+    # O(n) time, O(1) space
+    curr_sum = nums[0]
+    max_sum = nums[0]
+
+    for num in nums[1:]:
+        # Either start new subarray at num, or extend curr_sum
+        curr_sum = max(num, curr_sum + num)
+        max_sum = max(max_sum, curr_sum)
+
+    return max_sum
+# Idea: If curr_sum becomes negative, it's dragging us down. Reset.
+
+5. 3Sum — Pattern: Sort + Two Pointers
+def threeSum(nums):
+    # O(n^2) time, O(1) extra
+    nums.sort()
+    res = []
+
+    for i in range(len(nums)):
+        # skip duplicate for i
+        if i > 0 and nums[i] == nums[i-1]:
+            continue
+
+        l, r = i+1, len(nums)-1
+        while l < r:
+            total = nums[i] + nums[l] + nums[r]
+            if total < 0:
+                l += 1
+            elif total > 0:
+                r -= 1
+            else:
+                res.append([nums[i], nums[l], nums[r]])
+                l += 1
+                r -= 1
+                # skip duplicates for l and r
+                while l < r and nums[l] == nums[l-1]:
+                    l += 1
+
+    return res
+# Idea: Fix one element, then 2Sum with two pointers on sorted array.
+
+
+
+
+6. Coin Change — Pattern: DP (Unbounded Knapsack)
+def coinChange(coins, amount):
+    # dp[x] = min coins to make amount x
+    # O(amount * len(coins)) time
+    dp = [float('inf')] * (amount + 1)
+    dp[0] = 0 # 0 coins to make 0
+
+    for coin in coins:
+        for x in range(coin, amount+1):
+            # if we use this coin, we need dp[x-coin] + 1 coin
+            dp[x] = min(dp[x], dp[x - coin] + 1)
+
+    return dp[amount] if dp[amount]!= float('inf') else -1
+# Idea: Bottom-up DP. For each amount, try every coin.
+
+7. Climbing Stairs — Pattern: DP Fibonacci
+def climbStairs(n):
+    # O(n) time, O(1) space
+    # dp[i] = dp[i-1] + dp[i-2] because you can come from 1 or 2 steps before
+    if n <= 2:
+        return n
+
+    a, b = 1, 2 # dp[1], dp[2]
+    for _ in range(3, n+1):
+        a, b = b, a + b
+    return b
+
+8. Number of Islands — Pattern: DFS Graph
+def numIslands(grid):
+    # O(m*n) time, O(m*n) space for recursion stack
+    if not grid:
+        return 0
+
+    rows, cols = len(grid), len(grid[0])
+    islands = 0
+
+    def dfs(r, c):
+        # out of bounds or water or visited
+        if r < 0 or c < 0 or r >= rows or c >= cols or grid[r][c] == '0':
+            return
+        grid[r][c] = '0' # mark visited by sinking island
+        dfs(r+1, c)
+        dfs(r-1, c)
+        dfs(r, c+1)
+        dfs(r, c-1)
+
+    for r in range(rows):
+        for c in range(cols):
+            if grid[r][c] == '1':
+                islands += 1
+                dfs(r, c) # sink entire island
+
+    return islands
+# Idea: Every time you see '1', it's a new island. DFS to drown it.
+
+9. Merge Intervals — Pattern: Sort by Start
+def merge(intervals):
+    # O(n log n) for sort, O(n) for merge
+    intervals.sort(key=lambda x: x[0])
+    merged = [intervals[0]]
+
+    for start, end in intervals[1:]:
+        last_end = merged[-1][1]
+
+        if start <= last_end: # overlapping
+            # merge by extending end
+            merged[-1][1] = max(last_end, end)
+        else:
+            merged.append([start, end])
+
+    return merged
+# Idea: Sorted intervals overlap if current.start <= last.end
+
+10. Validate Binary Search Tree — Pattern: Recursion with Bounds
+# Definition: class TreeNode: val, left, right
+
+def isValidBST(root):
+    # O(n) time, O(h) space
+    def valid(node, low, high):
+        if not node:
+            return True
+        # BST rule: low < node.val < high
+        if not (low < node.val < high):
+            return False
+        # left subtree must be < node.val, right > node.val
+        return valid(node.left, low, node.val) and valid(node.right, node.val, high)
+
+    return valid(root, float('-inf'), float('inf'))
+# Idea: Not enough to check left < root < right locally.
+# Need to pass down min/max bounds from ancestors.
+
+
+-------------------------------------------------
+Perfect — String + Linked List is where most people lose time. Here are 10 interview-ready Python solutions in the same format, all from Blind 75.
+
+1. Longest Substring Without Repeating Characters — Pattern: Sliding Window + Set
+def lengthOfLongestSubstring(s):
+    # O(n) time, O(1) space - charset is fixed
+    seen = set()
+    l = 0
+    max_len = 0
+
+    for r in range(len(s)):
+        # shrink window until s[r] is not duplicate
+        while s[r] in seen:
+            seen.remove(s[l])
+            l += 1
+        seen.add(s[r])
+        max_len = max(max_len, r - l + 1)
+
+    return max_len
+# Idea: Window [l,r] always has unique chars. If duplicate at r, move l forward.
+
+
+2. Longest Repeating Character Replacement — Pattern: Sliding Window + Max Freq
+def characterReplacement(s, k):
+    # O(n) time, O(1) space
+    count = {}
+    l = 0
+    max_freq = 0
+    max_len = 0
+
+    for r in range(len(s)):
+        count[s[r]] = count.get(s[r], 0) + 1
+        max_freq = max(max_freq, count[s[r]])
+
+        # window size - most frequent char = replacements needed
+        # if > k, window invalid, shrink from left
+        while (r - l + 1) - max_freq > k:
+            count[s[l]] -= 1
+            l += 1
+
+        max_len = max(max_len, r - l + 1)
+
+    return max_len
+# Idea: We can replace (window_len - max_freq) chars. If > k, shrink.
+
+3. Minimum Window Substring — Pattern: Sliding Window + Need Count
+def minWindow(s, t):
+    # O(n) time, O(m) space where m = charset
+    if not t: return ""
+
+    need = {}
+    for c in t: need[c] = need.get(c, 0) + 1
+
+    window = {}
+    have, need_count = 0, len(need)
+    l = 0
+    res, res_len = [-1, -1], float('inf')
+
+    for r in range(len(s)):
+        c = s[r]
+        window[c] = window.get(c, 0) + 1
+
+        if c in need and window[c] == need[c]:
+            have += 1
+
+        # try to shrink when we have valid window
+        while have == need_count:
+            # update result if smaller
+            if (r - l + 1) < res_len:
+                res = [l, r]
+                res_len = r - l + 1
+
+            # pop left
+            window[s[l]] -= 1
+            if s[l] in need and window[s[l]] < need[s[l]]:
+                have -= 1
+            l += 1
+
+    l, r = res
+    return s[l:r+1] if res_len!= float('inf') else ""
+# Idea: Expand r to get all chars of t, shrink l to find minimal window.
+
+4. Group Anagrams — Pattern: HashMap with Sorted Key
+def groupAnagrams(strs):
+    # O(n * k log k) where k = max len of string. O(n*k) space
+    # Use tuple of char counts for O(n*k) optimization
+    groups = {}
+
+    for s in strs:
+        # key is tuple of 26 counts, or sorted string
+        # sorted version is easier to remember in interview
+        key = tuple(sorted(s)) # for optimal: count 26 letters
+        if key not in groups:
+            groups[key] = []
+        groups[key].append(s)
+
+    return list(groups.values())
+# Idea: Anagrams have same sorted form. Group by that key.
+# Optimal key: [0]*26 count -> tuple(count)
+
+5. Valid Parentheses — Pattern: Stack
+def isValid(s):
+    # O(n) time, O(n) space
+    stack = []
+    pairs = {')': '(', ']': '[', '}': '{'}
+
+    for c in s:
+        if c in pairs: # closing bracket
+            if stack and stack[-1] == pairs[c]:
+                stack.pop()
+            else:
+                return False
+        else: # opening
+            stack.append(c)
+
+    return not stack
+# Idea: Last opened must be first closed. Stack does exactly that.
+
+6. Longest Palindromic Substring — Pattern: Expand Around Center
+def longestPalindrome(s):
+    # O(n^2) time, O(1) space - better than DP O(n^2) space
+    res = ""
+    res_len = 0
+
+    def expand(l, r):
+        # expand as long as palindrome
+        while l >= 0 and r < len(s) and s[l] == s[r]:
+            l -= 1
+            r += 1
+        # returns [l+1, r-1] as palindrome bounds
+        return l+1, r-1
+
+    for i in range(len(s)):
+        # odd length: center at i
+        l1, r1 = expand(i, i)
+        # even length: center between i and i+1
+        l2, r2 = expand(i, i+1)
+
+        # pick longer
+        if (r1 - l1 + 1) > res_len:
+            res = s[l1:r1+1]
+            res_len = r1 - l1 + 1
+        if (r2 - l2 + 1) > res_len:
+            res = s[l2:r2+1]
+            res_len = r2 - l2 + 1
+
+    return res
+# Idea: Palindrome mirrors around center. Try every center, expand.
+
+7. Reverse Linked List — Pattern: Two Pointers
+# class ListNode: val, next
+
+def reverseList(head):
+    # O(n) time, O(1) space
+    prev = None
+    curr = head
+
+    while curr:
+        nxt = curr.next # save next
+        curr.next = prev # reverse link
+        prev = curr
+        curr = nxt
+
+    return prev # new head
+# Idea: prev starts as None, walk through and flip next pointer.
+
+8. Linked List Cycle — Pattern: Floyd's Tortoise & Hare
+def hasCycle(head):
+    # O(n) time, O(1) space
+    slow = head
+    fast = head
+
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+        if slow == fast:
+            return True
+
+    return False
+# Idea: Fast catches slow if cycle exists. If fast hits None, no cycle.
+
+9. Merge Two Sorted Lists — Pattern: Dummy Node
+def mergeTwoLists(l1, l2):
+    # O(n+m) time, O(1) space
+    dummy = ListNode(0)
+    tail = dummy
+
+    while l1 and l2:
+        if l1.val < l2.val:
+            tail.next = l1
+            l1 = l1.next
+        else:
+            tail.next = l2
+            l2 = l2.next
+        tail = tail.next
+
+    # attach remainder
+    tail.next = l1 if l1 else l2
+
+    return dummy.next
+# Idea: Dummy avoids edge case for head. Always attach smaller node.
+
+10. Remove Nth Node From End + Reorder List — Pattern: Fast/Slow Gap
+def removeNthFromEnd(head, n):
+    # O(n) time, O(1) space - one pass
+    dummy = ListNode(0, head)
+    slow = dummy
+    fast = dummy
+
+    # fast goes n+1 ahead to keep gap
+    for _ in range(n+1):
+        fast = fast.next
+
+    # move both until fast hits end
+    while fast:
+        slow = slow.next
+        fast = fast.next
+
+    # slow is just before target
+    slow.next = slow.next.next
+
+    return dummy.next
+
+def reorderList(head):
+    # L0->L1...->Ln-1->Ln to L0->Ln->L1->Ln-1...
+    # O(n) time, O(1) space
+    # Step 1: Find middle with slow/fast
+    slow, fast = head, head.next
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+
+    # Step 2: Reverse second half
+    second = slow.next
+    slow.next = None # cut
+    prev = None
+    while second:
+        tmp = second.next
+        second.next = prev
+        prev = second
+        second = tmp
+
+    # Step 3: Merge two halves
+    first, second = head, prev
+    while second:
+        tmp1, tmp2 = first.next, second.next
+        first.next = second
+        second.next = tmp1
+        first, second = tmp1, tmp2
+# Idea: Gap technique for Nth from end, and middle+reverse+merge for reorder.
+
+Want the last set? DP + Graph + Heap — that's the hardest 10 including Course Schedule, Clone Graph,
+
+
+-------------------------------------------------
+prompts:
+generate the full coded solutions with comments for any 5-10 you pick right now, instead of dumping 75 mediocre ones.
+
+String + Linked List is where most people lose time. Here are 10 interview-ready Python solutions in the same format, all from Blind 75.
+
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
